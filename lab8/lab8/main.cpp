@@ -12,7 +12,9 @@
 using namespace std;
 void seqrecursion (int array[], int size, int spot);
 void binsearch(int array[],int spot, int n);
-void listsearch();
+void listsearch(list<int> newlist, int spot);
+void listrecur(list<int> newlist,list<int>::iterator link, int spot);
+
 int main() {
     int choice=0;
     int i=0;
@@ -33,7 +35,6 @@ int main() {
     for (int i=0; i<size; i++) {
         cout<< "#"<<i<<": "<<array[i]<<endl;
     }
-    
     do {
         cout<<"\nChoose your search type:";
         cout<<"\n1. Arrays: Sequential Search without recursion";
@@ -45,7 +46,7 @@ int main() {
         cout<<"\nEnter 0 to exit.";
         cout<<"\nSpecify the element to be searched for: ";
         cin>>position;
-        cout<<"\nYour choice: ";
+        cout<<"\nYour choice: "<<endl;
         cin>>choice;
         if (choice==0){
             break;
@@ -73,20 +74,22 @@ int main() {
         }
         if (choice==5){
             cout<<"A linked list has been initialized and filled using array data..."<<endl;
-            listsearch();
-        }
-        if (choice==6){
+            cout<<"The linked list contains: "<<endl;
+            link=newlist.begin();
+            for (int i=0; i<newlist.size(); i++) {
+                cout<< "#"<<i<<": "<<*link<<endl;
+                link++;
+            }
+            listsearch(newlist,position);
             
         }
+        if (choice==6){
+            link=newlist.begin();
+            listrecur(newlist,link,position);
         
-        
-    } while(i!=0);
-
+        }
     
-    
-    
-    
-    
+        }while(i!=0);
     return 0;
 }
 
@@ -127,11 +130,35 @@ void binsearch(int array[],int spot, int size){
         cout<<"Number was not found"<<endl;
     }
 }
-void listsearch(){
-    
+void listsearch(list<int> newlist, int spot){
+    bool check=true;
+    check=false;
+    int i=0;
+    for (list<int>::iterator link=newlist.begin(); link!=newlist.end(); ++link) {
+                if (*link==spot) {
+            cout<<"The number is at position# "<<i<<endl;
+        }
+        else if (check==true){
+            cout<<"your number was not found"<<endl;
+        }
+        i++;
+
+    }
 }
-
-
+//void listrecur(list<int> newlist, list<int>::iterator link, int spot){
+//    if (*link<0){
+//        cout<<"list is empty"<<endl;
+//    }
+//    if (*link==spot) {
+//        cout<<"The number is at position# "<<&link<<endl;
+//    }
+//    else {
+//    listrecur(newlist,link--,spot);
+//    }
+//    
+//    
+//    
+//}
 
 
 
