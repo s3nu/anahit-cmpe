@@ -14,6 +14,8 @@ void seqrecursion (int array[], int size, int spot);
 void binsearch(int array[],int spot, int n);
 void listsearch(list<int> newlist, int spot);
 void listrecur(list<int> newlist,list<int>::iterator link, int spot);
+void binsearchrecur(int array[], int size, int spot);
+//void binSearchRecur(int array[], int start, int size, spot, index);
 
 int main() {
     int choice=0;
@@ -70,7 +72,7 @@ int main() {
             binsearch(array,position,size);
         }
         if (choice==4){
-            
+//             binSearchRecur(array, position, size, key, index)
         }
         if (choice==5){
             cout<<"A linked list has been initialized and filled using array data..."<<endl;
@@ -92,7 +94,31 @@ int main() {
         }while(i!=0);
     return 0;
 }
-
+//int binSearchRecur(int ordArr[], int start ,int size, int key, int &index){
+//    
+//    //null case
+//    if(start > size){
+//        //nothing found
+//        index = -1;
+//        return 0;
+//    }
+//    int middle = (start+size)/2;
+//    
+//    if (ordArr[middle] == key){
+//        //found something
+//        index = middle;
+//        return 1;
+//    }
+//    else if (key > ordArr[middle]){
+//        binSearchRecur(array[],(middle+1),size,key, index);
+//    }
+//    else if (key < ordArr[middle]){
+//        binSearchRecur(array[],start,(middle-1),key, index);
+//    }
+//    
+//    //fail safe return error
+//    return -1;
+//}
 void seqrecursion (int array[], int size, int spot){
     if (size==0){
         cout<<"list is empty"<<endl;
@@ -145,20 +171,17 @@ void listsearch(list<int> newlist, int spot){
 
     }
 }
-//void listrecur(list<int> newlist, list<int>::iterator link, int spot){
-//    if (*link<0){
-//        cout<<"list is empty"<<endl;
-//    }
-//    if (*link==spot) {
-//        cout<<"The number is at position# "<<&link<<endl;
-//    }
-//    else {
-//    listrecur(newlist,link--,spot);
-//    }
-//    
-//    
-//    
-//}
+void listrecur(list<int> newlist, list<int>::iterator link, int spot){
+    if (link==newlist.end()){
+        cout<<"list is empty"<<endl;
+    }
+    if (*link==spot) {
+        cout<<"The number is at position# "<<*link<<endl;
+    }
+    else {
+    listrecur(newlist,link.operator++(),spot);
+    }
+}
 
 
 

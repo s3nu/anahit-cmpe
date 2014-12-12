@@ -1,0 +1,56 @@
+State Data Aquisition Begin: 
+How Many States?
+3
+Number of States Confirmed. Please provide the following info for each State:
+1. Name (limited to 15 bits)
+2. Capital of State
+3. Area of State (per square meter)
+4. Entering year of State to Union
+
+State #0: Begin
+Name: cali
+Capital: sac
+Area: 89
+Year: 1989
+State #0: End
+State #1: Begin
+Name: kalifa
+Capital: cali
+Area: 1289
+Year: 1897
+State #1: End
+State #2: Begin
+Name: crayola
+Capital: bars
+Area: 123
+Year: 1873
+State #2: End
+
+0. Exit Modification
+1. Print
+2. Search
+3. Delete
+1
+0x200007fff7917f0
+0x200007fff7917f0
+0x200007fff7917f0
+0x200007fff7917f0
+0x200007fff7917f0
+0x200007fff7917f0
+0x200007fff7917f0
+0x200007fff7917f0
+0x200007fff7917f0
+0x200007fff7917f0
+0x200007fff7917f0
+0x200007fff7917f0
+0x200007fff7917f0
+0x200007fff7917f0
+0x200007fff7917f0
+0x200007fff7917f0
+
+0. Exit Modification
+1. Print
+2. Search
+3. Delete
+0
+Program ended with exit code: 0

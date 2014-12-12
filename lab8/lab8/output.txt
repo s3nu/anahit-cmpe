@@ -1,0 +1,67 @@
+Anahit Sarao
+008435583
+December 9th, 2014
+
+How many Numbers?
+5
+Enter your numbers:
+1
+2
+3
+4
+5
+
+The Array contains:
+#0: 1
+#1: 2
+#2: 3
+#3: 4
+#4: 5
+
+Choose your search type:
+1. Arrays: Sequential Search without recursion
+2. Arrays: Sequential Search with recursion
+3. Ordered Arrays: Binary Search without recursion
+4. Ordered Arrays: Binary Search with recursion
+5. Linked List: Search without recursion
+6. Linked List: Search with recursion
+Enter 0 to exit.
+
+Specify the element to be searched for: 1
+
+Your choice:
+2
+list is empty
+The number is at position# 0
+
+Specify the element to be searched for: 2
+
+Your choice:
+3
+
+Specify the element to be searched for: 3
+
+Your choice:
+5
+A linked list has been initialized and filled using array data...
+The linked list contains:
+#0: 1
+#1: 2
+#2: 3
+#3: 4
+#4: 5
+The number is at position# 2
+
+Specify the element to be searched for: 4
+
+Your choice:
+6
+The number is at position# 4
+
+Specify the element to be searched for: 1
+
+Your choice:
+1
+
+
+
