@@ -1,0 +1,83 @@
+Anahit Sarao
+008435583
+sunday december 7, 2014
+
+output for lab 10:
+
+insertion sort used to sort by id, list will reprint:
+1 lin lin freshman
+
+2 bush bush junior
+
+3 obama obama freshman
+
+4 boeing boeing junior
+
+5 linear linear senior
+
+6 obama obama senior
+
+7 bush bush junior
+
+8 linux linux freshman
+
+10 apple apple senior
+
+11 broadcom broadcom senior
+
+12 cisco cisco junior
+
+13 google google senior
+
+14 yahoo yahoo junior
+
+15 motorola motorola senior
+
+16 amazon amazon senior
+
+17 lockeed lockeed junior
+
+18 oracle oracle senior
+
+19 facebook facebook senior
+
+20 oracle oracle senior
+
+quick sort used to sort by first name, list will reprint:
+
+13 amazon bezos senior
+
+16 apple steve senior
+
+17 boeing dream junior
+
+15 broadcom andre senior
+
+6 bush george junior
+
+2 bush george sr. junior
+
+14 cisco chris junior
+
+19 facebook mark senior
+
+12 google dino senior
+
+3 lin frank freshman
+
+4 linear francisco senior
+
+7 linux fran freshman
+
+10 lockeed cindy junior
+
+20 motorola kim senior
+
+1 obama michelle freshman
+
+5 obama barack senior
+
+18 oracle larry senior
+
+Program ended with exit code: 0
+
