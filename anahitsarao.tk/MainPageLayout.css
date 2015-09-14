@@ -1,0 +1,65 @@
+/* CSS Document For Main Page */
+body  {
+    background-image: url(Images/url.jpeg);
+    background-size:   cover;                 
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+#Container
+{
+	margin: 0 auto;
+	width: 900px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0pt;
+    white-space: nowrap; 
+}
+#header
+{
+	margin: 50px;
+	width: 900px;
+	font-size: 14pt;
+	color: red;
+    text-align: right;
+    white-space: nowrap; 
+}
+#ContainerContent
+{
+	margin: 10px;
+	width: 900px;
+	font-size: 10pt;
+	color: red;
+    text-align: left;
+    white-space: nowrap; 
+}
+#Footer
+{
+    width: 900px;
+	margin: 10px;
+    color: red;
+    white-space: nowrap; 
+}
+a, a:visited
+{
+	color: blue;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #660099;
+}
+
+#NaviCont td a
+{
+	display: block;
+	height: 15px;
+	color: #999999;
+	text-decoration: none;
+	border: 1px solid #666666;
+	text-align: center;
+}
+#NaviCont td a:hover
+{
+	display: block;
+	height: 15px;
+	color: #CCCCCC;
+}
