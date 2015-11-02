@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="username_hint">Enter Username</string>
+    <string name="email_hint">Enter Email</string>
+    <string name="sign_up_button_label">Sign Up!</string>
+    <string name="password_hint">Enter Password</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_sign_up_activity">SignUpActivity</string>"
+</resources>

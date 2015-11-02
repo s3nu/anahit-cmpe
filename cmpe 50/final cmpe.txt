@@ -1,0 +1,174 @@
+chapter 8
+#include <vector>
+using namespace std;
+vector <int> vect;//empty vector
+vector<int> vect(10);
+vect.pushback(100);
+i=vect[0];//i=100
+vect.pop_back;//vector is empty
+	//vector size is 10
+vect.resize(5);//vector size is 5 anything after 5 is destroyed;
+
+
+CHAP 15
+
+class a{//base 
+};
+class b:public a {//child
+};
+
+B *pB, oB;
+A *pA, oA;
+
+PA=&oB
+PA=&oA
+PB=&oB
+PB=&oA//can we do this??--cannot do this
+
+redefinition of member function
+	-redefine a memeber of base class with same signature;
+overloading of member function
+	-redefine a memeber of base class with different signature;
+overriding-- change a virtual function in the derived class
+
+void b::foo() {
+A::foo();//only way to overide must add scope
+}
+
+//big three needed if dynamic is involved;
+Copy Constructer;//need it when you have dynamic member variables;
+assignment operator;
+destructor; 
+//big three needed if dynamic is involved;
+
+class a{//base
+public: A(); 
+};
+class b:public a {//child
+public: B();
+};
+
+B::B():A(){//initialization section
+}
+B::~B(){//initialization section
+~A();;//wrong do not do this
+}
+
+if there is no default constructer c++ will call one for you;
+
+
+POLYMORPHISM 
+== late binding 
+= =virtual function
+
+late binding->calling a function yet to be defiened during compilation (function pointer)
+
+vtable is undefined;//
+virtual table;//
+
+class pet{
+public:
+	virtual void print();
+	void bill();
+	string name;
+	};
+class dog: public pet{
+public:
+	void print();
+	void bill();
+	string breed;
+};	
+
+void pringcheck(pet &opet){
+opet.print();
+}
+void pringcheck2(pet opet){
+opet.print();
+}
+void printbill(pet &opet){
+opet.bill();
+}
+void printbill2(pet &opet){
+opet.bill();
+}
+
+pet opet;
+dog odog;
+pet *ppet;
+dog *pdog;
+
+printcheck(odog);//calls dog
+printcheck2(odog);//calls pet
+printbill(odog);//does not call virtual
+printbill2(odog);//does not call virtual
+
+this//is a pointer to the object it self
+
+b::b(){
+name="george";
+}
+
+class c{
+	public: c operator =(c&);
+};
+c c::operator=(c&){
+//assignment stuff here
+
+return *this;
+}
+
+c c1,c2;
+c1=c2;
+c1=c1;
+
+CHAP 17 TEMPLATE
+
+template <class TX>//t is an identification 
+void foo (Tx myval){
+}
+
+template <typname T>//new way or writing instead of class
+
+template <class t>
+class pair{
+public: 
+	pair();
+	void set_element(int pos, t &element);
+	template<class Y> friend ostream & operator<<(ostream &os, pair<y> &obj);
+private:
+	vector<t> values;
+};
+
+classs definition above _____^^^^
+
+
+template <class z>
+pair<z>::set_elemment(int pos, z &elem){
+}
+
+try {
+
+	throw E();//anonymous object
+}
+
+catch (E e) {
+
+//control flow of the code steps at throw and jumpes to the next catch
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

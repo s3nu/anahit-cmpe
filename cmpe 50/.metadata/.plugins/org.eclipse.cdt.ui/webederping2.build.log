@@ -1,0 +1,34 @@
+16:33:22 **** Incremental Build of configuration Debug for project webederping2 ****
+make all 
+Building file: ../src/test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test.d" -MT"src/test.d" -o "src/test.o" "../src/test.cpp"
+../src/test.cpp:14:10: error: array size expression must have integral or enumeration type, not 'double'
+        value = new double[maxsize];
+                ^          ~~~~~~~
+In file included from ../src/test.cpp:7:
+In file included from ../src/test.h:10:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/iostream:39:
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/streambuf:559:48: error: base class 'std::__1::ios_base' has private copy constructor
+_LIBCPP_EXTERN_TEMPLATE(class _LIBCPP_TYPE_VIS basic_ios<char>)
+                                               ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/__config:552:54: note: expanded from macro '_LIBCPP_EXTERN_TEMPLATE'
+#define _LIBCPP_EXTERN_TEMPLATE(...) extern template __VA_ARGS__;
+                                                     ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ios:310:5: note: declared private here
+    ios_base(const ios_base&); // = delete;
+    ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:1290:48: note: implicit copy constructor for 'std::__1::basic_ios<char>' first required here
+_LIBCPP_EXTERN_TEMPLATE(class _LIBCPP_TYPE_VIS basic_ostream<char>)
+                                               ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/__config:552:54: note: expanded from macro '_LIBCPP_EXTERN_TEMPLATE'
+#define _LIBCPP_EXTERN_TEMPLATE(...) extern template __VA_ARGS__;
+                                                     ^
+../src/test.cpp:84:9: note: implicit copy constructor for 'std::__1::basic_ostream<char>' first required here
+        return ost;
+               ^
+2 errors generated.
+make: *** [src/test.o] Error 1
+
+16:33:23 Build Finished (took 605ms)
+

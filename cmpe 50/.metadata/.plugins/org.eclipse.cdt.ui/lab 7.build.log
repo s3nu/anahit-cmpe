@@ -1,0 +1,15 @@
+14:35:37 **** Incremental Build of configuration Debug for project lab 7 ****
+make all 
+Building file: ../src/lab 7.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lab 7.d" -MT"src/lab\ 7.d" -o "src/lab 7.o" "../src/lab 7.cpp"
+Finished building: ../src/lab 7.cpp
+ 
+Building target: lab 7
+Invoking: MacOS X C++ Linker
+g++  -o "lab 7"  ./src/lab\ 7.o   
+Finished building target: lab 7
+ 
+
+14:35:38 Build Finished (took 1s.277ms)
+

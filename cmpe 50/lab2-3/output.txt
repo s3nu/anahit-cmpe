@@ -1,0 +1,8 @@
+      1    2   3   4  5
+    *********************
+HW  GR 10101 101   1   1            BEST HW:101      WORST HW:1   AVG HW:42.8
+Lab GR  1  1   1   1   1            BEST LAB:1    WORST LAB:1  AVG LAB:1
+AVG   5.5 51  51   1   1
+Im sorry to inform you that you failed the class, because your performance in HW was <50%. Try again next semester
+Im sorry to inform you that you failed the class, because your performance in LAB was <50%. Try again next semester
+Im sorry to inform you that you failed the class, because your performance in LAB/HW was <50%. Try again next semester

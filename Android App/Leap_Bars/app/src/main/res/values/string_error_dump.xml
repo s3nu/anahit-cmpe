@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_external_storage">There was a problem accessing your device\'s external storage.</string>
+    <string name="general_error">Sorry, there was an error!</string>
+    <string name="video_size_limit_warning">The selected video must be less than 10 MB.</string>
+    <string name="error_selecting_file">There was an error with the file selected. Please select a different file.</string>
+    <string name="error_file_too_large">The selected file is too large! Select a new file.</string>
+    <string name="video_file_size_warning">The selected video must be less than 10 MB.</string>
+    <string name="error_opening_file">There was a problem with the selected file.</string>
+    <string name="error_file_size_too_large">The selected file is too large! Select a new file.</string>
+    <string name="error_selecting_file_title">We\'re sorry!</string>
+    <string name="error_sending_message">There was an error sending your message. Please try again.</string>
+    <string name="sign_up_error_message">One or more fields have been left blank</string>
+    <string name="sign_up_error_title">Failed to Execute</string>
+    <string name="login_error_message">Please make sure you enter a username and password!</string>
+    <string name="login_error_title">Oops!</string>
+    <string name="error_title">We\'re sorry!</string>
+</resources>

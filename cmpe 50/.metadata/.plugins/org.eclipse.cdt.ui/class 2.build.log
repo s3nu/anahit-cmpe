@@ -1,0 +1,15 @@
+17:10:13 **** Incremental Build of configuration Debug for project class 2 ****
+make all 
+Building file: ../src/class 2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/class 2.d" -MT"src/class\ 2.d" -o "src/class 2.o" "../src/class 2.cpp"
+Finished building: ../src/class 2.cpp
+ 
+Building target: class 2
+Invoking: MacOS X C++ Linker
+g++  -o "class 2"  ./src/class\ 2.o   
+Finished building target: class 2
+ 
+
+17:10:14 Build Finished (took 922ms)
+

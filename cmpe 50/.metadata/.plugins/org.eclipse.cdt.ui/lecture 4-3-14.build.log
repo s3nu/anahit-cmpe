@@ -1,0 +1,15 @@
+16:54:18 **** Incremental Build of configuration Debug for project lecture 4-3-14 ****
+make all 
+Building file: ../src/lecture 4-3-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 4-3-14.d" -MT"src/lecture\ 4-3-14.d" -o "src/lecture 4-3-14.o" "../src/lecture 4-3-14.cpp"
+Finished building: ../src/lecture 4-3-14.cpp
+ 
+Building target: lecture 4-3-14
+Invoking: MacOS X C++ Linker
+g++  -o "lecture 4-3-14"  ./src/Polynomial-partial.o ./src/lecture\ 4-3-14.o   
+Finished building target: lecture 4-3-14
+ 
+
+16:54:19 Build Finished (took 759ms)
+

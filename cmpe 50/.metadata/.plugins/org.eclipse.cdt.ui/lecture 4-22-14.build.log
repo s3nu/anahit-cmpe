@@ -1,0 +1,15 @@
+16:49:23 **** Incremental Build of configuration Debug for project lecture 4-22-14 ****
+make all 
+Building file: ../src/lecture 4-22-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 4-22-14.d" -MT"src/lecture\ 4-22-14.d" -o "src/lecture 4-22-14.o" "../src/lecture 4-22-14.cpp"
+Finished building: ../src/lecture 4-22-14.cpp
+ 
+Building target: lecture 4-22-14
+Invoking: MacOS X C++ Linker
+g++  -o "lecture 4-22-14"  ./src/lecture\ 4-22-14.o   
+Finished building target: lecture 4-22-14
+ 
+
+16:49:24 Build Finished (took 811ms)
+

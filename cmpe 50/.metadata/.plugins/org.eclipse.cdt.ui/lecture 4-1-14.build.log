@@ -1,0 +1,40 @@
+16:54:23 **** Incremental Build of configuration Debug for project lecture 4-1-14 ****
+make all 
+Building file: ../src/11-12.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/11-12.d" -MT"src/11-12.d" -o "src/11-12.o" "../src/11-12.cpp"
+../src/11-12.cpp:11:5: error: use of undeclared identifier 'StringVar'
+    StringVar::StringVar(int size) : max_length(size)
+    ^
+../src/11-12.cpp:18:5: error: use of undeclared identifier 'StringVar'
+    StringVar::StringVar( ) : max_length(100)
+    ^
+../src/11-12.cpp:25:5: error: use of undeclared identifier 'StringVar'
+    StringVar::StringVar(const char a[]) : max_length(strlen(a))
+    ^
+../src/11-12.cpp:31:5: error: use of undeclared identifier 'StringVar'
+    StringVar::StringVar(const StringVar& string_object)
+    ^
+../src/11-12.cpp:31:32: error: unknown type name 'StringVar'
+    StringVar::StringVar(const StringVar& string_object)
+                               ^
+../src/11-12.cpp:38:1: error: use of undeclared identifier 'StringVar'
+StringVar::~StringVar( )
+^
+../src/11-12.cpp:38:13: error: expected the class name after '~' to name a destructor
+StringVar::~StringVar( )
+            ^
+../src/11-12.cpp:44:9: error: use of undeclared identifier 'StringVar'
+    int StringVar::length( ) const
+        ^
+../src/11-12.cpp:50:10: error: use of undeclared identifier 'StringVar'
+    void StringVar::input_line(istream& ins)
+         ^
+../src/11-12.cpp:56:47: error: unknown type name 'StringVar'
+    ostream& operator <<(ostream& outs, const StringVar& the_string)
+                                              ^
+10 errors generated.
+make: *** [src/11-12.o] Error 1
+
+16:54:24 Build Finished (took 597ms)
+

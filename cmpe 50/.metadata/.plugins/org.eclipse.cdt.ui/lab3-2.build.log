@@ -1,0 +1,6 @@
+12:47:19 **** Incremental Build of configuration Debug for project lab3-2 ****
+make all 
+make: Nothing to be done for `all'.
+
+12:47:19 Build Finished (took 64ms)
+

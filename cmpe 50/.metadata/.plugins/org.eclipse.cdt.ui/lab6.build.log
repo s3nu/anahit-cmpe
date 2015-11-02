@@ -1,0 +1,15 @@
+19:22:20 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+Building file: ../src/lab6.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lab6.d" -MT"src/lab6.d" -o "src/lab6.o" "../src/lab6.cpp"
+Finished building: ../src/lab6.cpp
+ 
+Building target: lab6
+Invoking: MacOS X C++ Linker
+g++  -o "lab6"  ./src/lab6.o   
+Finished building target: lab6
+ 
+
+19:22:21 Build Finished (took 675ms)
+

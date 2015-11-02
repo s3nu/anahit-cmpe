@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="welcome_message">Welcome</string>
+    <string name="welcome_message_2">Into a Wardrobe</string>
+    <string name="welcome_button">Begin</string>
+    <string name="title_activity_main">MainActivity</string>
+
+</resources>

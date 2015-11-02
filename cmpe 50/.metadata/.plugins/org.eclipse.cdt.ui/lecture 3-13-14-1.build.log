@@ -1,0 +1,136 @@
+12:34:41 **** Incremental Build of configuration Debug for project lecture 3-13-14-1 ****
+make all 
+Building file: ../src/lecture 3-13-14-1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 3-13-14-1.d" -MT"src/lecture\ 3-13-14-1.d" -o "src/lecture 3-13-14-1.o" "../src/lecture 3-13-14-1.cpp"
+../src/lecture 3-13-14-1.cpp:30:14: error: invalid operands to binary expression ('Duple' and 'Duple')
+        dup3 = dup1 + dup2;
+               ~~~~ ^ ~~~~
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/iterator:630:1: note: candidate template ignored: could not match 'reverse_iterator<type-parameter-0-0>' against 'Duple'
+operator+(typename reverse_iterator<_Iter>::difference_type __n, const reverse_iterator<_Iter>& __x)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/iterator:1025:1: note: candidate template ignored: could not match 'move_iterator<type-parameter-0-0>' against 'Duple'
+operator+(typename move_iterator<_Iter>::difference_type __n, const move_iterator<_Iter>& __x)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/iterator:1381:1: note: candidate template ignored: could not match '__wrap_iter<type-parameter-0-0>' against 'Duple'
+operator+(typename __wrap_iter<_Iter>::difference_type __n,
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/string:3881:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'Duple'
+operator+(const basic_string<_CharT, _Traits, _Allocator>& __lhs,
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/string:3894:1: note: candidate template ignored: could not match 'const _CharT *' against 'Duple'
+operator+(const _CharT* __lhs , const basic_string<_CharT,_Traits,_Allocator>& __rhs)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/string:3906:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'Duple'
+operator+(_CharT __lhs, const basic_string<_CharT,_Traits,_Allocator>& __rhs)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/string:3917:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'Duple'
+operator+(const basic_string<_CharT, _Traits, _Allocator>& __lhs, const _CharT* __rhs)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/string:3929:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'Duple'
+operator+(const basic_string<_CharT, _Traits, _Allocator>& __lhs, _CharT __rhs)
+^
+../src/lecture 3-13-14-1.cpp:18:15: note: candidate function not viable: requires single argument 'second', but 2 arguments were provided
+        friend Duple operator+(Duple& second);
+                     ^
+../src/lecture 3-13-14-1.cpp:32:14: error: invalid operands to binary expression ('Duple' and 'Duple')
+        dup3 = dup2 - dup1;
+               ~~~~ ^ ~~~~
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/iterator:622:1: note: candidate template ignored: could not match 'reverse_iterator<type-parameter-0-0>' against 'Duple'
+operator-(const reverse_iterator<_Iter1>& __x, const reverse_iterator<_Iter2>& __y)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/iterator:1017:1: note: candidate template ignored: could not match 'move_iterator<type-parameter-0-0>' against 'Duple'
+operator-(const move_iterator<_Iter1>& __x, const move_iterator<_Iter2>& __y)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/iterator:1369:1: note: candidate template ignored: could not match '__wrap_iter<type-parameter-0-0>' against 'Duple'
+operator-(const __wrap_iter<_Iter1>& __x, const __wrap_iter<_Iter2>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/string:486:11: note: candidate template ignored: could not match 'fpos<type-parameter-0-0>' against 'Duple'
+streamoff operator-(const fpos<_StateT>& __x, const fpos<_StateT>& __y)
+          ^
+../src/lecture 3-13-14-1.cpp:19:15: note: candidate function not viable: requires single argument 'second', but 2 arguments were provided
+        friend Duple operator-(Duple& second);
+                     ^
+../src/lecture 3-13-14-1.cpp:45:1: error: C++ requires a type specifier for all declarations
+operator+(Duple& second){
+^~~~~~~~
+../src/lecture 3-13-14-1.cpp:47:14: error: 'f' is a private member of 'Duple'
+        tdup=second.f+second.s;
+                    ^
+../src/lecture 3-13-14-1.cpp:21:6: note: declared private here
+        int f;
+            ^
+../src/lecture 3-13-14-1.cpp:47:23: error: 's' is a private member of 'Duple'
+        tdup=second.f+second.s;
+                             ^
+../src/lecture 3-13-14-1.cpp:22:6: note: declared private here
+        int s;
+            ^
+../src/lecture 3-13-14-1.cpp:47:6: error: no viable overloaded '='
+        tdup=second.f+second.s;
+        ~~~~^~~~~~~~~~~~~~~~~~
+../src/lecture 3-13-14-1.cpp:12:7: note: candidate function (the implicit copy assignment operator) not viable: no known conversion from 'int' to 'const Duple' for 1st argument
+class Duple {
+      ^
+../src/lecture 3-13-14-1.cpp:48:14: error: 's' is a private member of 'Duple'
+        tdup=second.s+second.f;
+                    ^
+../src/lecture 3-13-14-1.cpp:22:6: note: declared private here
+        int s;
+            ^
+../src/lecture 3-13-14-1.cpp:48:23: error: 'f' is a private member of 'Duple'
+        tdup=second.s+second.f;
+                             ^
+../src/lecture 3-13-14-1.cpp:21:6: note: declared private here
+        int f;
+            ^
+../src/lecture 3-13-14-1.cpp:48:6: error: no viable overloaded '='
+        tdup=second.s+second.f;
+        ~~~~^~~~~~~~~~~~~~~~~~
+../src/lecture 3-13-14-1.cpp:12:7: note: candidate function (the implicit copy assignment operator) not viable: no known conversion from 'int' to 'const Duple' for 1st argument
+class Duple {
+      ^
+../src/lecture 3-13-14-1.cpp:51:1: error: C++ requires a type specifier for all declarations
+operator-(Duple& second){
+^~~~~~~~
+../src/lecture 3-13-14-1.cpp:53:14: error: 'f' is a private member of 'Duple'
+        tdup=second.f-second.s;
+                    ^
+../src/lecture 3-13-14-1.cpp:21:6: note: declared private here
+        int f;
+            ^
+../src/lecture 3-13-14-1.cpp:53:23: error: 's' is a private member of 'Duple'
+        tdup=second.f-second.s;
+                             ^
+../src/lecture 3-13-14-1.cpp:22:6: note: declared private here
+        int s;
+            ^
+../src/lecture 3-13-14-1.cpp:53:6: error: no viable overloaded '='
+        tdup=second.f-second.s;
+        ~~~~^~~~~~~~~~~~~~~~~~
+../src/lecture 3-13-14-1.cpp:12:7: note: candidate function (the implicit copy assignment operator) not viable: no known conversion from 'int' to 'const Duple' for 1st argument
+class Duple {
+      ^
+../src/lecture 3-13-14-1.cpp:54:14: error: 's' is a private member of 'Duple'
+        tdup=second.s-second.f;
+                    ^
+../src/lecture 3-13-14-1.cpp:22:6: note: declared private here
+        int s;
+            ^
+../src/lecture 3-13-14-1.cpp:54:23: error: 'f' is a private member of 'Duple'
+        tdup=second.s-second.f;
+                             ^
+../src/lecture 3-13-14-1.cpp:21:6: note: declared private here
+        int f;
+            ^
+../src/lecture 3-13-14-1.cpp:54:6: error: no viable overloaded '='
+        tdup=second.s-second.f;
+        ~~~~^~~~~~~~~~~~~~~~~~
+../src/lecture 3-13-14-1.cpp:12:7: note: candidate function (the implicit copy assignment operator) not viable: no known conversion from 'int' to 'const Duple' for 1st argument
+class Duple {
+      ^
+16 errors generated.
+make: *** [src/lecture 3-13-14-1.o] Error 1
+
+12:34:41 Build Finished (took 831ms)
+

@@ -1,0 +1,31 @@
+<resources>
+    //Global Strings
+    <string name="app_name">Leap</string>
+    <string name="hello_world">Hello world!</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+
+    <!-- Fragment section titles -->
+    <string name="title_section1">Simple Camera Intent</string>
+    <string name="title_section2">Photo Gallery Using Loaders</string>
+    <string name="title_section3">Image Picker</string>
+    <string name="title_section4">Native Camera</string>
+    <string name="title_section5">Horizontal Gallery</string>
+
+
+    <string-array name="camera_choices">
+        <item>Take Picture</item>
+        <item>Choose Picture</item>
+    </string-array>
+    <string name="title_activity_logged_in_activity">Your Leap</string>
+    <string name="title_activity_loged_in">Your Leap</string>
+    <string name="title_activity_logged_in">Your Leap</string>
+    <string name="title_activity_logout">Logout</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_gallery">Gallery</string>
+    <string name="title_activity_camera">Camera</string>
+    <string name="title_activity_settings">Settings</string>
+</resources>

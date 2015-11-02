@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;class 4-1/src/input.dat&apos; to &apos;input.txt&apos;" description="Rename resource &apos;input.dat&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/input.dat" name="input.txt" stamp="1391734363328" updateReferences="true"/>
+</session>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings1_camera">Camera</string>
+    <string name="action_settings2_gallery">Gallery</string>
+    <string name="action_settings3_logout">Log out</string>
+    <string name="action_settings4">Settings</string>
+</resources>

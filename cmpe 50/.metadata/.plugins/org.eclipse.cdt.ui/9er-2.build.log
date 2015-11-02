@@ -1,0 +1,15 @@
+19:57:56 **** Incremental Build of configuration Debug for project 9er-2 ****
+make all 
+Building file: ../src/9er-2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/9er-2.d" -MT"src/9er-2.d" -o "src/9er-2.o" "../src/9er-2.cpp"
+Finished building: ../src/9er-2.cpp
+ 
+Building target: 9er-2
+Invoking: MacOS X C++ Linker
+g++  -o "9er-2"  ./src/9er-2.o   
+Finished building target: 9er-2
+ 
+
+19:57:57 Build Finished (took 932ms)
+

@@ -1,0 +1,13 @@
+19:27:33 **** Incremental Build of configuration Debug for project lecture 3-18-2014 ****
+make all 
+Building file: ../src/lecture 3-18-2014.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 3-18-2014.d" -MT"src/lecture\ 3-18-2014.d" -o "src/lecture 3-18-2014.o" "../src/lecture 3-18-2014.cpp"
+../src/lecture 3-18-2014.cpp:25:5: error: assigning to 'double' from incompatible type 'complex'
+        num=complex(c,d);//will not let me do this getting an error
+           ^~~~~~~~~~~~~
+1 error generated.
+make: *** [src/lecture 3-18-2014.o] Error 1
+
+19:27:34 Build Finished (took 558ms)
+

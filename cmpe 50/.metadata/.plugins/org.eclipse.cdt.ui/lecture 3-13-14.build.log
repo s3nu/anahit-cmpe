@@ -1,0 +1,435 @@
+17:13:22 **** Incremental Build of configuration Debug for project lecture 3-13-14 ****
+make all 
+Building file: ../src/lecture 3-13-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 3-13-14.d" -MT"src/lecture\ 3-13-14.d" -o "src/lecture 3-13-14.o" "../src/lecture 3-13-14.cpp"
+../src/lecture 3-13-14.cpp:17:18: error: friends can only be classes or functions
+        friend istream& operater >>(istream& ins, duple& second);
+                        ^
+../src/lecture 3-13-14.cpp:17:26: error: expected ';' at end of declaration list
+        friend istream& operater >>(istream& ins, duple& second);
+                                ^
+                                ;
+../src/lecture 3-13-14.cpp:18:18: error: friends can only be classes or functions
+        friend ostream& operater <<(ostream& outs, const duple& second);
+                        ^
+../src/lecture 3-13-14.cpp:18:26: error: expected ';' at end of declaration list
+        friend ostream& operater <<(ostream& outs, const duple& second);
+                                ^
+                                ;
+../src/lecture 3-13-14.cpp:19:15: error: friends can only be classes or functions
+        friend duple operater+(duple& second);
+                     ^
+../src/lecture 3-13-14.cpp:19:23: error: expected ';' at end of declaration list
+        friend duple operater+(duple& second);
+                             ^
+                             ;
+../src/lecture 3-13-14.cpp:20:15: error: friends can only be classes or functions
+        friend duple operater-(duple& second);
+                     ^
+../src/lecture 3-13-14.cpp:20:23: error: expected ';' at end of declaration list
+        friend duple operater-(duple& second);
+                             ^
+                             ;
+../src/lecture 3-13-14.cpp:31:5: error: invalid operands to binary expression ('istream' (aka 'basic_istream<char>') and 'duple')
+        cin>>dup1;
+        ~~~^ ~~~~
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:199:20: note: candidate function not viable: no known conversion from 'duple' to 'std::__1::basic_istream<char> &(*)(std::__1::basic_istream<char> &)' for 1st argument
+    basic_istream& operator>>(basic_istream& (*__pf)(basic_istream&));
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:200:20: note: candidate function not viable: no known conversion from 'duple' to 'basic_ios<char_type, traits_type> &(*)(basic_ios<char_type, traits_type> &)' for 1st argument
+    basic_istream& operator>>(basic_ios<char_type, traits_type>&
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:202:20: note: candidate function not viable: no known conversion from 'duple' to 'std::__1::ios_base &(*)(std::__1::ios_base &)' for 1st argument
+    basic_istream& operator>>(ios_base& (*__pf)(ios_base&));
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:203:20: note: candidate function not viable: no known conversion from 'duple' to 'basic_streambuf<char_type, traits_type> *' for 1st argument
+    basic_istream& operator>>(basic_streambuf<char_type, traits_type>* __sb);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:204:20: note: candidate function not viable: no known conversion from 'duple' to 'bool &' for 1st argument
+    basic_istream& operator>>(bool& __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:205:20: note: candidate function not viable: no known conversion from 'duple' to 'short &' for 1st argument
+    basic_istream& operator>>(short& __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:206:20: note: candidate function not viable: no known conversion from 'duple' to 'unsigned short &' for 1st argument
+    basic_istream& operator>>(unsigned short& __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:207:20: note: candidate function not viable: no known conversion from 'duple' to 'int &' for 1st argument
+    basic_istream& operator>>(int& __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:208:20: note: candidate function not viable: no known conversion from 'duple' to 'unsigned int &' for 1st argument
+    basic_istream& operator>>(unsigned int& __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:209:20: note: candidate function not viable: no known conversion from 'duple' to 'long &' for 1st argument
+    basic_istream& operator>>(long& __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:210:20: note: candidate function not viable: no known conversion from 'duple' to 'unsigned long &' for 1st argument
+    basic_istream& operator>>(unsigned long& __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:211:20: note: candidate function not viable: no known conversion from 'duple' to 'long long &' for 1st argument
+    basic_istream& operator>>(long long& __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:212:20: note: candidate function not viable: no known conversion from 'duple' to 'unsigned long long &' for 1st argument
+    basic_istream& operator>>(unsigned long long& __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:213:20: note: candidate function not viable: no known conversion from 'duple' to 'float &' for 1st argument
+    basic_istream& operator>>(float& __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:214:20: note: candidate function not viable: no known conversion from 'duple' to 'double &' for 1st argument
+    basic_istream& operator>>(double& __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:215:20: note: candidate function not viable: no known conversion from 'duple' to 'long double &' for 1st argument
+    basic_istream& operator>>(long double& __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:216:20: note: candidate function not viable: no known conversion from 'duple' to 'void *&' for 1st argument
+    basic_istream& operator>>(void*& __p);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:788:1: note: candidate function [with _Traits = std::__1::char_traits<char>] not viable: no known conversion from 'duple' to 'unsigned char *' for 2nd argument
+operator>>(basic_istream<char, _Traits>& __is, unsigned char* __s)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:796:1: note: candidate function [with _Traits = std::__1::char_traits<char>] not viable: no known conversion from 'duple' to 'signed char *' for 2nd argument
+operator>>(basic_istream<char, _Traits>& __is, signed char* __s)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:831:1: note: candidate function [with _Traits = std::__1::char_traits<char>] not viable: no known conversion from 'duple' to 'unsigned char &' for 2nd argument
+operator>>(basic_istream<char, _Traits>& __is, unsigned char& __c)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:839:1: note: candidate function [with _Traits = std::__1::char_traits<char>] not viable: no known conversion from 'duple' to 'signed char &' for 2nd argument
+operator>>(basic_istream<char, _Traits>& __is, signed char& __c)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:803:1: note: candidate template ignored: deduced conflicting types for parameter '_CharT' ('char' vs. 'duple')
+operator>>(basic_istream<_CharT, _Traits>& __is, _CharT& __c)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:739:1: note: candidate template ignored: failed template argument deduction
+operator>>(basic_istream<_CharT, _Traits>& __is, _CharT* __s)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:1527:1: note: candidate template ignored: failed template argument deduction
+operator>>(basic_istream<_CharT, _Traits>& __is,
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:1659:1: note: candidate template ignored: failed template argument deduction
+operator>>(basic_istream<_CharT, _Traits>& __is, bitset<_Size>& __x)
+^
+../src/lecture 3-13-14.cpp:32:5: error: invalid operands to binary expression ('istream' (aka 'basic_istream<char>') and 'duple')
+        cin>>dup1;
+        ~~~^ ~~~~
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:199:20: note: candidate function not viable: no known conversion from 'duple' to 'std::__1::basic_istream<char> &(*)(std::__1::basic_istream<char> &)' for 1st argument
+    basic_istream& operator>>(basic_istream& (*__pf)(basic_istream&));
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:200:20: note: candidate function not viable: no known conversion from 'duple' to 'basic_ios<char_type, traits_type> &(*)(basic_ios<char_type, traits_type> &)' for 1st argument
+    basic_istream& operator>>(basic_ios<char_type, traits_type>&
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:202:20: note: candidate function not viable: no known conversion from 'duple' to 'std::__1::ios_base &(*)(std::__1::ios_base &)' for 1st argument
+    basic_istream& operator>>(ios_base& (*__pf)(ios_base&));
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:203:20: note: candidate function not viable: no known conversion from 'duple' to 'basic_streambuf<char_type, traits_type> *' for 1st argument
+    basic_istream& operator>>(basic_streambuf<char_type, traits_type>* __sb);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:204:20: note: candidate function not viable: no known conversion from 'duple' to 'bool &' for 1st argument
+    basic_istream& operator>>(bool& __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:205:20: note: candidate function not viable: no known conversion from 'duple' to 'short &' for 1st argument
+    basic_istream& operator>>(short& __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:206:20: note: candidate function not viable: no known conversion from 'duple' to 'unsigned short &' for 1st argument
+    basic_istream& operator>>(unsigned short& __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:207:20: note: candidate function not viable: no known conversion from 'duple' to 'int &' for 1st argument
+    basic_istream& operator>>(int& __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:208:20: note: candidate function not viable: no known conversion from 'duple' to 'unsigned int &' for 1st argument
+    basic_istream& operator>>(unsigned int& __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:209:20: note: candidate function not viable: no known conversion from 'duple' to 'long &' for 1st argument
+    basic_istream& operator>>(long& __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:210:20: note: candidate function not viable: no known conversion from 'duple' to 'unsigned long &' for 1st argument
+    basic_istream& operator>>(unsigned long& __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:211:20: note: candidate function not viable: no known conversion from 'duple' to 'long long &' for 1st argument
+    basic_istream& operator>>(long long& __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:212:20: note: candidate function not viable: no known conversion from 'duple' to 'unsigned long long &' for 1st argument
+    basic_istream& operator>>(unsigned long long& __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:213:20: note: candidate function not viable: no known conversion from 'duple' to 'float &' for 1st argument
+    basic_istream& operator>>(float& __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:214:20: note: candidate function not viable: no known conversion from 'duple' to 'double &' for 1st argument
+    basic_istream& operator>>(double& __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:215:20: note: candidate function not viable: no known conversion from 'duple' to 'long double &' for 1st argument
+    basic_istream& operator>>(long double& __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:216:20: note: candidate function not viable: no known conversion from 'duple' to 'void *&' for 1st argument
+    basic_istream& operator>>(void*& __p);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:788:1: note: candidate function [with _Traits = std::__1::char_traits<char>] not viable: no known conversion from 'duple' to 'unsigned char *' for 2nd argument
+operator>>(basic_istream<char, _Traits>& __is, unsigned char* __s)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:796:1: note: candidate function [with _Traits = std::__1::char_traits<char>] not viable: no known conversion from 'duple' to 'signed char *' for 2nd argument
+operator>>(basic_istream<char, _Traits>& __is, signed char* __s)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:831:1: note: candidate function [with _Traits = std::__1::char_traits<char>] not viable: no known conversion from 'duple' to 'unsigned char &' for 2nd argument
+operator>>(basic_istream<char, _Traits>& __is, unsigned char& __c)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:839:1: note: candidate function [with _Traits = std::__1::char_traits<char>] not viable: no known conversion from 'duple' to 'signed char &' for 2nd argument
+operator>>(basic_istream<char, _Traits>& __is, signed char& __c)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:803:1: note: candidate template ignored: deduced conflicting types for parameter '_CharT' ('char' vs. 'duple')
+operator>>(basic_istream<_CharT, _Traits>& __is, _CharT& __c)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:739:1: note: candidate template ignored: failed template argument deduction
+operator>>(basic_istream<_CharT, _Traits>& __is, _CharT* __s)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:1527:1: note: candidate template ignored: failed template argument deduction
+operator>>(basic_istream<_CharT, _Traits>& __is,
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/istream:1659:1: note: candidate template ignored: failed template argument deduction
+operator>>(basic_istream<_CharT, _Traits>& __is, bitset<_Size>& __x)
+^
+../src/lecture 3-13-14.cpp:33:11: error: invalid operands to binary expression ('duple' and 'duple')
+        dup3=dup1+dup2;
+             ~~~~^~~~~
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/iterator:613:1: note: candidate template ignored: failed template argument deduction
+operator+(typename reverse_iterator<_Iter>::difference_type __n, const reverse_iterator<_Iter>& __x)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/iterator:1008:1: note: candidate template ignored: failed template argument deduction
+operator+(typename move_iterator<_Iter>::difference_type __n, const move_iterator<_Iter>& __x)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/iterator:1357:1: note: candidate template ignored: failed template argument deduction
+operator+(typename __wrap_iter<_Iter>::difference_type __n,
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/string:3851:1: note: candidate template ignored: failed template argument deduction
+operator+(const basic_string<_CharT, _Traits, _Allocator>& __lhs,
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/string:3864:1: note: candidate template ignored: failed template argument deduction
+operator+(const _CharT* __lhs , const basic_string<_CharT,_Traits,_Allocator>& __rhs)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/string:3876:1: note: candidate template ignored: failed template argument deduction
+operator+(_CharT __lhs, const basic_string<_CharT,_Traits,_Allocator>& __rhs)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/string:3887:1: note: candidate template ignored: failed template argument deduction
+operator+(const basic_string<_CharT, _Traits, _Allocator>& __lhs, const _CharT* __rhs)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/string:3899:1: note: candidate template ignored: failed template argument deduction
+operator+(const basic_string<_CharT, _Traits, _Allocator>& __lhs, _CharT __rhs)
+^
+../src/lecture 3-13-14.cpp:34:6: error: invalid operands to binary expression ('ostream' (aka 'basic_ostream<char>') and 'duple')
+        cout<<dup3<<endl;
+        ~~~~^ ~~~~
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:190:20: note: candidate function not viable: no known conversion from 'duple' to 'const void *' for 1st argument; take the address of the argument with &
+    basic_ostream& operator<<(const void* __p);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:174:20: note: candidate function not viable: no known conversion from 'duple' to 'std::__1::basic_ostream<char> &(*)(std::__1::basic_ostream<char> &)' for 1st argument
+    basic_ostream& operator<<(basic_ostream& (*__pf)(basic_ostream&));
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:175:20: note: candidate function not viable: no known conversion from 'duple' to 'basic_ios<char_type, traits_type> &(*)(basic_ios<char_type, traits_type> &)' for 1st argument
+    basic_ostream& operator<<(basic_ios<char_type, traits_type>&
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:177:20: note: candidate function not viable: no known conversion from 'duple' to 'std::__1::ios_base &(*)(std::__1::ios_base &)' for 1st argument
+    basic_ostream& operator<<(ios_base& (*__pf)(ios_base&));
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:178:20: note: candidate function not viable: no known conversion from 'duple' to 'bool' for 1st argument
+    basic_ostream& operator<<(bool __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:179:20: note: candidate function not viable: no known conversion from 'duple' to 'short' for 1st argument
+    basic_ostream& operator<<(short __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:180:20: note: candidate function not viable: no known conversion from 'duple' to 'unsigned short' for 1st argument
+    basic_ostream& operator<<(unsigned short __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:181:20: note: candidate function not viable: no known conversion from 'duple' to 'int' for 1st argument
+    basic_ostream& operator<<(int __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:182:20: note: candidate function not viable: no known conversion from 'duple' to 'unsigned int' for 1st argument
+    basic_ostream& operator<<(unsigned int __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:183:20: note: candidate function not viable: no known conversion from 'duple' to 'long' for 1st argument
+    basic_ostream& operator<<(long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:184:20: note: candidate function not viable: no known conversion from 'duple' to 'unsigned long' for 1st argument
+    basic_ostream& operator<<(unsigned long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:185:20: note: candidate function not viable: no known conversion from 'duple' to 'long long' for 1st argument
+    basic_ostream& operator<<(long long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:186:20: note: candidate function not viable: no known conversion from 'duple' to 'unsigned long long' for 1st argument
+    basic_ostream& operator<<(unsigned long long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:187:20: note: candidate function not viable: no known conversion from 'duple' to 'float' for 1st argument
+    basic_ostream& operator<<(float __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:188:20: note: candidate function not viable: no known conversion from 'duple' to 'double' for 1st argument
+    basic_ostream& operator<<(double __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:189:20: note: candidate function not viable: no known conversion from 'duple' to 'long double' for 1st argument
+    basic_ostream& operator<<(long double __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:191:20: note: candidate function not viable: no known conversion from 'duple' to 'basic_streambuf<char_type, traits_type> *' for 1st argument
+    basic_ostream& operator<<(basic_streambuf<char_type, traits_type>* __sb);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:759:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no known conversion from 'duple' to 'char' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, char __cn)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:792:1: note: candidate function [with _Traits = std::__1::char_traits<char>] not viable: no known conversion from 'duple' to 'char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, char __c)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:824:1: note: candidate function [with _Traits = std::__1::char_traits<char>] not viable: no known conversion from 'duple' to 'signed char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, signed char __c)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:856:1: note: candidate function [with _Traits = std::__1::char_traits<char>] not viable: no known conversion from 'duple' to 'unsigned char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, unsigned char __c)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:921:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no known conversion from 'duple' to 'const char *' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const char* __strn)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:967:1: note: candidate function [with _Traits = std::__1::char_traits<char>] not viable: no known conversion from 'duple' to 'const char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const char* __str)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:1000:1: note: candidate function [with _Traits = std::__1::char_traits<char>] not viable: no known conversion from 'duple' to 'const signed char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const signed char* __str)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:1033:1: note: candidate function [with _Traits = std::__1::char_traits<char>] not viable: no known conversion from 'duple' to 'const unsigned char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const unsigned char* __str)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:1258:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no known conversion from 'duple' to 'const std::__1::error_code' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __ec)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:727:1: note: candidate template ignored: deduced conflicting types for parameter '_CharT' ('char' vs. 'duple')
+operator<<(basic_ostream<_CharT, _Traits>& __os, _CharT __c)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:888:1: note: candidate template ignored: failed template argument deduction
+operator<<(basic_ostream<_CharT, _Traits>& __os, const _CharT* __str)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:1223:1: note: candidate template ignored: failed template argument deduction
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:1266:1: note: candidate template ignored: failed template argument deduction
+operator<<(basic_ostream<_CharT, _Traits>& __os, shared_ptr<_Yp> const& __p)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:1273:1: note: candidate template ignored: failed template argument deduction
+operator<<(basic_ostream<_CharT, _Traits>& __os, const bitset<_Size>& __x)
+^
+../src/lecture 3-13-14.cpp:35:11: error: invalid operands to binary expression ('duple' and 'duple')
+        dup3=dup2-dup1;
+             ~~~~^~~~~
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/iterator:605:1: note: candidate template ignored: failed template argument deduction
+operator-(const reverse_iterator<_Iter1>& __x, const reverse_iterator<_Iter2>& __y)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/iterator:1000:1: note: candidate template ignored: failed template argument deduction
+operator-(const move_iterator<_Iter1>& __x, const move_iterator<_Iter2>& __y)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/iterator:1345:1: note: candidate template ignored: failed template argument deduction
+operator-(const __wrap_iter<_Iter1>& __x, const __wrap_iter<_Iter2>& __y) _NOEXCEPT
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/string:480:11: note: candidate template ignored: failed template argument deduction
+streamoff operator-(const fpos<_StateT>& __x, const fpos<_StateT>& __y)
+          ^
+../src/lecture 3-13-14.cpp:36:6: error: invalid operands to binary expression ('ostream' (aka 'basic_ostream<char>') and 'duple')
+        cout<<dup3;
+        ~~~~^ ~~~~
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:190:20: note: candidate function not viable: no known conversion from 'duple' to 'const void *' for 1st argument; take the address of the argument with &
+    basic_ostream& operator<<(const void* __p);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:174:20: note: candidate function not viable: no known conversion from 'duple' to 'std::__1::basic_ostream<char> &(*)(std::__1::basic_ostream<char> &)' for 1st argument
+    basic_ostream& operator<<(basic_ostream& (*__pf)(basic_ostream&));
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:175:20: note: candidate function not viable: no known conversion from 'duple' to 'basic_ios<char_type, traits_type> &(*)(basic_ios<char_type, traits_type> &)' for 1st argument
+    basic_ostream& operator<<(basic_ios<char_type, traits_type>&
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:177:20: note: candidate function not viable: no known conversion from 'duple' to 'std::__1::ios_base &(*)(std::__1::ios_base &)' for 1st argument
+    basic_ostream& operator<<(ios_base& (*__pf)(ios_base&));
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:178:20: note: candidate function not viable: no known conversion from 'duple' to 'bool' for 1st argument
+    basic_ostream& operator<<(bool __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:179:20: note: candidate function not viable: no known conversion from 'duple' to 'short' for 1st argument
+    basic_ostream& operator<<(short __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:180:20: note: candidate function not viable: no known conversion from 'duple' to 'unsigned short' for 1st argument
+    basic_ostream& operator<<(unsigned short __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:181:20: note: candidate function not viable: no known conversion from 'duple' to 'int' for 1st argument
+    basic_ostream& operator<<(int __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:182:20: note: candidate function not viable: no known conversion from 'duple' to 'unsigned int' for 1st argument
+    basic_ostream& operator<<(unsigned int __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:183:20: note: candidate function not viable: no known conversion from 'duple' to 'long' for 1st argument
+    basic_ostream& operator<<(long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:184:20: note: candidate function not viable: no known conversion from 'duple' to 'unsigned long' for 1st argument
+    basic_ostream& operator<<(unsigned long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:185:20: note: candidate function not viable: no known conversion from 'duple' to 'long long' for 1st argument
+    basic_ostream& operator<<(long long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:186:20: note: candidate function not viable: no known conversion from 'duple' to 'unsigned long long' for 1st argument
+    basic_ostream& operator<<(unsigned long long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:187:20: note: candidate function not viable: no known conversion from 'duple' to 'float' for 1st argument
+    basic_ostream& operator<<(float __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:188:20: note: candidate function not viable: no known conversion from 'duple' to 'double' for 1st argument
+    basic_ostream& operator<<(double __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:189:20: note: candidate function not viable: no known conversion from 'duple' to 'long double' for 1st argument
+    basic_ostream& operator<<(long double __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:191:20: note: candidate function not viable: no known conversion from 'duple' to 'basic_streambuf<char_type, traits_type> *' for 1st argument
+    basic_ostream& operator<<(basic_streambuf<char_type, traits_type>* __sb);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:759:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no known conversion from 'duple' to 'char' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, char __cn)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:792:1: note: candidate function [with _Traits = std::__1::char_traits<char>] not viable: no known conversion from 'duple' to 'char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, char __c)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:824:1: note: candidate function [with _Traits = std::__1::char_traits<char>] not viable: no known conversion from 'duple' to 'signed char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, signed char __c)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:856:1: note: candidate function [with _Traits = std::__1::char_traits<char>] not viable: no known conversion from 'duple' to 'unsigned char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, unsigned char __c)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:921:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no known conversion from 'duple' to 'const char *' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const char* __strn)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:967:1: note: candidate function [with _Traits = std::__1::char_traits<char>] not viable: no known conversion from 'duple' to 'const char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const char* __str)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:1000:1: note: candidate function [with _Traits = std::__1::char_traits<char>] not viable: no known conversion from 'duple' to 'const signed char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const signed char* __str)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:1033:1: note: candidate function [with _Traits = std::__1::char_traits<char>] not viable: no known conversion from 'duple' to 'const unsigned char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const unsigned char* __str)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:1258:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no known conversion from 'duple' to 'const std::__1::error_code' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __ec)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:727:1: note: candidate template ignored: deduced conflicting types for parameter '_CharT' ('char' vs. 'duple')
+operator<<(basic_ostream<_CharT, _Traits>& __os, _CharT __c)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:888:1: note: candidate template ignored: failed template argument deduction
+operator<<(basic_ostream<_CharT, _Traits>& __os, const _CharT* __str)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:1223:1: note: candidate template ignored: failed template argument deduction
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:1266:1: note: candidate template ignored: failed template argument deduction
+operator<<(basic_ostream<_CharT, _Traits>& __os, shared_ptr<_Yp> const& __p)
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/ostream:1273:1: note: candidate template ignored: failed template argument deduction
+operator<<(basic_ostream<_CharT, _Traits>& __os, const bitset<_Size>& __x)
+^
+../src/lecture 3-13-14.cpp:44:10: error: declaration of reference variable 'operater' requires an initializer
+istream& operater >>(istream& ins, duple& second) {
+         ^~~~~~~~
+../src/lecture 3-13-14.cpp:44:18: error: expected ';' after top level declarator
+istream& operater >>(istream& ins, duple& second) {
+                 ^
+                 ;
+16 errors generated.
+make: *** [src/lecture 3-13-14.o] Error 1
+
+17:13:23 Build Finished (took 680ms)
+

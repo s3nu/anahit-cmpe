@@ -1,0 +1,1435 @@
+19:45:45 **** Clean-only build of configuration Debug for project lecture 5-1-14 ****
+make clean 
+rm -rf  ./src/lecture\ 5-1-14.o  ./src/lecture\ 5-1-14.d  "lecture 5-1-14"
+ 
+19:46:00 **** Incremental Build of configuration Debug for project 9er ****
+make all 
+make: Nothing to be done for `all'.
+19:46:01 **** Incremental Build of configuration Debug for project 9er-2 ****
+make all 
+Building target: 9er-2
+Invoking: MacOS X C++ Linker
+g++  -o "9er-2"  ./src/9er-2.o   
+Undefined symbols for architecture x86_64:
+  "vtable for triangle", referenced from:
+      triangle::triangle() in 9er-2.o
+  NOTE: a missing vtable usually means the first non-inline virtual member function has no definition.
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [9er-2] Error 1
+19:46:01 **** Build of configuration Debug for project lecture 5-1-14 ****
+make all 
+Building file: ../src/lecture 5-1-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-1-14.d" -MT"src/lecture\ 5-1-14.d" -o "src/lecture 5-1-14.o" "../src/lecture 5-1-14.cpp"
+../src/lecture 5-1-14.cpp:37:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+Finished building: ../src/lecture 5-1-14.cpp
+ 
+Building target: lecture 5-1-14
+Invoking: MacOS X C++ Linker
+g++  -o "lecture 5-1-14"  ./src/lecture\ 5-1-14.o   
+Finished building target: lecture 5-1-14
+ 
+19:47:25 **** Incremental Build of configuration Debug for project 9er ****
+make all 
+make: Nothing to be done for `all'.
+19:47:25 **** Incremental Build of configuration Debug for project 9er-2 ****
+make all 
+Building file: ../src/9er-2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/9er-2.d" -MT"src/9er-2.d" -o "src/9er-2.o" "../src/9er-2.cpp"
+Finished building: ../src/9er-2.cpp
+ 
+Building target: 9er-2
+Invoking: MacOS X C++ Linker
+g++  -o "9er-2"  ./src/9er-2.o   
+Undefined symbols for architecture x86_64:
+  "vtable for triangle", referenced from:
+      triangle::triangle() in 9er-2.o
+  NOTE: a missing vtable usually means the first non-inline virtual member function has no definition.
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [9er-2] Error 1
+19:47:26 **** Incremental Build of configuration Debug for project lecture 5-1-14 ****
+make all 
+make: Nothing to be done for `all'.
+19:47:38 **** Incremental Build of configuration Debug for project 9er ****
+make all 
+make: Nothing to be done for `all'.
+19:47:38 **** Incremental Build of configuration Debug for project 9er-2 ****
+make all 
+Building target: 9er-2
+Invoking: MacOS X C++ Linker
+g++  -o "9er-2"  ./src/9er-2.o   
+Undefined symbols for architecture x86_64:
+  "vtable for triangle", referenced from:
+      triangle::triangle() in 9er-2.o
+  NOTE: a missing vtable usually means the first non-inline virtual member function has no definition.
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [9er-2] Error 1
+19:47:38 **** Incremental Build of configuration Debug for project lecture 5-1-14 ****
+make all 
+make: Nothing to be done for `all'.
+19:47:47 **** Incremental Build of configuration Debug for project 9er-2 ****
+make all 
+Building target: 9er-2
+Invoking: MacOS X C++ Linker
+g++  -o "9er-2"  ./src/9er-2.o   
+Undefined symbols for architecture x86_64:
+  "vtable for triangle", referenced from:
+      triangle::triangle() in 9er-2.o
+  NOTE: a missing vtable usually means the first non-inline virtual member function has no definition.
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [9er-2] Error 1
+19:47:47 **** Incremental Build of configuration Debug for project lecture 5-1-14 ****
+make all 
+make: Nothing to be done for `all'.
+19:48:08 **** Incremental Build of configuration Debug for project 9er-2 ****
+make all 
+Building target: 9er-2
+Invoking: MacOS X C++ Linker
+g++  -o "9er-2"  ./src/9er-2.o   
+Undefined symbols for architecture x86_64:
+  "vtable for triangle", referenced from:
+      triangle::triangle() in 9er-2.o
+  NOTE: a missing vtable usually means the first non-inline virtual member function has no definition.
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [9er-2] Error 1
+19:48:16 **** Clean-only build of configuration Debug for project 9er-2 ****
+make clean 
+rm -rf  ./src/9er-2.o  ./src/9er-2.d  9er-2
+ 
+19:48:16 **** Clean-only build of configuration Debug for project lecture 5-1-14 ****
+make clean 
+rm -rf  ./src/lecture\ 5-1-14.o  ./src/lecture\ 5-1-14.d  "lecture 5-1-14"
+ 
+19:48:18 **** Build of configuration Debug for project 9er-2 ****
+make all 
+Building file: ../src/9er-2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/9er-2.d" -MT"src/9er-2.d" -o "src/9er-2.o" "../src/9er-2.cpp"
+Finished building: ../src/9er-2.cpp
+ 
+Building target: 9er-2
+Invoking: MacOS X C++ Linker
+g++  -o "9er-2"  ./src/9er-2.o   
+Undefined symbols for architecture x86_64:
+  "vtable for triangle", referenced from:
+      triangle::triangle() in 9er-2.o
+  NOTE: a missing vtable usually means the first non-inline virtual member function has no definition.
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [9er-2] Error 1
+19:48:19 **** Build of configuration Debug for project lecture 5-1-14 ****
+make all 
+Building file: ../src/lecture 5-1-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-1-14.d" -MT"src/lecture\ 5-1-14.d" -o "src/lecture 5-1-14.o" "../src/lecture 5-1-14.cpp"
+../src/lecture 5-1-14.cpp:37:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+Finished building: ../src/lecture 5-1-14.cpp
+ 
+Building target: lecture 5-1-14
+Invoking: MacOS X C++ Linker
+g++  -o "lecture 5-1-14"  ./src/lecture\ 5-1-14.o   
+Finished building target: lecture 5-1-14
+ 
+19:50:56 **** Incremental Build of configuration Debug for project 9er-2 ****
+make all 
+Building file: ../src/9er-2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/9er-2.d" -MT"src/9er-2.d" -o "src/9er-2.o" "../src/9er-2.cpp"
+Finished building: ../src/9er-2.cpp
+ 
+Building target: 9er-2
+Invoking: MacOS X C++ Linker
+g++  -o "9er-2"  ./src/9er-2.o   
+Undefined symbols for architecture x86_64:
+  "vtable for triangle", referenced from:
+      triangle::triangle() in 9er-2.o
+  NOTE: a missing vtable usually means the first non-inline virtual member function has no definition.
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [9er-2] Error 1
+19:50:57 **** Incremental Build of configuration Debug for project lecture 5-1-14 ****
+make all 
+make: Nothing to be done for `all'.
+19:51:52 **** Incremental Build of configuration Debug for project 9er-2 ****
+make all 
+Building file: ../src/9er-2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/9er-2.d" -MT"src/9er-2.d" -o "src/9er-2.o" "../src/9er-2.cpp"
+../src/9er-2.cpp:71:1: error: 'virtual' can only be specified inside the class definition
+virtual void circle::center(){
+^~~~~~~~
+1 error generated.
+make: *** [src/9er-2.o] Error 1
+19:51:53 **** Incremental Build of configuration Debug for project lecture 5-1-14 ****
+make all 
+make: Nothing to be done for `all'.
+19:52:30 **** Incremental Build of configuration Debug for project 9er-2 ****
+make all 
+Building file: ../src/9er-2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/9er-2.d" -MT"src/9er-2.d" -o "src/9er-2.o" "../src/9er-2.cpp"
+../src/9er-2.cpp:77:1: error: 'virtual' can only be specified inside the class definition
+virtual void figure::center(){
+^~~~~~~~
+1 error generated.
+make: *** [src/9er-2.o] Error 1
+19:52:31 **** Incremental Build of configuration Debug for project lecture 5-1-14 ****
+make all 
+make: Nothing to be done for `all'.
+19:52:50 **** Incremental Build of configuration Debug for project 9er-2 ****
+make all 
+Building file: ../src/9er-2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/9er-2.d" -MT"src/9er-2.d" -o "src/9er-2.o" "../src/9er-2.cpp"
+../src/9er-2.cpp:77:1: error: 'virtual' can only be specified inside the class definition
+virtual void figure::center(){
+^~~~~~~~
+1 error generated.
+make: *** [src/9er-2.o] Error 1
+19:52:51 **** Incremental Build of configuration Debug for project lecture 5-1-14 ****
+make all 
+make: Nothing to be done for `all'.
+19:53:01 **** Incremental Build of configuration Debug for project 9er-2 ****
+make all 
+Building file: ../src/9er-2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/9er-2.d" -MT"src/9er-2.d" -o "src/9er-2.o" "../src/9er-2.cpp"
+../src/9er-2.cpp:77:1: error: 'virtual' can only be specified inside the class definition
+virtual void figure::center(){
+^~~~~~~~
+1 error generated.
+make: *** [src/9er-2.o] Error 1
+19:53:14 **** Incremental Build of configuration Debug for project 9er-2 ****
+make all 
+Building file: ../src/9er-2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/9er-2.d" -MT"src/9er-2.d" -o "src/9er-2.o" "../src/9er-2.cpp"
+Finished building: ../src/9er-2.cpp
+ 
+Building target: 9er-2
+Invoking: MacOS X C++ Linker
+g++  -o "9er-2"  ./src/9er-2.o   
+Undefined symbols for architecture x86_64:
+  "vtable for triangle", referenced from:
+      triangle::triangle() in 9er-2.o
+  NOTE: a missing vtable usually means the first non-inline virtual member function has no definition.
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [9er-2] Error 1
+19:53:50 **** Incremental Build of configuration Debug for project 9er-2 ****
+make all 
+Building file: ../src/9er-2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/9er-2.d" -MT"src/9er-2.d" -o "src/9er-2.o" "../src/9er-2.cpp"
+Finished building: ../src/9er-2.cpp
+ 
+Building target: 9er-2
+Invoking: MacOS X C++ Linker
+g++  -o "9er-2"  ./src/9er-2.o   
+Undefined symbols for architecture x86_64:
+  "vtable for triangle", referenced from:
+      triangle::triangle() in 9er-2.o
+  NOTE: a missing vtable usually means the first non-inline virtual member function has no definition.
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [9er-2] Error 1
+19:56:44 **** Incremental Build of configuration Debug for project 9er ****
+make all 
+make: Nothing to be done for `all'.
+19:56:44 **** Incremental Build of configuration Debug for project 9er-2 ****
+make all 
+Building file: ../src/9er-2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/9er-2.d" -MT"src/9er-2.d" -o "src/9er-2.o" "../src/9er-2.cpp"
+Finished building: ../src/9er-2.cpp
+ 
+Building target: 9er-2
+Invoking: MacOS X C++ Linker
+g++  -o "9er-2"  ./src/9er-2.o   
+Finished building target: 9er-2
+ 
+19:56:46 **** Incremental Build of configuration Debug for project 9er-2 ****
+make all 
+make: Nothing to be done for `all'.
+19:56:56 **** Incremental Build of configuration Debug for project 9er ****
+make all 
+make: Nothing to be done for `all'.
+19:56:57 **** Incremental Build of configuration Debug for project 9er-2 ****
+make all 
+make: Nothing to be done for `all'.
+19:56:59 **** Incremental Build of configuration Debug for project 9er ****
+make all 
+make: Nothing to be done for `all'.
+19:57:31 **** Incremental Build of configuration Debug for project 9er ****
+make all 
+Building file: ../src/9er.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/9er.d" -MT"src/9er.d" -o "src/9er.o" "../src/9er.cpp"
+Finished building: ../src/9er.cpp
+ 
+Building target: 9er
+Invoking: MacOS X C++ Linker
+g++  -o "9er"  ./src/9er.o ./src/admin.o ./src/employee.o ./src/salariedemployee.o   
+Finished building target: 9er
+ 
+19:57:32 **** Incremental Build of configuration Debug for project 9er-2 ****
+make all 
+make: Nothing to be done for `all'.
+19:57:44 **** Incremental Build of configuration Debug for project 9er-2 ****
+make all 
+make: Nothing to be done for `all'.
+19:57:44 **** Incremental Build of configuration Debug for project 9er-2 ****
+make all 
+make: Nothing to be done for `all'.
+19:57:56 **** Incremental Build of configuration Debug for project 9er-2 ****
+make all 
+Building file: ../src/9er-2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/9er-2.d" -MT"src/9er-2.d" -o "src/9er-2.o" "../src/9er-2.cpp"
+Finished building: ../src/9er-2.cpp
+ 
+Building target: 9er-2
+Invoking: MacOS X C++ Linker
+g++  -o "9er-2"  ./src/9er-2.o   
+Finished building target: 9er-2
+ 
+15:18:01 **** Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:10:11: fatal error: 'template' file not found
+# include <template>
+          ^
+1 error generated.
+make: *** [src/lecture 5-5-14.o] Error 1
+15:18:09 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:10:11: fatal error: 'template.h' file not found
+# include <template.h>
+          ^
+1 error generated.
+make: *** [src/lecture 5-5-14.o] Error 1
+15:18:24 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:10:10: fatal error: 'template' file not found
+#include <template>
+         ^
+1 error generated.
+make: *** [src/lecture 5-5-14.o] Error 1
+15:18:37 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+Finished building: ../src/lecture 5-5-14.cpp
+ 
+Building target: lecture 5-5-14
+Invoking: MacOS X C++ Linker
+g++  -o "lecture 5-5-14"  ./src/lecture\ 5-5-14.o   
+Finished building target: lecture 5-5-14
+ 
+16:35:10 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:13:1: error: unknown type name 'templat'
+templat<class t>
+^
+../src/lecture 5-5-14.cpp:13:8: error: expected unqualified-id
+templat<class t>
+       ^
+2 errors generated.
+make: *** [src/lecture 5-5-14.o] Error 1
+16:36:20 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:21:5: error: 'main' cannot be a template
+int main() {
+    ^
+1 error generated.
+make: *** [src/lecture 5-5-14.o] Error 1
+16:38:02 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+Finished building: ../src/lecture 5-5-14.cpp
+ 
+Building target: lecture 5-5-14
+Invoking: MacOS X C++ Linker
+g++  -o "lecture 5-5-14"  ./src/lecture\ 5-5-14.o   
+Finished building target: lecture 5-5-14
+ 
+16:45:14 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:30:5: error: definition of variable with array type needs an explicit size or an initializer
+int array[];
+    ^
+../src/lecture 5-5-14.cpp:37:12: error: use of undeclared identifier 'i'
+cin>>array[i];
+           ^
+../src/lecture 5-5-14.cpp:40:1: error: unknown type name 'cout'
+cout<<"enter type of array"<<endl;
+^
+../src/lecture 5-5-14.cpp:40:5: error: expected unqualified-id
+cout<<"enter type of array"<<endl;
+    ^
+../src/lecture 5-5-14.cpp:41:1: error: unknown type name 'cin'
+cin>>num1;
+^
+../src/lecture 5-5-14.cpp:41:4: error: expected unqualified-id
+cin>>num1;
+   ^
+../src/lecture 5-5-14.cpp:42:1: error: C++ requires a type specifier for all declarations
+search();
+^~~~~~
+../src/lecture 5-5-14.cpp:50:2: error: expected unqualified-id
+        return 0;
+        ^
+../src/lecture 5-5-14.cpp:51:1: error: extraneous closing brace ('}')
+}
+^
+9 errors generated.
+make: *** [src/lecture 5-5-14.o] Error 1
+16:45:22 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:37:12: error: use of undeclared identifier 'i'
+cin>>array[i];
+           ^
+../src/lecture 5-5-14.cpp:40:1: error: unknown type name 'cout'
+cout<<"enter type of array"<<endl;
+^
+../src/lecture 5-5-14.cpp:40:5: error: expected unqualified-id
+cout<<"enter type of array"<<endl;
+    ^
+../src/lecture 5-5-14.cpp:41:1: error: unknown type name 'cin'
+cin>>num1;
+^
+../src/lecture 5-5-14.cpp:41:4: error: expected unqualified-id
+cin>>num1;
+   ^
+../src/lecture 5-5-14.cpp:42:1: error: C++ requires a type specifier for all declarations
+search();
+^~~~~~
+../src/lecture 5-5-14.cpp:50:2: error: expected unqualified-id
+        return 0;
+        ^
+../src/lecture 5-5-14.cpp:51:1: error: extraneous closing brace ('}')
+}
+^
+8 errors generated.
+make: *** [src/lecture 5-5-14.o] Error 1
+16:46:19 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:30:5: error: definition of variable with array type needs an explicit size or an initializer
+int array[];
+    ^
+../src/lecture 5-5-14.cpp:35:7: error: expected expression
+array[]=array[size];
+      ^
+../src/lecture 5-5-14.cpp:38:12: error: use of undeclared identifier 'i'
+cin>>array[i];
+           ^
+../src/lecture 5-5-14.cpp:41:1: error: unknown type name 'cout'
+cout<<"enter type of array"<<endl;
+^
+../src/lecture 5-5-14.cpp:41:5: error: expected unqualified-id
+cout<<"enter type of array"<<endl;
+    ^
+../src/lecture 5-5-14.cpp:42:1: error: unknown type name 'cin'
+cin>>num1;
+^
+../src/lecture 5-5-14.cpp:42:4: error: expected unqualified-id
+cin>>num1;
+   ^
+../src/lecture 5-5-14.cpp:43:1: error: C++ requires a type specifier for all declarations
+search();
+^~~~~~
+../src/lecture 5-5-14.cpp:51:2: error: expected unqualified-id
+        return 0;
+        ^
+../src/lecture 5-5-14.cpp:52:1: error: extraneous closing brace ('}')
+}
+^
+10 errors generated.
+make: *** [src/lecture 5-5-14.o] Error 1
+16:46:35 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:30:5: error: definition of variable with array type needs an explicit size or an initializer
+int array[];
+    ^
+../src/lecture 5-5-14.cpp:43:1: error: no matching function for call to 'search'
+search();
+^~~~~~
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/algorithm:1540:1: note: candidate function template not viable: requires 5 arguments, but 0 were provided
+search(_ForwardIterator1 __first1, _ForwardIterator1 __last1,
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/algorithm:1552:1: note: candidate function template not viable: requires 4 arguments, but 0 were provided
+search(_ForwardIterator1 __first1, _ForwardIterator1 __last1,
+^
+../src/lecture 5-5-14.cpp:14:5: note: candidate function template not viable: requires 3 arguments, but 0 were provided
+int search (t array[], int size, t num){
+    ^
+2 errors generated.
+make: *** [src/lecture 5-5-14.o] Error 1
+16:46:46 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:35:6: error: subscripted value is not an array, pointer, or vector
+array[size];
+~~~~~^~~~~
+../src/lecture 5-5-14.cpp:38:11: error: subscripted value is not an array, pointer, or vector
+cin>>array[i];
+     ~~~~~^~
+../src/lecture 5-5-14.cpp:43:1: error: no matching function for call to 'search'
+search();
+^~~~~~
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/algorithm:1540:1: note: candidate function template not viable: requires 5 arguments, but 0 were provided
+search(_ForwardIterator1 __first1, _ForwardIterator1 __last1,
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/algorithm:1552:1: note: candidate function template not viable: requires 4 arguments, but 0 were provided
+search(_ForwardIterator1 __first1, _ForwardIterator1 __last1,
+^
+../src/lecture 5-5-14.cpp:14:5: note: candidate function template not viable: requires 3 arguments, but 0 were provided
+int search (t array[], int size, t num){
+    ^
+3 errors generated.
+make: *** [src/lecture 5-5-14.o] Error 1
+16:47:15 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:31:11: error: default initialization of an object of const type 'const int'
+int const size;
+          ^
+../src/lecture 5-5-14.cpp:43:1: error: no matching function for call to 'search'
+search();
+^~~~~~
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/algorithm:1540:1: note: candidate function template not viable: requires 5 arguments, but 0 were provided
+search(_ForwardIterator1 __first1, _ForwardIterator1 __last1,
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/algorithm:1552:1: note: candidate function template not viable: requires 4 arguments, but 0 were provided
+search(_ForwardIterator1 __first1, _ForwardIterator1 __last1,
+^
+../src/lecture 5-5-14.cpp:14:5: note: candidate function template not viable: requires 3 arguments, but 0 were provided
+int search (t array[], int size, t num){
+    ^
+2 errors generated.
+make: *** [src/lecture 5-5-14.o] Error 1
+16:47:23 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:31:11: error: default initialization of an object of const type 'const int'
+const int size;
+          ^
+../src/lecture 5-5-14.cpp:43:1: error: no matching function for call to 'search'
+search();
+^~~~~~
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/algorithm:1540:1: note: candidate function template not viable: requires 5 arguments, but 0 were provided
+search(_ForwardIterator1 __first1, _ForwardIterator1 __last1,
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/algorithm:1552:1: note: candidate function template not viable: requires 4 arguments, but 0 were provided
+search(_ForwardIterator1 __first1, _ForwardIterator1 __last1,
+^
+../src/lecture 5-5-14.cpp:14:5: note: candidate function template not viable: requires 3 arguments, but 0 were provided
+int search (t array[], int size, t num){
+    ^
+2 errors generated.
+make: *** [src/lecture 5-5-14.o] Error 1
+16:47:31 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:31:7: error: C++ requires a type specifier for all declarations
+const size;
+~~~~~ ^
+../src/lecture 5-5-14.cpp:43:1: error: no matching function for call to 'search'
+search();
+^~~~~~
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/algorithm:1540:1: note: candidate function template not viable: requires 5 arguments, but 0 were provided
+search(_ForwardIterator1 __first1, _ForwardIterator1 __last1,
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/algorithm:1552:1: note: candidate function template not viable: requires 4 arguments, but 0 were provided
+search(_ForwardIterator1 __first1, _ForwardIterator1 __last1,
+^
+../src/lecture 5-5-14.cpp:14:5: note: candidate function template not viable: requires 3 arguments, but 0 were provided
+int search (t array[], int size, t num){
+    ^
+2 errors generated.
+make: *** [src/lecture 5-5-14.o] Error 1
+16:47:44 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:43:1: error: no matching function for call to 'search'
+search();
+^~~~~~
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/algorithm:1540:1: note: candidate function template not viable: requires 5 arguments, but 0 were provided
+search(_ForwardIterator1 __first1, _ForwardIterator1 __last1,
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/algorithm:1552:1: note: candidate function template not viable: requires 4 arguments, but 0 were provided
+search(_ForwardIterator1 __first1, _ForwardIterator1 __last1,
+^
+../src/lecture 5-5-14.cpp:14:5: note: candidate function template not viable: requires 3 arguments, but 0 were provided
+int search (t array[], int size, t num){
+    ^
+1 error generated.
+make: *** [src/lecture 5-5-14.o] Error 1
+16:48:20 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:43:14: error: expected expression
+search(array[],size,num1);
+             ^
+1 error generated.
+make: *** [src/lecture 5-5-14.o] Error 1
+16:49:19 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:15:13: error: unknown type name 't'
+int search (t array[], int size, t num){
+            ^
+../src/lecture 5-5-14.cpp:15:34: error: unknown type name 't'
+int search (t array[], int size, t num){
+                                 ^
+../src/lecture 5-5-14.cpp:45:14: error: expected expression
+search(array[],size,num1);
+             ^
+3 errors generated.
+make: *** [src/lecture 5-5-14.o] Error 1
+16:49:41 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:43:14: error: expected expression
+search(array[],size,num1);
+             ^
+1 error generated.
+make: *** [src/lecture 5-5-14.o] Error 1
+16:53:29 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:17:6: error: member 'search' has the same name as its class
+        int search(T array[],T size,T num);
+            ^
+../src/lecture 5-5-14.cpp:17:6: error: constructor cannot have a return type
+        int search(T array[],T size,T num);
+        ~~~ ^~~~~~
+../src/lecture 5-5-14.cpp:19:6: error: field has incomplete type 'int []'
+        int array[];
+            ^
+../src/lecture 5-5-14.cpp:23:13: error: unknown type name 'T'
+int search (T array[],T size, T num){
+            ^
+../src/lecture 5-5-14.cpp:23:23: error: unknown type name 'T'
+int search (T array[],T size, T num){
+                      ^
+../src/lecture 5-5-14.cpp:23:31: error: unknown type name 'T'
+int search (T array[],T size, T num){
+                              ^
+../src/lecture 5-5-14.cpp:52:1: error: reference to 'search' is ambiguous
+search(array[],size,num1);
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/algorithm:1552:1: note: candidate found by name lookup is 'std::__1::search'
+search(_ForwardIterator1 __first1, _ForwardIterator1 __last1,
+^
+../src/lecture 5-5-14.cpp:14:7: note: candidate found by name lookup is 'search'
+class search{
+      ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/algorithm:1540:1: note: candidate found by name lookup is 'std::__1::search'
+search(_ForwardIterator1 __first1, _ForwardIterator1 __last1,
+^
+7 errors generated.
+make: *** [src/lecture 5-5-14.o] Error 1
+16:53:45 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:19:6: error: field has incomplete type 'int []'
+        int array[];
+            ^
+../src/lecture 5-5-14.cpp:23:5: error: expected a class or namespace
+int search::search1 (T array[],T size, T num){
+    ^
+../src/lecture 5-5-14.cpp:23:22: error: unknown type name 'T'
+int search::search1 (T array[],T size, T num){
+                     ^
+../src/lecture 5-5-14.cpp:23:32: error: unknown type name 'T'
+int search::search1 (T array[],T size, T num){
+                               ^
+../src/lecture 5-5-14.cpp:23:40: error: unknown type name 'T'
+int search::search1 (T array[],T size, T num){
+                                       ^
+../src/lecture 5-5-14.cpp:52:1: error: reference to 'search' is ambiguous
+search(array[],size,num1);
+^
+../src/lecture 5-5-14.cpp:14:7: note: candidate found by name lookup is 'search'
+class search{
+      ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/algorithm:1540:1: note: candidate found by name lookup is 'std::__1::search'
+search(_ForwardIterator1 __first1, _ForwardIterator1 __last1,
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/algorithm:1552:1: note: candidate found by name lookup is 'std::__1::search'
+search(_ForwardIterator1 __first1, _ForwardIterator1 __last1,
+^
+6 errors generated.
+make: *** [src/lecture 5-5-14.o] Error 1
+16:54:32 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:17:14: error: C++ requires a type specifier for all declarations
+        int search1(array[],size,num);
+                    ^~~~~
+../src/lecture 5-5-14.cpp:17:22: error: C++ requires a type specifier for all declarations
+        int search1(array[],size,num);
+                            ^~~~
+../src/lecture 5-5-14.cpp:17:27: error: unknown type name 'num'; did you mean 'enum'?
+        int search1(array[],size,num);
+                                 ^~~
+                                 enum
+../src/lecture 5-5-14.cpp:17:30: error: expected identifier or '{'
+        int search1(array[],size,num);
+                                    ^
+../src/lecture 5-5-14.cpp:17:27: error: expected parameter declarator
+        int search1(array[],size,num);
+                                 ^
+../src/lecture 5-5-14.cpp:17:31: error: expected ')'
+        int search1(array[],size,num);
+                                     ^
+../src/lecture 5-5-14.cpp:17:13: note: to match this '('
+        int search1(array[],size,num);
+                   ^
+../src/lecture 5-5-14.cpp:19:6: error: field has incomplete type 'int []'
+        int array[];
+            ^
+../src/lecture 5-5-14.cpp:23:5: error: expected a class or namespace
+int search::search1 (T array[],T size, T num){
+    ^
+../src/lecture 5-5-14.cpp:23:22: error: unknown type name 'T'
+int search::search1 (T array[],T size, T num){
+                     ^
+../src/lecture 5-5-14.cpp:23:32: error: unknown type name 'T'
+int search::search1 (T array[],T size, T num){
+                               ^
+../src/lecture 5-5-14.cpp:23:40: error: unknown type name 'T'
+int search::search1 (T array[],T size, T num){
+                                       ^
+../src/lecture 5-5-14.cpp:52:1: error: reference to 'search' is ambiguous
+search(array[],size,num1);
+^
+../src/lecture 5-5-14.cpp:14:7: note: candidate found by name lookup is 'search'
+class search{
+      ^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/algorithm:1540:1: note: candidate found by name lookup is 'std::__1::search'
+search(_ForwardIterator1 __first1, _ForwardIterator1 __last1,
+^
+/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1/algorithm:1552:1: note: candidate found by name lookup is 'std::__1::search'
+search(_ForwardIterator1 __first1, _ForwardIterator1 __last1,
+^
+12 errors generated.
+make: *** [src/lecture 5-5-14.o] Error 1
+16:57:43 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:39:1: error: expected a type
+for (int i=0;i>size;i++){
+^
+1 error generated.
+make: *** [src/lecture 5-5-14.o] Error 1
+16:58:13 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:38:14: error: expected ';' after expression
+array=new int array[size];
+             ^
+             ;
+../src/lecture 5-5-14.cpp:38:25: warning: expression result unused [-Wunused-value]
+array=new int array[size];
+              ~~~~~ ~~~~^
+1 warning and 1 error generated.
+make: *** [src/lecture 5-5-14.o] Error 1
+16:58:24 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:28:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+../src/lecture 5-5-14.cpp:46:1: note: in instantiation of function template specialization 'search<int>' requested here
+search(array,size,num1);
+^
+1 warning generated.
+Finished building: ../src/lecture 5-5-14.cpp
+ 
+Building target: lecture 5-5-14
+Invoking: MacOS X C++ Linker
+g++  -o "lecture 5-5-14"  ./src/lecture\ 5-5-14.o   
+Finished building target: lecture 5-5-14
+ 
+16:58:53 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:28:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+../src/lecture 5-5-14.cpp:45:1: note: in instantiation of function template specialization 'search<int>' requested here
+search(array,size,num1);
+^
+1 warning generated.
+Finished building: ../src/lecture 5-5-14.cpp
+ 
+Building target: lecture 5-5-14
+Invoking: MacOS X C++ Linker
+g++  -o "lecture 5-5-14"  ./src/lecture\ 5-5-14.o   
+Finished building target: lecture 5-5-14
+ 
+16:59:12 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+16:59:45 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:28:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+../src/lecture 5-5-14.cpp:45:1: note: in instantiation of function template specialization 'search<int>' requested here
+search(array,size,num1);
+^
+1 warning generated.
+Finished building: ../src/lecture 5-5-14.cpp
+ 
+Building target: lecture 5-5-14
+Invoking: MacOS X C++ Linker
+g++  -o "lecture 5-5-14"  ./src/lecture\ 5-5-14.o   
+Finished building target: lecture 5-5-14
+ 
+16:59:46 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+17:01:17 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:29:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+../src/lecture 5-5-14.cpp:46:1: note: in instantiation of function template specialization 'search<int>' requested here
+search(array,size,num1);
+^
+1 warning generated.
+Finished building: ../src/lecture 5-5-14.cpp
+ 
+Building target: lecture 5-5-14
+Invoking: MacOS X C++ Linker
+g++  -o "lecture 5-5-14"  ./src/lecture\ 5-5-14.o   
+Finished building target: lecture 5-5-14
+ 
+17:01:20 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+17:01:23 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+17:01:36 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+17:01:37 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+17:01:50 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+17:01:56 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+17:03:16 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:28:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+../src/lecture 5-5-14.cpp:44:2: note: in instantiation of function template specialization 'search<int>' requested here
+        search(array, size, num1);
+        ^
+../src/lecture 5-5-14.cpp:22:14: warning: variable 'test' is uninitialized when used here [-Wuninitialized]
+                } else if (test != true) {
+                           ^~~~
+../src/lecture 5-5-14.cpp:15:11: note: initialize the variable 'test' to silence this warning
+        bool test;
+                 ^
+                  = false
+2 warnings generated.
+Finished building: ../src/lecture 5-5-14.cpp
+ 
+Building target: lecture 5-5-14
+Invoking: MacOS X C++ Linker
+g++  -o "lecture 5-5-14"  ./src/lecture\ 5-5-14.o   
+Finished building target: lecture 5-5-14
+ 
+17:03:33 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:28:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+../src/lecture 5-5-14.cpp:44:2: note: in instantiation of function template specialization 'search<int>' requested here
+        search(array, size, num1);
+        ^
+../src/lecture 5-5-14.cpp:22:14: warning: variable 'test' is uninitialized when used here [-Wuninitialized]
+                } else if (test != true) {
+                           ^~~~
+../src/lecture 5-5-14.cpp:16:12: note: initialize the variable 'test' to silence this warning
+                bool test;
+                         ^
+                          = false
+2 warnings generated.
+Finished building: ../src/lecture 5-5-14.cpp
+ 
+Building target: lecture 5-5-14
+Invoking: MacOS X C++ Linker
+g++  -o "lecture 5-5-14"  ./src/lecture\ 5-5-14.o   
+Finished building target: lecture 5-5-14
+ 
+17:03:46 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:28:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+../src/lecture 5-5-14.cpp:44:2: note: in instantiation of function template specialization 'search<int>' requested here
+        search(array, size, num1);
+        ^
+../src/lecture 5-5-14.cpp:22:14: warning: variable 'test' is uninitialized when used here [-Wuninitialized]
+                } else if (test==true) {
+                           ^~~~
+../src/lecture 5-5-14.cpp:16:12: note: initialize the variable 'test' to silence this warning
+                bool test;
+                         ^
+                          = false
+2 warnings generated.
+Finished building: ../src/lecture 5-5-14.cpp
+ 
+Building target: lecture 5-5-14
+Invoking: MacOS X C++ Linker
+g++  -o "lecture 5-5-14"  ./src/lecture\ 5-5-14.o   
+Finished building target: lecture 5-5-14
+ 
+17:03:56 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:29:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+../src/lecture 5-5-14.cpp:45:2: note: in instantiation of function template specialization 'search<int>' requested here
+        search(array, size, num1);
+        ^
+../src/lecture 5-5-14.cpp:23:12: warning: variable 'test' is uninitialized when used here [-Wuninitialized]
+                else if (test==true) {
+                         ^~~~
+../src/lecture 5-5-14.cpp:16:12: note: initialize the variable 'test' to silence this warning
+                bool test;
+                         ^
+                          = false
+2 warnings generated.
+Finished building: ../src/lecture 5-5-14.cpp
+ 
+Building target: lecture 5-5-14
+Invoking: MacOS X C++ Linker
+g++  -o "lecture 5-5-14"  ./src/lecture\ 5-5-14.o   
+Finished building target: lecture 5-5-14
+ 
+17:06:48 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:16:13: error: use of undeclared identifier 'flase'
+                bool test=flase;
+                          ^
+1 error generated.
+make: *** [src/lecture 5-5-14.o] Error 1
+17:06:54 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:29:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+../src/lecture 5-5-14.cpp:45:2: note: in instantiation of function template specialization 'search<int>' requested here
+        search(array, size, num1);
+        ^
+1 warning generated.
+Finished building: ../src/lecture 5-5-14.cpp
+ 
+Building target: lecture 5-5-14
+Invoking: MacOS X C++ Linker
+g++  -o "lecture 5-5-14"  ./src/lecture\ 5-5-14.o   
+Finished building target: lecture 5-5-14
+ 
+17:07:04 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:29:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+../src/lecture 5-5-14.cpp:45:2: note: in instantiation of function template specialization 'search<int>' requested here
+        search(array, size, num1);
+        ^
+1 warning generated.
+Finished building: ../src/lecture 5-5-14.cpp
+ 
+Building target: lecture 5-5-14
+Invoking: MacOS X C++ Linker
+g++  -o "lecture 5-5-14"  ./src/lecture\ 5-5-14.o   
+Finished building target: lecture 5-5-14
+ 
+17:07:07 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+17:07:10 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+17:07:11 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+17:07:44 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:29:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+../src/lecture 5-5-14.cpp:45:2: note: in instantiation of function template specialization 'search<int>' requested here
+        search(array, size, num1);
+        ^
+1 warning generated.
+Finished building: ../src/lecture 5-5-14.cpp
+ 
+Building target: lecture 5-5-14
+Invoking: MacOS X C++ Linker
+g++  -o "lecture 5-5-14"  ./src/lecture\ 5-5-14.o   
+Finished building target: lecture 5-5-14
+ 
+17:07:56 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:29:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+../src/lecture 5-5-14.cpp:44:2: note: in instantiation of function template specialization 'search<int>' requested here
+        search(array, size, num1);
+        ^
+1 warning generated.
+Finished building: ../src/lecture 5-5-14.cpp
+ 
+Building target: lecture 5-5-14
+Invoking: MacOS X C++ Linker
+g++  -o "lecture 5-5-14"  ./src/lecture\ 5-5-14.o   
+Finished building target: lecture 5-5-14
+ 
+17:07:59 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+17:08:01 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+17:08:05 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+17:08:08 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+17:08:09 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+17:08:19 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+17:08:48 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:30:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+../src/lecture 5-5-14.cpp:45:2: note: in instantiation of function template specialization 'search<int>' requested here
+        search(array, size, num1);
+        ^
+1 warning generated.
+Finished building: ../src/lecture 5-5-14.cpp
+ 
+Building target: lecture 5-5-14
+Invoking: MacOS X C++ Linker
+g++  -o "lecture 5-5-14"  ./src/lecture\ 5-5-14.o   
+Finished building target: lecture 5-5-14
+ 
+17:09:12 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:29:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+../src/lecture 5-5-14.cpp:44:2: note: in instantiation of function template specialization 'search<int>' requested here
+        search(array, size, num1);
+        ^
+1 warning generated.
+Finished building: ../src/lecture 5-5-14.cpp
+ 
+Building target: lecture 5-5-14
+Invoking: MacOS X C++ Linker
+g++  -o "lecture 5-5-14"  ./src/lecture\ 5-5-14.o   
+Finished building target: lecture 5-5-14
+ 
+17:09:14 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+17:09:32 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+17:10:29 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+17:10:30 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+17:10:58 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:29:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+../src/lecture 5-5-14.cpp:44:2: note: in instantiation of function template specialization 'search<int>' requested here
+        search(array, size, num1);
+        ^
+1 warning generated.
+Finished building: ../src/lecture 5-5-14.cpp
+ 
+Building target: lecture 5-5-14
+Invoking: MacOS X C++ Linker
+g++  -o "lecture 5-5-14"  ./src/lecture\ 5-5-14.o   
+Finished building target: lecture 5-5-14
+ 
+17:11:00 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+17:13:10 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+Building file: ../src/lecture 5-5-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lecture 5-5-14.d" -MT"src/lecture\ 5-5-14.d" -o "src/lecture 5-5-14.o" "../src/lecture 5-5-14.cpp"
+../src/lecture 5-5-14.cpp:29:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+../src/lecture 5-5-14.cpp:44:2: note: in instantiation of function template specialization 'search<int>' requested here
+        search(array, size, num1);
+        ^
+1 warning generated.
+Finished building: ../src/lecture 5-5-14.cpp
+ 
+Building target: lecture 5-5-14
+Invoking: MacOS X C++ Linker
+g++  -o "lecture 5-5-14"  ./src/lecture\ 5-5-14.o   
+Finished building target: lecture 5-5-14
+ 
+17:13:15 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+17:13:19 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+17:18:52 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+12:43:23 **** Incremental Build of configuration Debug for project lecture 5-1-14 ****
+make all 
+make: Nothing to be done for `all'.
+12:43:24 **** Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+16:38:50 **** Build of configuration Debug for project exam 4 ****
+make all 
+Building file: ../src/exam 4.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/exam 4.d" -MT"src/exam\ 4.d" -o "src/exam 4.o" "../src/exam 4.cpp"
+Finished building: ../src/exam 4.cpp
+ 
+Building target: exam 4
+Invoking: MacOS X C++ Linker
+g++  -o "exam 4"  ./src/exam\ 4.o   
+Finished building target: exam 4
+ 
+16:38:56 **** Incremental Build of configuration Debug for project lecture 5-1-14 ****
+make all 
+make: Nothing to be done for `all'.
+16:38:57 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+16:39:49 **** Incremental Build of configuration Debug for project exam 4 ****
+make all 
+make: Nothing to be done for `all'.
+16:40:00 **** Incremental Build of configuration Debug for project exam 4 ****
+make all 
+make: Nothing to be done for `all'.
+16:40:02 **** Incremental Build of configuration Debug for project exam 4 ****
+make all 
+make: Nothing to be done for `all'.
+16:40:44 **** Incremental Build of configuration Debug for project exam 4 ****
+make all 
+make: Nothing to be done for `all'.
+16:40:52 **** Clean-only build of configuration Debug for project exam 4 ****
+make clean 
+rm -rf  ./src/exam\ 4.o  ./src/exam\ 4.d  "exam 4"
+ 
+16:40:54 **** Build of configuration Debug for project exam 4 ****
+make all 
+Building file: ../src/exam 4.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/exam 4.d" -MT"src/exam\ 4.d" -o "src/exam 4.o" "../src/exam 4.cpp"
+Finished building: ../src/exam 4.cpp
+ 
+Building target: exam 4
+Invoking: MacOS X C++ Linker
+g++  -o "exam 4"  ./src/exam\ 4.o   
+Finished building target: exam 4
+ 
+16:40:58 **** Incremental Build of configuration Debug for project exam 4 ****
+make all 
+make: Nothing to be done for `all'.
+17:15:22 **** Incremental Build of configuration Debug for project exam 4 ****
+make all 
+Building file: ../src/exam 4.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/exam 4.d" -MT"src/exam\ 4.d" -o "src/exam 4.o" "../src/exam 4.cpp"
+Finished building: ../src/exam 4.cpp
+ 
+Building target: exam 4
+Invoking: MacOS X C++ Linker
+g++  -o "exam 4"  ./src/exam\ 4.o   
+Finished building target: exam 4
+ 
+17:15:54 **** Incremental Build of configuration Debug for project exam 4 ****
+make all 
+make: Nothing to be done for `all'.
+17:16:02 **** Clean-only build of configuration Debug for project exam 4 ****
+make clean 
+rm -rf  ./src/exam\ 4.o  ./src/exam\ 4.d  "exam 4"
+ 
+17:16:06 **** Build of configuration Debug for project exam 4 ****
+make all 
+Building file: ../src/exam 4.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/exam 4.d" -MT"src/exam\ 4.d" -o "src/exam 4.o" "../src/exam 4.cpp"
+Finished building: ../src/exam 4.cpp
+ 
+Building target: exam 4
+Invoking: MacOS X C++ Linker
+g++  -o "exam 4"  ./src/exam\ 4.o   
+Finished building target: exam 4
+ 
+17:17:32 **** Incremental Build of configuration Debug for project exam 4 ****
+make all 
+Building file: ../src/exam 4.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/exam 4.d" -MT"src/exam\ 4.d" -o "src/exam 4.o" "../src/exam 4.cpp"
+Finished building: ../src/exam 4.cpp
+ 
+Building target: exam 4
+Invoking: MacOS X C++ Linker
+g++  -o "exam 4"  ./src/exam\ 4.o   
+Finished building target: exam 4
+ 
+22:34:26 **** Build of configuration Debug for project exam 4 ****
+make all 
+make: Nothing to be done for `all'.
+22:34:35 **** Incremental Build of configuration Debug for project lab1 ****
+make all 
+make: Nothing to be done for `all'.
+22:34:35 **** Incremental Build of configuration Debug for project lab1-2 ****
+make all 
+Building file: ../src/lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lab1.d" -MT"src/lab1.d" -o "src/lab1.o" "../src/lab1.cpp"
+Finished building: ../src/lab1.cpp
+ 
+Building target: lab1-2
+Invoking: MacOS X C++ Linker
+g++  -o "lab1-2"  ./src/lab1.o   
+Finished building target: lab1-2
+ 
+22:34:46 **** Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+22:39:45 **** Incremental Build of configuration Debug for project lab1-2 ****
+make all 
+make: Nothing to be done for `all'.
+09:26:49 **** Build of configuration Debug for project exam 4 ****
+make all 
+make: Nothing to be done for `all'.
+09:26:50 **** Build of configuration Debug for project lab1 ****
+make all 
+make: Nothing to be done for `all'.
+09:26:50 **** Build of configuration Debug for project lab1-2 ****
+make all 
+make: Nothing to be done for `all'.
+09:26:50 **** Incremental Build of configuration Debug for project lab2-1 ****
+make all 
+Building file: ../src/lab2-1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lab2-1.d" -MT"src/lab2-1.d" -o "src/lab2-1.o" "../src/lab2-1.cpp"
+../src/lab2-1.cpp:77:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+Finished building: ../src/lab2-1.cpp
+ 
+Building target: lab2-1
+Invoking: MacOS X C++ Linker
+g++  -o "lab2-1"  ./src/lab2-1.o   
+Finished building target: lab2-1
+ 
+09:26:52 **** Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+09:27:59 **** Incremental Build of configuration Debug for project exam 4 ****
+make all 
+make: Nothing to be done for `all'.
+09:27:59 **** Incremental Build of configuration Debug for project lab1 ****
+make all 
+make: Nothing to be done for `all'.
+09:27:59 **** Incremental Build of configuration Debug for project lab1-2 ****
+make all 
+make: Nothing to be done for `all'.
+09:28:00 **** Incremental Build of configuration Debug for project lab2-1 ****
+make all 
+make: Nothing to be done for `all'.
+09:28:00 **** Incremental Build of configuration Debug for project lecture 5-5-14 ****
+make all 
+make: Nothing to be done for `all'.
+09:28:02 **** Incremental Build of configuration Debug for project lab1-2 ****
+make all 
+make: Nothing to be done for `all'.
+09:28:25 **** Incremental Build of configuration Debug for project lab2-1 ****
+make all 
+make: Nothing to be done for `all'.
+09:28:27 **** Incremental Build of configuration Debug for project lab2-1 ****
+make all 
+make: Nothing to be done for `all'.
+09:29:49 **** Incremental Build of configuration Debug for project lab2-1 ****
+make all 
+make: Nothing to be done for `all'.
+09:29:50 **** Incremental Build of configuration Debug for project lab2-2 ****
+make all 
+make: Nothing to be done for `all'.
+09:29:52 **** Incremental Build of configuration Debug for project lab2-2 ****
+make all 
+make: Nothing to be done for `all'.
+09:30:35 **** Incremental Build of configuration Debug for project lab2-1 ****
+make all 
+make: Nothing to be done for `all'.
+09:30:36 **** Incremental Build of configuration Debug for project lab2-2 ****
+make all 
+make: Nothing to be done for `all'.
+09:30:38 **** Incremental Build of configuration Debug for project lab2-2 ****
+make all 
+make: Nothing to be done for `all'.
+09:31:10 **** Incremental Build of configuration Debug for project lab2-2 ****
+make all 
+make: Nothing to be done for `all'.
+09:31:33 **** Incremental Build of configuration Debug for project lab2-2 ****
+make all 
+make: Nothing to be done for `all'.
+09:31:57 **** Incremental Build of configuration Debug for project lab2-1 ****
+make all 
+make: Nothing to be done for `all'.
+09:31:57 **** Incremental Build of configuration Debug for project lab2-2 ****
+make all 
+make: Nothing to be done for `all'.
+09:31:57 **** Incremental Build of configuration Debug for project lab2-3 ****
+make all 
+make: Nothing to be done for `all'.
+09:32:00 **** Incremental Build of configuration Debug for project lab2-3 ****
+make all 
+make: Nothing to be done for `all'.
+09:33:04 **** Incremental Build of configuration Debug for project lab2-3 ****
+make all 
+make: Nothing to be done for `all'.

@@ -1,0 +1,15 @@
+17:16:53 **** Incremental Build of configuration Debug for project dummy project ****
+make all 
+Building file: ../src/dummy project.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dummy project.d" -MT"src/dummy\ project.d" -o "src/dummy project.o" "../src/dummy project.cpp"
+Finished building: ../src/dummy project.cpp
+ 
+Building target: dummy project
+Invoking: MacOS X C++ Linker
+g++  -o "dummy project"  ./src/dummy\ project.o   
+Finished building target: dummy project
+ 
+
+17:16:53 Build Finished (took 723ms)
+

@@ -1,0 +1,8 @@
+14:03:42 **** Incremental Build of configuration Debug for project lab9 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src/admin.o ../src/admin.cpp 
+g++ -o lab9.exe src/salariedemployee.o src/lab9.o src/employee.o src/admin.o 
+
+14:03:42 Build Finished (took 807ms)
+
