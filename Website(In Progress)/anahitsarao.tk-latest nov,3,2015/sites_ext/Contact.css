@@ -1,0 +1,80 @@
+/*site body*/
+body {
+	background-color : white;
+	color : #999;
+	display: block;
+	font-family:'Open Sans', sans-serif;
+}
+#wrapper 
+{
+	max-width : 940px;
+	margin : 0 auto;
+	padding : 0 5%;
+}
+/*heading*/
+#logo {
+	text-align : center;
+	margin : 0;
+}
+header {
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width = 100%;
+	background : #81d8d0;
+	border-color: #165bb6;
+}
+a {
+	text-decoration : none;
+	color: #81d8d0;
+}
+h1 {
+	font-family : 'Roboto Condensed', sans-serif;
+	font-size : 2em;
+	margin:15px 0;
+	line-height : 0.8em;
+	color : #fff;
+}
+h2 {
+	font-size: 1.2em;
+	margin:  -5px 0 0;
+	font-weight:normal;
+	color : #fff;
+}
+h3 {
+	margin: 0 0 2em 10px;
+}
+/*navigator*/
+nav {
+	background: #165bb6;
+	text-align:center;
+	padding:10px 0;
+	margin:20px 0 0;
+}
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+
+}
+nav li {
+	display: inline-block;  
+}
+nav a {
+	font-weight:800;
+	padding: 15px 10px;
+
+}
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	color : lightslategrey;
+}
+nav a, nav a:visited {
+	color : #fff;  
+}
+/*selected color*/
+nav a.selected, nav a:hover {
+	color: #81d8d0;
+}
