@@ -1,0 +1,335 @@
+/*
+
+Xilinx Vivado v2017.3 (64-bit) [Major: 2017, Minor: 3]
+SW Build: 2018833 on Wed Oct  4 19:58:22 MDT 2017
+IP Build: 2016188 on Wed Oct  4 21:52:56 MDT 2017
+
+Process ID: 3184
+License: Customer
+
+Current time: 	Tue Dec 05 15:04:13 PST 2017
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1200
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 21 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.3/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.3/tps/win64/jre/bin/java.exe
+
+User name: 	Anahit Sarao
+User home directory: C:/Users/Anahit Sarao
+User working directory: C:/Users/Anahit Sarao/Desktop/SOC
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.3
+RDI_DATADIR: C:/Xilinx/Vivado/2017.3/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.3/bin
+
+User preferences location: C:/Users/Anahit Sarao/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/Anahit Sarao/AppData/Roaming/Xilinx/Vivado/2017.3/vivado.xml
+Vivado layouts directory: C:/Users/Anahit Sarao/AppData/Roaming/Xilinx/Vivado/2017.3/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2017.3/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Anahit Sarao/Desktop/SOC/vivado.log
+Vivado journal file location: 	C:/Users/Anahit Sarao/Desktop/SOC/vivado.jou
+Engine tmp dir: 	C:/Users/Anahit Sarao/Desktop/SOC/.Xil/Vivado-3184-DESKTOP-HFG85Q1
+
+GUI allocated memory:	184 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 477 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 43 MB (+42754kb) [00:00:05]
+// [Engine Memory]: 476 MB (+347953kb) [00:00:05]
+// aL (cl): Older Project Version: addNotify
+// [GUI Memory]: 51 MB (+5475kb) [00:00:08]
+// HMemoryUtils.trashcanNow. Engine heap size: 477 MB. GUI used memory: 36 MB. Current time: 12/5/17 3:04:15 PM PST
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aL)
+// bs (cl):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Anahit Sarao\Desktop\SOC\SOC.xpr. Version: Vivado v2016.4 
+dismissDialog("Older Project Version"); // aL (cl)
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/Anahit Sarao/Desktop/SOC/SOC.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// [Engine Memory]: 533 MB (+34136kb) [00:00:13]
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/Anahit Sarao/Desktop/SOC/SOC.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Nhu/140 labs/SOC' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [Project 1-230] Project 'SOC.xpr' upgraded for this version of Vivado. INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 603 MB (+45871kb) [00:00:15]
+// [GUI Memory]: 54 MB (+1250kb) [00:00:15]
+// [GUI Memory]: 67 MB (+10445kb) [00:00:16]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.3/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 797.789 ; gain = 123.473 
+// Project name: SOC; location: C:/Users/Anahit Sarao/Desktop/SOC; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bs (cl)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 73 MB (+2791kb) [00:00:22]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 11 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U2 : mips (MIPS.v)]", 6); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U2 : mips (MIPS.v)]", 6); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 23); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 22); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 26); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v)]", 28); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v)]", 30); // B (D, cl)
+// PAPropertyPanels.initPanels (fact.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U5 : fact_top (fact.v)]", 36, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U5 : fact_top (fact.v)]", 36, true, false, false, false, false, true); // B (D, cl) - Double Click - Node
+// Elapsed time: 50 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, soc_fpga (fpga.v)]", 1); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 7); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 7); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v)]", 11); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v)]", 9); // B (D, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, cl)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cl):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'GPIO_tb' in fileset 'sim_1'... INFO: [SIM-utils-43] Exported 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim/memfile.dat' INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj GPIO_tb_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/GPIO.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module GPIO_decoder INFO: [VRFC 10-311] analyzing module GPIO_MUX INFO: [VRFC 10-311] analyzing module GPIO_reg INFO: [VRFC 10-311] analyzing module GPIO_top INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sim_1/new/GPIO_tb.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module GPIO_tb INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module glbl 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message:  ****** Webtalk v2017.3 (64-bit)   **** SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017   **** IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017     ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.  source C:/Users/Anahit -notrace couldn't read file "C:/Users/Anahit": no such file or directory INFO: [Common 17-206] Exiting Webtalk at Tue Dec  5 15:05:56 2017... 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "GPIO_tb_behav -key {Behavioral:sim_1:Functional:GPIO_tb} -tclbatch {GPIO_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2017.3 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source GPIO_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 629 MB. GUI used memory: 49 MB. Current time: 12/5/17 3:06:00 PM PST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: GPIO test is successful 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'GPIO_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 802.555 ; gain = 4.078 
+// 'd' command handler elapsed time: 10 seconds
+// Elapsed time: 11 seconds
+dismissDialog("Run Simulation"); // e (cl)
+// [Engine Memory]: 645 MB (+11943kb) [00:02:01]
+// [GUI Memory]: 85 MB (+8702kb) [00:02:03]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 1); // k (j, cl)
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (f, cl)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 35 seconds
+collapseTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "GPIO_tb ; GPIO_tb ; Verilog Module", 0); // d (O, cl)
+expandTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "GPIO_tb ; GPIO_tb ; Verilog Module", 0); // d (O, cl)
+expandTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "U1 ; GPIO_top ; Verilog Module", 1); // d (O, cl)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "A_tb[1:0] ; 3 ; Array", 0, "A_tb[1:0]", 0, true); // n (c, cl) - Node
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "A_tb[1:0] ; 3 ; Array", 0, "A_tb[1:0]", 0, true); // n (c, cl) - Node
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "gpl1_tb[31:0] ; 00000007 ; Array", 2, "gpl1_tb[31:0]", 0, true); // n (c, cl) - Node
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "gpl1_tb[31:0] ; 00000007 ; Array", 2, "gpl1_tb[31:0]", 0, true); // n (c, cl) - Node
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "gpl2_tb[31:0] ; 00000007 ; Array", 3, "gpl2_tb[31:0]", 0, true); // n (c, cl) - Node
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "WD_tb[31:0] ; 00000007 ; Array", 4, "WD_tb[31:0]", 0, true); // n (c, cl) - Node
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "WD_tb[31:0] ; 00000007 ; Array", 4, "WD_tb[31:0]", 0, true, false, false, false, false, true); // n (c, cl) - Double Click - Node
+// TclEventType: SIMULATION_OPEN_SOURCE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "RD_tb[31:0] ; 00000007 ; Array", 7, "RD_tb[31:0]", 0, true); // n (c, cl) - Node
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "RD_tb[31:0] ; 00000007 ; Array", 7, "RD_tb[31:0]", 0, true); // n (c, cl) - Node
+// Waveform: addNotify
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "GPIO_tb.v", 1); // k (j, cl)
+// [GUI Memory]: 89 MB (+75kb) [00:03:00]
+// Elapsed time: 21 seconds
+selectCodeEditor("GPIO_tb.v", 238, 117); // cd (w, cl)
+selectCodeEditor("GPIO_tb.v", 230, 371); // cd (w, cl)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, cl)
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+// Elapsed time: 13 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v)]", 3); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v)]", 3); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U6 : GPIO_top (GPIO.v)]", 10); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U6 : GPIO_top (GPIO.v)]", 10); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U5 : fact_top (fact.v)]", 9); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U5 : fact_top (fact.v)]", 9, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U5 : fact_top (fact.v)]", 9, true, false, false, false, true, false); // B (D, cl) - Popup Trigger - Node
+selectMenuItem(PAResourceQtoS.SrcMenu_OPEN_SELECTED_SOURCE_FILES, "Open File"); // ac (ai, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U2 : mips (MIPS.v)]", 6); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U2 : mips (MIPS.v), c : controller (MIPS.v)]", 7); // B (D, cl)
+// [GUI Memory]: 97 MB (+3746kb) [00:04:24]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U2 : mips (MIPS.v), dp : datapath (MIPS.v)]", 10); // B (D, cl)
+// Elapsed time: 15 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U2 : mips (MIPS.v), dp : datapath (MIPS.v)]", 10); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U2 : mips (MIPS.v), c : controller (MIPS.v)]", 7); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U0 : SOC_mux (SOC_decoder.v)]", 4, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U0 : SOC_mux (SOC_decoder.v)]", 4, false, false, false, false, false, true); // B (D, cl) - Double Click
+// Elapsed time: 26 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U1 : imem (MIPS.v)]", 5, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U1 : imem (MIPS.v)]", 5, false, false, false, false, false, true); // B (D, cl) - Double Click
+// Elapsed time: 68 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v)]", 3, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v)]", 3, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v)]", 3, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v)]", 3, true, false, false, false, false, true); // B (D, cl) - Double Click - Node
+// [GUI Memory]: 104 MB (+1267kb) [00:06:25]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v)]", 3, true); // B (D, cl) - Node
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v)]", 3); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, soc_fpga (fpga.v)]", 1); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Data Files]", 2); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Data Files]", 2); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, SOC_FPGA.xdc]", 5, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, SOC_FPGA.xdc]", 5, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, SOC_FPGA.xdc]", 5, false, false, false, false, true, false); // B (D, cl) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SrcMenu_OPEN_SELECTED_SOURCE_FILES, "Open File"); // ac (ai, cl)
+selectCodeEditor("SOC_FPGA.xdc", 117, 375); // cd (w, cl)
+// Elapsed time: 45 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fact.v", 1); // k (j, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, GPIO_tb (GPIO_tb.v)]", 8); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, GPIO_tb (GPIO_tb.v), U1 : GPIO_top (GPIO.v)]", 9, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, GPIO_tb (GPIO_tb.v), U1 : GPIO_top (GPIO.v)]", 9, true, false, false, false, true, false); // B (D, cl) - Popup Trigger - Node
+selectMenuItem(PAResourceQtoS.SrcMenu_OPEN_SELECTED_SOURCE_FILES, "Open File"); // ac (ai, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 52 MB. Current time: 12/5/17 3:11:55 PM PST
+// Elapsed time: 25 seconds
+selectCodeEditor("GPIO.v", 144, 265); // cd (w, cl)
+// Elapsed time: 16 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, GPIO_tb (GPIO_tb.v), U1 : GPIO_top (GPIO.v)]", 9); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v)]", 10, true); // B (D, cl) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v)]", 10); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v)]", 12); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U5 : fact_top (fact.v)]", 18, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U5 : fact_top (fact.v)]", 18, true, false, false, false, true, false); // B (D, cl) - Popup Trigger - Node
+selectMenuItem(PAResourceQtoS.SrcMenu_OPEN_SELECTED_SOURCE_FILES, "Open File"); // ac (ai, cl)
+// Elapsed time: 39 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v)]", 12); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v)]", 10); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, SOC_tb (testing.v)]", 11); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, SOC_tb (testing.v)]", 11); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, GPIO_tb (GPIO_tb.v)]", 8); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Data Files]", 2); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Data Files, memfile.dat]", 3, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Data Files, memfile.dat]", 3, false, false, false, false, true, false); // B (D, cl) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SrcMenu_OPEN_SELECTED_SOURCE_FILES, "Open File"); // ac (ai, cl)
+// ac (cl): Unable to Open File: addNotify
+selectButton(PAResourceOtoP.OpenFileAction_OPEN_DIRECTORY, "Open Directory"); // a (ac)
+dismissDialog("Unable to Open File"); // ac (cl)
+selectCodeEditor("fact.v", 780, 82); // cd (w, cl)
+// Elapsed time: 88 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v)]", 10); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v)]", 12); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U5 : fact_top (fact.v)]", 18); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U5 : fact_top (fact.v), fact : Factorial (fact.v)]", 23); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U5 : fact_top (fact.v), fact : Factorial (fact.v), U0 : CU (fact.v)]", 24, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U5 : fact_top (fact.v), fact : Factorial (fact.v), U0 : CU (fact.v)]", 24, false, false, false, false, true, false); // B (D, cl) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SrcMenu_OPEN_SELECTED_SOURCE_FILES, "Open File"); // ac (ai, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U5 : fact_top (fact.v), fact : Factorial (fact.v), U1 : DP_fact (fact.v)]", 25, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U5 : fact_top (fact.v), fact : Factorial (fact.v), U1 : DP_fact (fact.v)]", 25, true, false, false, false, true, false); // B (D, cl) - Popup Trigger - Node
+selectMenuItem(PAResourceQtoS.SrcMenu_OPEN_SELECTED_SOURCE_FILES, "Open File"); // ac (ai, cl)
+// Elapsed time: 227 seconds
+selectCodeEditor("fact.v", 361, 389); // cd (w, cl)
+// Elapsed time: 10 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U5 : fact_top (fact.v), fact : Factorial (fact.v)]", 23); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, GPIO_tb (GPIO_tb.v)]", 9); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, GPIO_tb (GPIO_tb.v), U1 : GPIO_top (GPIO.v)]", 10); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, GPIO_tb (GPIO_tb.v), U1 : GPIO_top (GPIO.v)]", 10, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, GPIO_tb (GPIO_tb.v), U1 : GPIO_top (GPIO.v)]", 10, true, false, false, false, true, false); // B (D, cl) - Popup Trigger - Node
+selectMenuItem(PAResourceQtoS.SrcMenu_OPEN_SELECTED_SOURCE_FILES, "Open File"); // ac (ai, cl)
+// Elapsed time: 23 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, GPIO_tb (GPIO_tb.v), U1 : GPIO_top (GPIO.v)]", 10); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v)]", 13); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v)]", 13, true); // B (D, cl) - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "GPIO.v", 3); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SOC_decoder.v", 4); // k (j, cl)
+// Elapsed time: 207 seconds
+selectCodeEditor("SOC_decoder.v", 1028, 116); // cd (w, cl)
+// Elapsed time: 12 seconds
+selectCodeEditor("SOC_decoder.v", 69, 386); // cd (w, cl)
+// Elapsed time: 140 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v)]", 13); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U5 : fact_top (fact.v)]", 19); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U6 : GPIO_top (GPIO.v)]", 20); // B (D, cl)
+// Elapsed time: 21 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U2 : mips (MIPS.v)]", 16); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U2 : mips (MIPS.v)]", 16); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U2 : mips (MIPS.v)]", 16); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U2 : mips (MIPS.v), c : controller (MIPS.v)]", 17); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U2 : mips (MIPS.v), c : controller (MIPS.v)]", 17); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U2 : mips (MIPS.v), dp : datapath (MIPS.v)]", 18); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U2 : mips (MIPS.v), dp : datapath (MIPS.v)]", 18); // B (D, cl)
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SOC_decoder.v", 3); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "GPIO.v", 4); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SOC_decoder.v", 3); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "GPIO.v", 4); // k (j, cl)
+// Elapsed time: 10 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U6 : GPIO_top (GPIO.v)]", 22); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v), U2 : mips (MIPS.v)]", 16); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v), SOC_top : SOC_top (SOC_decoder.v)]", 13); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, soc_fpga (fpga.v)]", 11); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, SOC_tb (testing.v)]", 12); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, SOC_tb (testing.v), U1 : SOC_top (SOC_decoder.v)]", 13); // B (D, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fact.v", 1); // k (j, cl)
+selectCodeEditor("fact.v", 250, 201); // cd (w, cl)
+// [GUI Memory]: 109 MB (+76kb) [00:32:49]
+// HMemoryUtils.trashcanNow. Engine heap size: 671 MB. GUI used memory: 53 MB. Current time: 12/5/17 3:41:55 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 671 MB. GUI used memory: 53 MB. Current time: 12/5/17 5:04:54 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 671 MB. GUI used memory: 53 MB. Current time: 12/5/17 8:34:45 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 671 MB. GUI used memory: 51 MB. Current time: 12/5/17 11:44:47 PM PST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.

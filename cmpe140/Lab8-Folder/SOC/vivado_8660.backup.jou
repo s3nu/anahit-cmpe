@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Sun Dec 10 21:46:57 2017
+# Process ID: 8660
+# Current directory: C:/Users/Anahit Sarao/Desktop/SOC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4936 C:\Users\Anahit Sarao\Desktop\SOC\SOC.xpr
+# Log file: C:/Users/Anahit Sarao/Desktop/SOC/vivado.log
+# Journal file: C:/Users/Anahit Sarao/Desktop/SOC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Anahit Sarao/Desktop/SOC/SOC.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source GPIO_tb.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top soc_fpga [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top SOC_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source SOC_tb.tcl
+remove_forces { {/SOC_tb/U1/U2/c/op} {/SOC_tb/U1/U2/c/funct} {/SOC_tb/U1/U2/c/zero} {/SOC_tb/U1/U2/c/memtoreg} {/SOC_tb/U1/U2/c/memwrite} {/SOC_tb/U1/U2/c/pcsrc} {/SOC_tb/U1/U2/c/alusrc} {/SOC_tb/U1/U2/c/regdst} {/SOC_tb/U1/U2/c/regwrite} {/SOC_tb/U1/U2/c/jump} {/SOC_tb/U1/U2/c/LoHi} {/SOC_tb/U1/U2/c/MulLd} {/SOC_tb/U1/U2/c/MultoReg} {/SOC_tb/U1/U2/c/JR} {/SOC_tb/U1/U2/c/PCLink} {/SOC_tb/U1/U2/c/alucontrol} {/SOC_tb/U1/U2/c/aluop} {/SOC_tb/U1/U2/c/branch} }
+close_sim
+launch_simulation
+source SOC_tb.tcl
+reset_run synth_1
+reset_run impl_1
+close_sim
+close_sim

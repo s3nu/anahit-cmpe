@@ -1,0 +1,88 @@
+memory map
+lpcxx.h
+Struct {
+	uint_8 x ,y;
+	uint32_t addr; <= what is the adderes of this member??
+}
+struct_t;
+struct_t *s = 0x4000
+
+uint32_t *x = 0x4000
+uint8_t *y = 0x4000
+printf("%x %x", (x+1), (y+1)) //4004 and 4001 jumps by pointer type
+
+int x = 0x12345678
+Little Endian - 12/34/56/67
+Big Endian - 87/65/43/21
+int y = (x>>8) & 0xFF //always will be 56 regardless of endian
+
+Task - Two task in the queue find the otuput?
+UART - Bits per second, frame size, iddle state is high, low start bit, high stop bit
+idle----ST-low---xxxxx....8---stopbit-high
+I2C - power cosmsumtion higher when data line is low?? TRUE
+I2C -  read and write transactions
+
+size_t get_count_of_num_divisible_by_4_or_6(unint32_t max) {
+	int countfour = 0;
+	int countsix = 0;
+	for(int i=0; i<max; i++){
+	 if ((i % 4) == 0) {
+	 	countefour++;
+	 }
+	 if ((i % 6) == 0) {
+	 countfour++;
+	 }
+	}
+}
+size_t get_count_of_num_div_by_4(uint32_t max){
+	20/4 = 5// there are 5 numbers
+	20/6 = 2//
+	1100
+	1100
+	____
+	1100
+}
+
+RAM
+____________
+						|
+						|
+AAAA5555		| SIZE IN BYTES
+						| SIZE IN BYTES
+0xAAAA			| SIZE IN BYTES
+						| start_stack 0x4000
+_____________
+
+typedef struct {
+	void *stack_sstart; // uint32_t *stack_start
+	size_t size_bytes;
+} task_s;
+
+void stackpaint(task_s *t); //finish the impementation 3 lines
+
+size_t get_stack_watermark(task_s *t);
+
+
+RAM
+____________
+AAAA5555		|  STACK GOES DOWN - STACK POINTER IS HERE IN THE START - i = 0
+AAAA5555		|	 arr will make this 0
+AAAA5555		|	 arr will make this 0
+AAAA5555		|	 arr will make this 0
+AAAA5555		|	 arr will make this 0
+AAAA5555		|	 arr will make this 0
+AAAA5555		|
+AAAA5555		|
+AAAA5555		|
+AAAA5555		| start_stack 0x4000
+_____________
+task() {
+	uint32_t i=o;
+	uint32_t arr[100] = {0};
+	foo();
+}
+//figure out what is the watermark of the stack if it goes down when task function is called
+
+size_t get_stack_free_bytes (task_s *t);
+
+

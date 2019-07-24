@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1494464042">
+  <File Type="BG-DRC" Name="SoC_fpga.drc"/>
+  <File Type="PWROPT-DCP" Name="SoC_fpga_pwropt.dcp"/>
+  <File Type="PA-TCL" Name="SoC_fpga.tcl"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="SoC_fpga_incremental_reuse_pre_placed.rpt"/>
+  <File Type="RDI-RDI" Name="SoC_fpga.vdi"/>
+  <File Type="OPT-DCP" Name="SoC_fpga_opt.dcp"/>
+  <File Type="OPT-HWDEF" Name="SoC_fpga.hwdef"/>
+  <File Type="PLACE-DCP" Name="SoC_fpga_placed.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="SoC_fpga_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="SoC_fpga_physopt.dcp"/>
+  <File Type="BG-BIT" Name="SoC_fpga.bit"/>
+  <File Type="ROUTE-ERROR-DCP" Name="SoC_fpga_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="SoC_fpga_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="SoC_fpga_routed_bb.dcp"/>
+  <File Type="BITSTR-MSK" Name="SoC_fpga.msk"/>
+  <File Type="BG-BIN" Name="SoC_fpga.bin"/>
+  <File Type="BG-BGN" Name="SoC_fpga.bgn"/>
+  <File Type="BITSTR-RBT" Name="SoC_fpga.rbt"/>
+  <File Type="ROUTE-TIMING-PB" Name="SoC_fpga_timing_summary_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="SoC_fpga_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="SoC_fpga_postroute_physopt_bb.dcp"/>
+  <File Type="BITSTR-NKY" Name="SoC_fpga.nky"/>
+  <File Type="BITSTR-BMM" Name="SoC_fpga_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="SoC_fpga.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="SoC_fpga.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/MIPS.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/GPIO.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fact.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SOC_decoder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/utility.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fpga.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/memfile.dat">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="SOC_top"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/SOC_FPGA.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

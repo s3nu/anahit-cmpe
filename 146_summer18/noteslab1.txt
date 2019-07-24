@@ -1,0 +1,46 @@
+//p1.0 - bits 0:1 - vlaue 00
+LPC_PINCON->PINSEL2 &= ~(1<< 1 | 1<<0); //reset bits o and 1 to zero zero
+LPC_PINCON->PINSEL2 &= ~(3);
+
+LPC_PINCON->FIODIR != (1);
+
+while (1) {//blink led one
+	LPC_PINCON->FIOPIN != (1);
+	vTaskDelay(1000);
+	LPC_PINCON->FIOPIN &= ~(1);
+}
+
+//set bit numer 5 to 1
+unit32_t x=0;
+x |= (1<<5);
+//1 left shit by 5
+//0000 0000 0000 0000 0000 0000 0000 0000
+//0000 0000 0000 0000 0000 0000 0010 0000
+
+//reset bit numer 5 to 0
+unit32_t x=0;
+x &= ~(1<<5);
+//1 left shit by 5
+//0000 0000 0000 0000 0000 0000 1111 1111
+//0000 0000 0000 0000 0000 0000 0010 0000
+
+//1111 1111 1111 1111 1111 1111 1101 1111
+
+//0000 0000 0000 0000 0000 0000 1111 1111
+//1111 1111 1111 1111 1111 1111 1101 1111
+//0000 0000 0000 0000 0000 0000 1101 1111
+
+// set bit number 3 and 4 to value 01
+x = 0xff;
+3 << 3 or
+x &= ~(1 <<3 | 1<<4);
+x |= (1 <<3);
+
+//xor flips bit
+//flips bit number 10
+x^= (1 << 10)
+
+x = 0xabcd // 0x1010 1011 1100 1101
+
+if ((x | (1<<5)) == 0)
+if ((x | (1<<3)) == 1)

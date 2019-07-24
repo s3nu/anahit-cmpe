@@ -1,0 +1,78 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (win64) Build 1733598 Wed Dec 14 22:35:39 MST 2016
+| Date         : Wed May 10 17:56:14 2017
+| Host         : Nhu running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file SoC_fpga_control_sets_placed.rpt
+| Design       : SoC_fpga
+| Device       : xc7a100t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    14 |
+| Unused register locations in slices containing registers |    49 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              13 |            6 |
+| No           | No                    | Yes                    |              19 |            7 |
+| No           | Yes                   | No                     |              66 |           19 |
+| Yes          | No                    | No                     |              33 |            8 |
+| Yes          | No                    | Yes                    |             101 |           48 |
+| Yes          | Yes                   | No                     |              31 |           11 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------------------+------------------------------------------+-------------------------------------+------------------+----------------+
+|                 Clock Signal                |               Enable Signal              |           Set/Reset Signal          | Slice Load Count | Bel Load Count |
++---------------------------------------------+------------------------------------------+-------------------------------------+------------------+----------------+
+|  nolabel_line23/U2/dp/pcreg/Q_reg[1][0]     |                                          |                                     |                1 |              2 |
+|  rf_reg_r1_0_31_0_5_i_1_n_0                 |                                          |                                     |                1 |              2 |
+|  top_clk/index_reg[2]                       |                                          |                                     |                2 |              3 |
+|  rf_reg_r1_0_31_0_5_i_1_n_0                 | nolabel_line23/U2/dp/pcreg/E[0]          | reset_IBUF                          |                1 |              4 |
+|  nolabel_line23/U5/fact/U0/Done_reg_i_2_n_0 |                                          |                                     |                2 |              6 |
+|  rf_reg_r1_0_31_0_5_i_1_n_0                 |                                          | reset_IBUF                          |                7 |             19 |
+|  rf_reg_r1_0_31_0_5_i_1_n_0                 | nolabel_line23/U5/fact/U0/z__0[2]        | nolabel_line23/U5/fact/U0/Q_reg[31] |               11 |             31 |
+|  rf_reg_r1_0_31_0_5_i_1_n_0                 | nolabel_line23/U2/dp/pcreg/Q_reg[0]_3[0] | reset_IBUF                          |               16 |             32 |
+|  rf_reg_r1_0_31_0_5_i_1_n_0                 | nolabel_line23/U2/dp/pcreg/WEM           |                                     |                8 |             32 |
+|  rf_reg_r1_0_31_0_5_i_1_n_0                 | nolabel_line23/U5/fact/U0/E[0]           | reset_IBUF                          |               12 |             32 |
+|  rf_reg_r1_0_31_0_5_i_1_n_0                 | nolabel_line23/U2/dp/pcreg/Q_reg[0]_5[0] | reset_IBUF                          |               19 |             33 |
+|  rf_reg_r1_0_31_0_5_i_1_n_0                 | nolabel_line23/U5/fact/U0/z__0[2]        |                                     |                8 |             33 |
+|  clk_IBUF_BUFG                              |                                          | reset_IBUF                          |               19 |             66 |
+|  rf_reg_r1_0_31_0_5_i_1_n_0                 | nolabel_line23/U2/dp/pcreg/we3           |                                     |               12 |             96 |
++---------------------------------------------+------------------------------------------+-------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 2      |                     2 |
+| 3      |                     1 |
+| 4      |                     1 |
+| 6      |                     1 |
+| 16+    |                     9 |
++--------+-----------------------+
+
+

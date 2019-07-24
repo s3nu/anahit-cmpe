@@ -1,0 +1,46 @@
+CONSOLE OUTPUT
+
+Welcome to the palindrome checker...
+
+
+Press 1 to continue or
+Press 2 to exit
+
+1
+Which word would you like to check for palindrome?
+SarAs
+Your word is a Palindrome
+
+
+Press 1 to continue or
+Press 2 to exit
+
+1
+Which word would you like to check for palindrome?
+asdwq
+Your word is not a palindrome
+
+
+Press 1 to continue or
+Press 2 to exit
+
+1
+Which word would you like to check for palindrome?
+ZOOZ
+Your word is a Palindrome
+
+
+Press 1 to continue or
+Press 2 to exit
+
+1
+Which word would you like to check for palindrome?
+qwer
+Your word is not a palindrome
+
+
+Press 1 to continue or
+Press 2 to exit
+
+2
+Exiting Program

@@ -1,0 +1,20 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 91db316a6bdd4d3cab17fe0dd9302ad7 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Factorial_tb_behav xil_defaultlib.Factorial_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Factorial_CU
+Compiling module xil_defaultlib.Ud_Cnt_4
+Compiling module xil_defaultlib.comparater
+Compiling module xil_defaultlib.Dreg
+Compiling module xil_defaultlib.Alu
+Compiling module xil_defaultlib.Mux
+Compiling module xil_defaultlib.Factorial_DP
+Compiling module xil_defaultlib.Factorial
+Compiling module xil_defaultlib.Factorial_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Factorial_tb_behav

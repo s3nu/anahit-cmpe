@@ -1,0 +1,10 @@
+variables are in stack
+globals are in heap
+you can not write flash memory
+static = global memory
+heap is only malloc
+const int ticker - 0; // volatile
+if all variables are all volitile then there is no optimization becuase volitile uses load instruction
+static has mutiple meanings -- interview  quesiton
+
+there is a process that copies vars to ram

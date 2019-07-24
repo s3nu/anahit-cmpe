@@ -1,0 +1,19 @@
+embedded communication protocols
+UART
+Tx - rx
+rx -tx
+UART frame/bps/start bit/stop bit
+Asynchronoious
+
+SPI
+SCK
+MOSI
+MISO -- bus contention
+CS
+
+I2C
+Can have mutiple slaves or mutiple masters
+Have very easy bus contention
+open collector
+SCL
+SDA

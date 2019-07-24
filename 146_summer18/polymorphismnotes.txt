@@ -1,0 +1,6 @@
+polymorphism
+interface
+virtual (pure) -
+dependency injection
+
+UNIT TESTING

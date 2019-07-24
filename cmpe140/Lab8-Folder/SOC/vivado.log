@@ -1,0 +1,265 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Sun Dec 10 22:02:54 2017
+# Process ID: 456
+# Current directory: C:/Users/Anahit Sarao/Desktop/SOC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6836 C:\Users\Anahit Sarao\Desktop\SOC\SOC.xpr
+# Log file: C:/Users/Anahit Sarao/Desktop/SOC/vivado.log
+# Journal file: C:/Users/Anahit Sarao/Desktop/SOC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Anahit Sarao/Desktop/SOC/SOC.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.3/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 802.891 ; gain = 118.961
+update_compile_order -fileset sources_1
+set_property top soc_fpga [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'soc_fpga' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj soc_fpga_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/utility.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_gen
+INFO: [VRFC 10-311] analyzing module bcd_to_7seg
+INFO: [VRFC 10-311] analyzing module LED_MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/fpga.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module soc_fpga
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.3/bin/unwrapped/win64.o/xelab.exe -wto b6e0d17acbdc41c19132b76af761a469 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot soc_fpga_behav xil_defaultlib.soc_fpga xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2538] module instantiation should have an instance name [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/fpga.v:23]
+ERROR: [VRFC 10-2063] Module <SOC_mux> not found while processing module instance <U0> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:92]
+ERROR: [VRFC 10-2063] Module <imem> not found while processing module instance <U1> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:94]
+ERROR: [VRFC 10-2063] Module <mips> not found while processing module instance <U2> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:96]
+ERROR: [VRFC 10-2063] Module <SOC_decoder> not found while processing module instance <U3> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:98]
+ERROR: [VRFC 10-2063] Module <dmem> not found while processing module instance <U4> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:100]
+ERROR: [VRFC 10-2063] Module <fact_top> not found while processing module instance <U5> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:102]
+ERROR: [VRFC 10-2063] Module <GPIO_top> not found while processing module instance <U6> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:104]
+ERROR: [VRFC 10-2063] Module <mux2> not found while processing module instance <fpga_mux> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/fpga.v:25]
+ERROR: [VRFC 10-2063] Module <bcd_to_7seg> not found while processing module instance <bcd4> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/fpga.v:35]
+ERROR: [VRFC 10-2063] Module <LED_MUX> not found while processing module instance <disp_unit> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/fpga.v:45]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'soc_fpga' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj soc_fpga_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.3/bin/unwrapped/win64.o/xelab.exe -wto b6e0d17acbdc41c19132b76af761a469 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot soc_fpga_behav xil_defaultlib.soc_fpga xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2538] module instantiation should have an instance name [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/fpga.v:23]
+ERROR: [VRFC 10-2063] Module <SOC_mux> not found while processing module instance <U0> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:92]
+ERROR: [VRFC 10-2063] Module <imem> not found while processing module instance <U1> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:94]
+ERROR: [VRFC 10-2063] Module <mips> not found while processing module instance <U2> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:96]
+ERROR: [VRFC 10-2063] Module <SOC_decoder> not found while processing module instance <U3> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:98]
+ERROR: [VRFC 10-2063] Module <dmem> not found while processing module instance <U4> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:100]
+ERROR: [VRFC 10-2063] Module <fact_top> not found while processing module instance <U5> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:102]
+ERROR: [VRFC 10-2063] Module <GPIO_top> not found while processing module instance <U6> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:104]
+ERROR: [VRFC 10-2063] Module <mux2> not found while processing module instance <fpga_mux> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/fpga.v:25]
+ERROR: [VRFC 10-2063] Module <bcd_to_7seg> not found while processing module instance <bcd4> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/fpga.v:35]
+ERROR: [VRFC 10-2063] Module <LED_MUX> not found while processing module instance <disp_unit> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/fpga.v:45]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+set_property top soc_fpga [current_fileset]
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'soc_fpga' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj soc_fpga_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.3/bin/unwrapped/win64.o/xelab.exe -wto b6e0d17acbdc41c19132b76af761a469 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot soc_fpga_behav xil_defaultlib.soc_fpga xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2538] module instantiation should have an instance name [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/fpga.v:23]
+ERROR: [VRFC 10-2063] Module <SOC_mux> not found while processing module instance <U0> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:92]
+ERROR: [VRFC 10-2063] Module <imem> not found while processing module instance <U1> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:94]
+ERROR: [VRFC 10-2063] Module <mips> not found while processing module instance <U2> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:96]
+ERROR: [VRFC 10-2063] Module <SOC_decoder> not found while processing module instance <U3> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:98]
+ERROR: [VRFC 10-2063] Module <dmem> not found while processing module instance <U4> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:100]
+ERROR: [VRFC 10-2063] Module <fact_top> not found while processing module instance <U5> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:102]
+ERROR: [VRFC 10-2063] Module <GPIO_top> not found while processing module instance <U6> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:104]
+ERROR: [VRFC 10-2063] Module <mux2> not found while processing module instance <fpga_mux> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/fpga.v:25]
+ERROR: [VRFC 10-2063] Module <bcd_to_7seg> not found while processing module instance <bcd4> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/fpga.v:35]
+ERROR: [VRFC 10-2063] Module <LED_MUX> not found while processing module instance <disp_unit> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/fpga.v:45]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'soc_fpga' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj soc_fpga_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.3/bin/unwrapped/win64.o/xelab.exe -wto b6e0d17acbdc41c19132b76af761a469 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot soc_fpga_behav xil_defaultlib.soc_fpga xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2538] module instantiation should have an instance name [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/fpga.v:23]
+ERROR: [VRFC 10-2063] Module <SOC_mux> not found while processing module instance <U0> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:92]
+ERROR: [VRFC 10-2063] Module <imem> not found while processing module instance <U1> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:94]
+ERROR: [VRFC 10-2063] Module <mips> not found while processing module instance <U2> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:96]
+ERROR: [VRFC 10-2063] Module <SOC_decoder> not found while processing module instance <U3> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:98]
+ERROR: [VRFC 10-2063] Module <dmem> not found while processing module instance <U4> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:100]
+ERROR: [VRFC 10-2063] Module <fact_top> not found while processing module instance <U5> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:102]
+ERROR: [VRFC 10-2063] Module <GPIO_top> not found while processing module instance <U6> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:104]
+ERROR: [VRFC 10-2063] Module <mux2> not found while processing module instance <fpga_mux> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/fpga.v:25]
+ERROR: [VRFC 10-2063] Module <bcd_to_7seg> not found while processing module instance <bcd4> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/fpga.v:35]
+ERROR: [VRFC 10-2063] Module <LED_MUX> not found while processing module instance <disp_unit> [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/fpga.v:45]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+set_property top SOC_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'SOC_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj SOC_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.3/bin/unwrapped/win64.o/xelab.exe -wto b6e0d17acbdc41c19132b76af761a469 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SOC_tb_behav xil_defaultlib.SOC_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port dispDat [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:96]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SOC_tb_behav -key {Behavioral:sim_1:Functional:SOC_tb} -tclbatch {SOC_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.3
+Time resolution is 1 ps
+source SOC_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SOC_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 839.434 ; gain = 19.402
+save_wave_config {C:/Users/Anahit Sarao/Desktop/SOC/SOC_tb_behav.wcfg}
+add_files -fileset sim_1 -norecurse {{C:/Users/Anahit Sarao/Desktop/SOC/SOC_tb_behav.wcfg}}
+set_property xsim.view {{C:/Users/Anahit Sarao/Desktop/SOC/SOC_tb_behav.wcfg}} [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'SOC_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj SOC_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.3/bin/unwrapped/win64.o/xelab.exe -wto b6e0d17acbdc41c19132b76af761a469 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SOC_tb_behav xil_defaultlib.SOC_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port dispDat [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:96]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Anahit Sarao/Desktop/SOC/SOC.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SOC_tb_behav -key {Behavioral:sim_1:Functional:SOC_tb} -tclbatch {SOC_tb.tcl} -view {{C:/Users/Anahit Sarao/Desktop/SOC/SOC_tb_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.3
+Time resolution is 1 ps
+open_wave_config {C:/Users/Anahit Sarao/Desktop/SOC/SOC_tb_behav.wcfg}
+source SOC_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SOC_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns

@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../SOC.srcs/sources_1/new/GPIO.v" \
+"../../../../SOC.srcs/sources_1/new/MIPS.v" \
+"../../../../SOC.srcs/sources_1/new/SOC_decoder.v" \
+"../../../../SOC.srcs/sources_1/new/fact.v" \
+"../../../../SOC.srcs/sim_1/new/testing.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

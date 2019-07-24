@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Sun Dec 10 11:01:34 2017
+# Process ID: 5296
+# Current directory: C:/Users/Anahit Sarao/Desktop/SOC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8288 C:\Users\Anahit Sarao\Desktop\SOC\SOC.xpr
+# Log file: C:/Users/Anahit Sarao/Desktop/SOC/vivado.log
+# Journal file: C:/Users/Anahit Sarao/Desktop/SOC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Anahit Sarao/Desktop/SOC/SOC.xpr}
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1

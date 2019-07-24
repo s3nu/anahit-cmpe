@@ -1,0 +1,7 @@
+0.6
+2016.4
+Dec 14 2016
+22:58:16
+C:/Users/Nhu/140 labs/SOC/SOC.sim/sim_1/behav/glbl.v,1481753704,verilog,,,,glbl,,,,,,,,
+C:/Users/Nhu/140 labs/SOC/SOC.srcs/sim_1/new/GPIO_tb.v,1494619445,verilog,,,,GPIO_tb,,,,,,,,
+C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/GPIO.v,1494400777,verilog,,,,GPIO_MUX;GPIO_decoder;GPIO_reg;GPIO_top,,,,,,,,

@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Sun Dec 10 22:02:54 2017
+# Process ID: 456
+# Current directory: C:/Users/Anahit Sarao/Desktop/SOC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6836 C:\Users\Anahit Sarao\Desktop\SOC\SOC.xpr
+# Log file: C:/Users/Anahit Sarao/Desktop/SOC/vivado.log
+# Journal file: C:/Users/Anahit Sarao/Desktop/SOC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Anahit Sarao/Desktop/SOC/SOC.xpr}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top soc_fpga [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top soc_fpga [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top SOC_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source SOC_tb.tcl
+save_wave_config {C:/Users/Anahit Sarao/Desktop/SOC/SOC_tb_behav.wcfg}
+add_files -fileset sim_1 -norecurse {{C:/Users/Anahit Sarao/Desktop/SOC/SOC_tb_behav.wcfg}}
+set_property xsim.view {{C:/Users/Anahit Sarao/Desktop/SOC/SOC_tb_behav.wcfg}} [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Anahit Sarao/Desktop/SOC/SOC_tb_behav.wcfg}
+source SOC_tb.tcl

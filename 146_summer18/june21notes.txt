@@ -1,0 +1,66 @@
+uint32_t *pinsel2 = (unint32_t) 0x4002c008
+//this is the same as the above LPC_PINCON->PINSEL2 = 0;
+*pinsel3 = 0;
+int foo = *pinsel2
+
+//many cpus allow acces by memory map by named memory mao
+PENSEL2 = 0;
+
+//in out cput, we acess the memory mao by using structs
+//at lpcxx.h LPC_PINCON struct pint to LPC_PINCON_BASE
+LPC_PINCON_BASE was set to (LPCAPB0_BASE + 0x2C0000)
+//LPC_ZPB-_BASE = 0x4000000UL
+
+//Therefore : LPC_PINCON_BASE = (4x40000000UL + 0x2C000)
+//Therefore : LPC_PINCON_BASE = 0x4002C000
+//Therefore : LPC_PINCON->PINSEL2 memory is 0x4003C00 + 8
+//+8 because PINSEL is the 2nd unint32_t inside of LPC_PINCON
+
+//quiz on random memory strucure what does the pointer print out(open notes)
+//the pointer will print out the memory location of the pointer
+//quiz will be on about resolving memeory locations
+printf("%p\n", LPC_PINCON);
+
+//quiz will have set/clear/check bit masking
+
+uint8_t b=0x10;
+//set bit0, bit4, bit6 --all start from 0
+b |= 1; b |= (1<<0);
+0001 0000
+0000 0001 OR
+0001 0001 RESULT
+b |= 16; b |= (1<<4);
+b |= 64; b |= (1<<6);
+//do it in one line
+b |= (1<<0) | (1<<4) | (1<<6);
+b |= (1<<0) | (5<<4);
+
+//CLEAR
+//quiz question show what this does assume b=01010101
+b &= (1<<4);
+(without tilda)
+0101 0101
+0001 0000 AND
+0001 0000 RESULT
+
+b &= ~(1<<4);
+0101 0101
+1110 1111 AND
+0100 0101 RESULT
+
+b &= ~((1<<2) | (1<<4) | (1<<6))
+
+//TOGGLE
+//toggle bit 3 of variable b
+b xor_eq (1<<3);
+b = b xor (1<<3);
+//compiler recognizes xor
+
+//How do you check if yvar b's b3 is set
+if (b & (1<<3)) {
+	//do not need a tidle, try it on paper
+}
+//say you had p2.3 connected to a switch
+if (LPC->GPIO2->FIOPIN & (1<<3)) {
+	//why there becasue we were after port 3
+}

@@ -1,0 +1,802 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Wed May 10 17:54:04 2017
+# Process ID: 8544
+# Current directory: C:/Users/Nhu/140 labs/SOC/SOC.runs/synth_1
+# Command line: vivado.exe -log SoC_fpga.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source SoC_fpga.tcl
+# Log file: C:/Users/Nhu/140 labs/SOC/SOC.runs/synth_1/SoC_fpga.vds
+# Journal file: C:/Users/Nhu/140 labs/SOC/SOC.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source SoC_fpga.tcl -notrace
+Command: synth_design -top SoC_fpga -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 14280 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 281.605 ; gain = 71.590
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'SoC_fpga' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fpga.v:3]
+INFO: [Synth 8-638] synthesizing module 'clk_gen' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/utility.v:3]
+INFO: [Synth 8-256] done synthesizing module 'clk_gen' (1#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/utility.v:3]
+WARNING: [Synth 8-387] label required on module instance [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fpga.v:23]
+INFO: [Synth 8-638] synthesizing module 'SOC_top' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:66]
+INFO: [Synth 8-638] synthesizing module 'SOC_mux' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:45]
+INFO: [Synth 8-226] default block is never used [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:54]
+INFO: [Synth 8-256] done synthesizing module 'SOC_mux' (2#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:45]
+INFO: [Synth 8-638] synthesizing module 'imem' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:275]
+INFO: [Synth 8-3876] $readmem data file 'memfile.dat' is read successfully [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:283]
+INFO: [Synth 8-256] done synthesizing module 'imem' (3#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:275]
+INFO: [Synth 8-638] synthesizing module 'mips' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:249]
+INFO: [Synth 8-638] synthesizing module 'controller' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:185]
+INFO: [Synth 8-638] synthesizing module 'maindec' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:4]
+INFO: [Synth 8-256] done synthesizing module 'maindec' (4#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:4]
+INFO: [Synth 8-638] synthesizing module 'aludec' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:38]
+INFO: [Synth 8-256] done synthesizing module 'aludec' (5#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:38]
+INFO: [Synth 8-256] done synthesizing module 'controller' (6#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:185]
+INFO: [Synth 8-638] synthesizing module 'datapath' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:203]
+INFO: [Synth 8-638] synthesizing module 'flopr' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:103]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'flopr' (7#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:103]
+INFO: [Synth 8-638] synthesizing module 'adder' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:82]
+INFO: [Synth 8-256] done synthesizing module 'adder' (8#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:82]
+INFO: [Synth 8-638] synthesizing module 'sl2' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:88]
+INFO: [Synth 8-256] done synthesizing module 'sl2' (9#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:88]
+INFO: [Synth 8-638] synthesizing module 'mux2' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:126]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mux2' (10#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:126]
+INFO: [Synth 8-638] synthesizing module 'regfile' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:144]
+INFO: [Synth 8-256] done synthesizing module 'regfile' (11#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:144]
+INFO: [Synth 8-638] synthesizing module 'mult' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:135]
+INFO: [Synth 8-256] done synthesizing module 'mult' (12#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:135]
+INFO: [Synth 8-638] synthesizing module 'flopenr' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:114]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'flopenr' (13#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:114]
+INFO: [Synth 8-638] synthesizing module 'mux2__parameterized0' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:126]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mux2__parameterized0' (13#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:126]
+INFO: [Synth 8-638] synthesizing module 'mux2__parameterized1' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:126]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mux2__parameterized1' (13#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:126]
+INFO: [Synth 8-638] synthesizing module 'signext' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:95]
+INFO: [Synth 8-256] done synthesizing module 'signext' (14#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:95]
+INFO: [Synth 8-638] synthesizing module 'alu' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:59]
+INFO: [Synth 8-256] done synthesizing module 'alu' (15#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:59]
+INFO: [Synth 8-256] done synthesizing module 'datapath' (16#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:203]
+INFO: [Synth 8-256] done synthesizing module 'mips' (17#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:249]
+WARNING: [Synth 8-689] width (1) of port connection 'dispDat' does not match port width (32) of module 'mips' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:96]
+INFO: [Synth 8-638] synthesizing module 'SOC_decoder' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:1]
+INFO: [Synth 8-256] done synthesizing module 'SOC_decoder' (18#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:1]
+INFO: [Synth 8-638] synthesizing module 'dmem' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:290]
+INFO: [Synth 8-256] done synthesizing module 'dmem' (19#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:290]
+INFO: [Synth 8-638] synthesizing module 'fact_top' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:207]
+INFO: [Synth 8-638] synthesizing module 'fact_ad' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:155]
+INFO: [Synth 8-226] default block is never used [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:163]
+INFO: [Synth 8-256] done synthesizing module 'fact_ad' (20#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:155]
+INFO: [Synth 8-638] synthesizing module 'fact_reg' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:191]
+	Parameter w bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'fact_reg' (21#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:191]
+INFO: [Synth 8-638] synthesizing module 'fact_reg__parameterized0' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:191]
+	Parameter w bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'fact_reg__parameterized0' (21#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:191]
+INFO: [Synth 8-638] synthesizing module 'fact_reg__parameterized1' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:191]
+	Parameter w bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'fact_reg__parameterized1' (21#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:191]
+INFO: [Synth 8-638] synthesizing module 'Factorial' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:260]
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'CU' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:42]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:95]
+INFO: [Synth 8-256] done synthesizing module 'CU' (22#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:42]
+INFO: [Synth 8-638] synthesizing module 'DP_fact' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:131]
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'CNT' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:22]
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'CNT' (23#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:22]
+INFO: [Synth 8-638] synthesizing module 'REG' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:293]
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'REG' (24#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:293]
+INFO: [Synth 8-638] synthesizing module 'CMP' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:13]
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'CMP' (25#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:13]
+INFO: [Synth 8-638] synthesizing module 'MUL' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:274]
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'MUL' (26#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:274]
+INFO: [Synth 8-638] synthesizing module 'MUX' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:283]
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'MUX' (27#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:283]
+INFO: [Synth 8-638] synthesizing module 'BUFF' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:3]
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'BUFF' (28#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:3]
+INFO: [Synth 8-256] done synthesizing module 'DP_fact' (29#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:131]
+INFO: [Synth 8-256] done synthesizing module 'Factorial' (30#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:260]
+INFO: [Synth 8-226] default block is never used [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:249]
+INFO: [Synth 8-256] done synthesizing module 'fact_top' (31#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:207]
+INFO: [Synth 8-638] synthesizing module 'GPIO_top' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/GPIO.v:78]
+INFO: [Synth 8-638] synthesizing module 'GPIO_decoder' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/GPIO.v:3]
+INFO: [Synth 8-226] default block is never used [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/GPIO.v:14]
+INFO: [Synth 8-256] done synthesizing module 'GPIO_decoder' (32#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/GPIO.v:3]
+INFO: [Synth 8-638] synthesizing module 'GPIO_reg' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/GPIO.v:63]
+	Parameter w bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'GPIO_reg' (33#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/GPIO.v:63]
+INFO: [Synth 8-638] synthesizing module 'GPIO_MUX' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/GPIO.v:41]
+INFO: [Synth 8-226] default block is never used [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/GPIO.v:52]
+INFO: [Synth 8-256] done synthesizing module 'GPIO_MUX' (34#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/GPIO.v:41]
+INFO: [Synth 8-256] done synthesizing module 'GPIO_top' (35#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/GPIO.v:78]
+WARNING: [Synth 8-3848] Net dispel in module/entity SOC_top does not have driver. [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:89]
+INFO: [Synth 8-256] done synthesizing module 'SOC_top' (36#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:66]
+WARNING: [Synth 8-689] width (5) of port connection 'gpl1' does not match port width (32) of module 'SOC_top' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fpga.v:23]
+INFO: [Synth 8-638] synthesizing module 'mux2__parameterized2' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:126]
+	Parameter WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mux2__parameterized2' (36#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:126]
+INFO: [Synth 8-638] synthesizing module 'bcd_to_7seg' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/utility.v:55]
+INFO: [Synth 8-226] default block is never used [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/utility.v:58]
+INFO: [Synth 8-256] done synthesizing module 'bcd_to_7seg' (37#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/utility.v:55]
+INFO: [Synth 8-638] synthesizing module 'LED_MUX' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/utility.v:80]
+INFO: [Synth 8-226] default block is never used [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/utility.v:107]
+INFO: [Synth 8-256] done synthesizing module 'LED_MUX' (38#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/utility.v:80]
+INFO: [Synth 8-256] done synthesizing module 'SoC_fpga' (39#1) [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fpga.v:3]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[31]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[30]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[29]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[28]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[27]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[26]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[25]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[24]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[23]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[22]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[21]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[20]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[19]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[18]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[17]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[16]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[15]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[14]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[13]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[12]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[11]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[10]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[9]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[8]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[1]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[0]
+WARNING: [Synth 8-3331] design SOC_decoder has unconnected port A[31]
+WARNING: [Synth 8-3331] design SOC_decoder has unconnected port A[30]
+WARNING: [Synth 8-3331] design SOC_decoder has unconnected port A[29]
+WARNING: [Synth 8-3331] design SOC_decoder has unconnected port A[28]
+WARNING: [Synth 8-3331] design SOC_decoder has unconnected port A[27]
+WARNING: [Synth 8-3331] design SOC_decoder has unconnected port A[26]
+WARNING: [Synth 8-3331] design SOC_decoder has unconnected port A[25]
+WARNING: [Synth 8-3331] design SOC_decoder has unconnected port A[24]
+WARNING: [Synth 8-3331] design SOC_decoder has unconnected port A[23]
+WARNING: [Synth 8-3331] design SOC_decoder has unconnected port A[22]
+WARNING: [Synth 8-3331] design SOC_decoder has unconnected port A[21]
+WARNING: [Synth 8-3331] design SOC_decoder has unconnected port A[20]
+WARNING: [Synth 8-3331] design SOC_decoder has unconnected port A[19]
+WARNING: [Synth 8-3331] design SOC_decoder has unconnected port A[18]
+WARNING: [Synth 8-3331] design SOC_decoder has unconnected port A[17]
+WARNING: [Synth 8-3331] design SOC_decoder has unconnected port A[16]
+WARNING: [Synth 8-3331] design SOC_decoder has unconnected port A[15]
+WARNING: [Synth 8-3331] design SOC_decoder has unconnected port A[14]
+WARNING: [Synth 8-3331] design SOC_decoder has unconnected port A[13]
+WARNING: [Synth 8-3331] design SOC_decoder has unconnected port A[12]
+WARNING: [Synth 8-3331] design SOC_decoder has unconnected port A[7]
+WARNING: [Synth 8-3331] design SOC_decoder has unconnected port A[6]
+WARNING: [Synth 8-3331] design SOC_decoder has unconnected port A[5]
+WARNING: [Synth 8-3331] design SOC_decoder has unconnected port A[4]
+WARNING: [Synth 8-3331] design SOC_decoder has unconnected port A[3]
+WARNING: [Synth 8-3331] design SOC_decoder has unconnected port A[2]
+WARNING: [Synth 8-3331] design SOC_decoder has unconnected port A[1]
+WARNING: [Synth 8-3331] design SOC_decoder has unconnected port A[0]
+WARNING: [Synth 8-3331] design sl2 has unconnected port a[31]
+WARNING: [Synth 8-3331] design sl2 has unconnected port a[30]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[31]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[30]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[29]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[28]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[27]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[26]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 318.945 ; gain = 108.930
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin U2:dispSel[4] to constant 0 [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:96]
+WARNING: [Synth 8-3295] tying undriven pin U2:dispSel[3] to constant 0 [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:96]
+WARNING: [Synth 8-3295] tying undriven pin U2:dispSel[2] to constant 0 [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:96]
+WARNING: [Synth 8-3295] tying undriven pin U2:dispSel[1] to constant 0 [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:96]
+WARNING: [Synth 8-3295] tying undriven pin U2:dispSel[0] to constant 0 [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:96]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 318.945 ; gain = 108.930
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Nhu/140 labs/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc]
+Finished Parsing XDC File [C:/Users/Nhu/140 labs/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Nhu/140 labs/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/SoC_fpga_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/SoC_fpga_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 634.691 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 634.691 ; gain = 424.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 634.691 ; gain = 424.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 634.691 ; gain = 424.676
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "count1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk_sec" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk_5KHz" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "rom" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "controls" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/MIPS.v:138]
+INFO: [Synth 8-5544] ROM "RdSel" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'RdSel_reg' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/SOC_decoder.v:16]
+WARNING: [Synth 8-327] inferring latch for variable 'Done_reg' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:98]
+WARNING: [Synth 8-327] inferring latch for variable 'cw_reg' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:97]
+WARNING: [Synth 8-327] inferring latch for variable 'Err_reg' [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:99]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 634.691 ; gain = 424.676
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 4     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 9     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Multipliers : 
+	                32x32  Multipliers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 15    
+	   4 Input     32 Bit        Muxes := 4     
+	  18 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input     14 Bit        Muxes := 1     
+	   5 Input     14 Bit        Muxes := 1     
+	   8 Input     14 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   4 Input      5 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 2     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 11    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module clk_gen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module SOC_mux 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module imem 
+Detailed RTL Component Info : 
++---Muxes : 
+	  18 Input     32 Bit        Muxes := 1     
+Module maindec 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     14 Bit        Muxes := 1     
+	   5 Input     14 Bit        Muxes := 1     
+	   8 Input     14 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+Module aludec 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      3 Bit        Muxes := 1     
+Module flopr 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module adder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module mux2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module regfile 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+Module mult 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 1     
+Module flopenr 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module mux2__parameterized0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module mux2__parameterized1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module alu 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 1     
+Module SOC_decoder 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 4     
+Module fact_ad 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 2     
+Module fact_reg 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+Module fact_reg__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module fact_reg__parameterized1 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module CU 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      5 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 3     
+Module REG 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module MUL 
+Detailed RTL Component Info : 
++---Multipliers : 
+	                32x32  Multipliers := 1     
+Module MUX 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module fact_top 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module GPIO_decoder 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 2     
+Module GPIO_reg 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module GPIO_MUX 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module mux2__parameterized2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module LED_MUX 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "nolabel_line23/U2/c/md/controls" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "top_clk/count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "top_clk/clk_sec" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "top_clk/count1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "top_clk/clk_5KHz" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/Nhu/140 labs/SOC/SOC.srcs/sources_1/new/fact.v:279]
+DSP Report: Generating DSP nolabel_line23/U2/dp/multu/hi0, operation Mode is: A*B.
+DSP Report: operator nolabel_line23/U2/dp/multu/hi0 is absorbed into DSP nolabel_line23/U2/dp/multu/hi0.
+DSP Report: operator nolabel_line23/U2/dp/multu/hi0 is absorbed into DSP nolabel_line23/U2/dp/multu/hi0.
+DSP Report: Generating DSP nolabel_line23/U2/dp/multu/hi0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator nolabel_line23/U2/dp/multu/hi0 is absorbed into DSP nolabel_line23/U2/dp/multu/hi0.
+DSP Report: operator nolabel_line23/U2/dp/multu/hi0 is absorbed into DSP nolabel_line23/U2/dp/multu/hi0.
+DSP Report: Generating DSP nolabel_line23/U2/dp/multu/hi0, operation Mode is: A*B.
+DSP Report: operator nolabel_line23/U2/dp/multu/hi0 is absorbed into DSP nolabel_line23/U2/dp/multu/hi0.
+DSP Report: operator nolabel_line23/U2/dp/multu/hi0 is absorbed into DSP nolabel_line23/U2/dp/multu/hi0.
+DSP Report: Generating DSP nolabel_line23/U2/dp/multu/hi0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator nolabel_line23/U2/dp/multu/hi0 is absorbed into DSP nolabel_line23/U2/dp/multu/hi0.
+DSP Report: operator nolabel_line23/U2/dp/multu/hi0 is absorbed into DSP nolabel_line23/U2/dp/multu/hi0.
+DSP Report: Generating DSP nolabel_line23/U5/fact/U1/U3/z, operation Mode is: A2*B2.
+DSP Report: register B is absorbed into DSP nolabel_line23/U5/fact/U1/U3/z.
+DSP Report: register A is absorbed into DSP nolabel_line23/U5/fact/U1/U3/z.
+DSP Report: operator nolabel_line23/U5/fact/U1/U3/z is absorbed into DSP nolabel_line23/U5/fact/U1/U3/z.
+DSP Report: operator nolabel_line23/U5/fact/U1/U3/z is absorbed into DSP nolabel_line23/U5/fact/U1/U3/z.
+DSP Report: Generating DSP nolabel_line23/U5/fact/U1/U3/z, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register B is absorbed into DSP nolabel_line23/U5/fact/U1/U3/z.
+DSP Report: register A is absorbed into DSP nolabel_line23/U5/fact/U1/U3/z.
+DSP Report: operator nolabel_line23/U5/fact/U1/U3/z is absorbed into DSP nolabel_line23/U5/fact/U1/U3/z.
+DSP Report: operator nolabel_line23/U5/fact/U1/U3/z is absorbed into DSP nolabel_line23/U5/fact/U1/U3/z.
+DSP Report: Generating DSP nolabel_line23/U5/fact/U1/U3/z, operation Mode is: A2*B2.
+DSP Report: register B is absorbed into DSP nolabel_line23/U5/fact/U1/U3/z.
+DSP Report: register A is absorbed into DSP nolabel_line23/U5/fact/U1/U3/z.
+DSP Report: operator nolabel_line23/U5/fact/U1/U3/z is absorbed into DSP nolabel_line23/U5/fact/U1/U3/z.
+DSP Report: operator nolabel_line23/U5/fact/U1/U3/z is absorbed into DSP nolabel_line23/U5/fact/U1/U3/z.
+DSP Report: Generating DSP nolabel_line23/U5/fact/U1/U3/z, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register B is absorbed into DSP nolabel_line23/U5/fact/U1/U3/z.
+DSP Report: register A is absorbed into DSP nolabel_line23/U5/fact/U1/U3/z.
+DSP Report: operator nolabel_line23/U5/fact/U1/U3/z is absorbed into DSP nolabel_line23/U5/fact/U1/U3/z.
+DSP Report: operator nolabel_line23/U5/fact/U1/U3/z is absorbed into DSP nolabel_line23/U5/fact/U1/U3/z.
+INFO: [Synth 8-3886] merging instance 'nolabel_line23/U5/fact/U0/cw_reg[3]' (LD) to 'nolabel_line23/U5/fact/U0/cw_reg[2]'
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/pcreg/q_reg[31]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/pcreg/q_reg[30]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/pcreg/q_reg[29]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/pcreg/q_reg[28]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/pcreg/q_reg[27]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/pcreg/q_reg[26]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/pcreg/q_reg[25]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/pcreg/q_reg[24]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/pcreg/q_reg[23]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/pcreg/q_reg[22]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/pcreg/q_reg[21]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/pcreg/q_reg[20]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/pcreg/q_reg[19]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/pcreg/q_reg[18]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/pcreg/q_reg[17]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/pcreg/q_reg[16]) is unused and will be removed from module SoC_fpga.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:00:40 . Memory (MB): peak = 634.691 ; gain = 424.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+--------------------------------+-----------+----------------------+-----------------+
+|Module Name | RTL Object                     | Inference | Size (Depth x Width) | Primitives      | 
++------------+--------------------------------+-----------+----------------------+-----------------+
+|SoC_fpga    | nolabel_line23/U2/dp/rf/rf_reg | Implied   | 32 x 32              | RAM32M x 12     | 
+|SoC_fpga    | nolabel_line23/U4/ram_reg      | Implied   | 64 x 32              | RAM64X1S x 32   | 
++------------+--------------------------------+-----------+----------------------+-----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping      | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|mult        | A*B              | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mult        | (PCIN>>17)+A*B   | 16     | 16     | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mult        | A*B              | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mult        | (PCIN>>17)+A*B   | 18     | 16     | -      | -      | 47     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|SoC_fpga    | A2*B2            | 18     | 16     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|SoC_fpga    | (PCIN>>17)+A2*B2 | 16     | 16     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|SoC_fpga    | A2*B2            | 18     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|SoC_fpga    | (PCIN>>17)+A2*B2 | 18     | 16     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
++------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:00 ; elapsed = 00:01:04 . Memory (MB): peak = 659.152 ; gain = 449.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:00 ; elapsed = 00:01:04 . Memory (MB): peak = 670.211 ; gain = 460.195
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[31]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[30]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[29]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[28]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[27]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[26]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[25]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[24]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[23]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[22]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[21]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[20]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[19]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[18]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[17]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[16]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[15]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[14]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[13]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[12]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[11]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[10]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[9]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[8]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[7]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[6]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[5]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[4]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[3]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[2]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[1]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/lo/q_reg[0]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[31]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[30]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[29]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[28]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[27]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[26]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[25]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[24]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[23]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[22]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[21]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[20]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[19]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[18]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[17]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[16]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[15]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[14]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[13]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[12]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[11]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[10]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[9]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[8]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[7]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[6]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[5]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[4]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[3]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[2]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[1]) is unused and will be removed from module SoC_fpga.
+WARNING: [Synth 8-3332] Sequential element (nolabel_line23/U2/dp/hi/q_reg[0]) is unused and will be removed from module SoC_fpga.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:02 ; elapsed = 00:01:05 . Memory (MB): peak = 699.277 ; gain = 489.262
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:03 ; elapsed = 00:01:06 . Memory (MB): peak = 699.277 ; gain = 489.262
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:03 ; elapsed = 00:01:06 . Memory (MB): peak = 699.277 ; gain = 489.262
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:03 ; elapsed = 00:01:07 . Memory (MB): peak = 699.277 ; gain = 489.262
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:03 ; elapsed = 00:01:07 . Memory (MB): peak = 699.277 ; gain = 489.262
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:03 ; elapsed = 00:01:07 . Memory (MB): peak = 699.277 ; gain = 489.262
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:03 ; elapsed = 00:01:07 . Memory (MB): peak = 699.277 ; gain = 489.262
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BUFG      |     2|
+|2     |CARRY4    |    52|
+|3     |DSP48E1_1 |     3|
+|4     |LUT1      |    95|
+|5     |LUT2      |   175|
+|6     |LUT3      |    48|
+|7     |LUT4      |    56|
+|8     |LUT5      |   194|
+|9     |LUT6      |   213|
+|10    |MUXF7     |     7|
+|11    |RAM32M    |    12|
+|12    |RAM64X1S  |    32|
+|13    |FDCE      |   119|
+|14    |FDRE      |   135|
+|15    |LD        |     8|
+|16    |IBUF      |     7|
+|17    |OBUF      |    17|
++------+----------+------+
+
+Report Instance Areas: 
++------+-----------------+-------------------------+------+
+|      |Instance         |Module                   |Cells |
++------+-----------------+-------------------------+------+
+|1     |top              |                         |  1175|
+|2     |  disp_unit      |LED_MUX                  |    17|
+|3     |  nolabel_line23 |SOC_top                  |   968|
+|4     |    U2           |mips                     |   441|
+|5     |      dp         |datapath                 |   441|
+|6     |        alu      |alu                      |     8|
+|7     |        pcadd2   |adder                    |     4|
+|8     |        pcreg    |flopr                    |   417|
+|9     |        rf       |regfile                  |    12|
+|10    |    U3           |SOC_decoder              |     8|
+|11    |    U4           |dmem                     |    33|
+|12    |    U5           |fact_top                 |   361|
+|13    |      fact       |Factorial                |   320|
+|14    |        U0       |CU                       |    57|
+|15    |        U1       |DP_fact                  |   263|
+|16    |          U0     |CNT                      |   175|
+|17    |          U1     |REG                      |    64|
+|18    |          U3     |MUL                      |    24|
+|19    |      fgo        |fact_reg__parameterized0 |     1|
+|20    |      fn         |fact_reg                 |     4|
+|21    |      fresult    |fact_reg__parameterized1 |    34|
+|22    |    U6           |GPIO_top                 |   125|
+|23    |      U2         |GPIO_reg                 |    33|
+|24    |      U3         |GPIO_reg_0               |    92|
+|25    |  top_clk        |clk_gen                  |   164|
++------+-----------------+-------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:03 ; elapsed = 00:01:07 . Memory (MB): peak = 699.277 ; gain = 489.262
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 84 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:43 ; elapsed = 00:00:52 . Memory (MB): peak = 699.277 ; gain = 173.516
+Synthesis Optimization Complete : Time (s): cpu = 00:01:03 ; elapsed = 00:01:07 . Memory (MB): peak = 699.277 ; gain = 489.262
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 114 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 52 instances were transformed.
+  LD => LDCE: 8 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 12 instances
+  RAM64X1S => RAM64X1S (RAMS64E): 32 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+130 Infos, 155 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:03 ; elapsed = 00:01:05 . Memory (MB): peak = 699.277 ; gain = 489.262
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Nhu/140 labs/SOC/SOC.runs/synth_1/SoC_fpga.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 699.277 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed May 10 17:55:15 2017...

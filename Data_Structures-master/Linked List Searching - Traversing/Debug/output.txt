@@ -1,0 +1,122 @@
+
+CONSOLE OUTPUT
+
+
+
+INPUT INFO before selecting search method
+
+
+
+Specify the number of elements to be searched
+10
+Choose elements added to list
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Elements added to the array
+
+12345678910
+Specify the element to be searched for: 6
+
+ Searching for 6.....
+
+Choose your search type:
+1. Arrays: Sequential Search without recursion
+2. Arrays: Sequential Search with recursion
+3. Ordered Arrays: Binary Search without recursion
+4. Ordered Arrays: Binary Search with recursion
+5. Linked List: Search without recursion
+6. Linked List: Search with recursion
+Enter 0 to exit.
+1
+
+Your choice: 1
+
+Element found at index/position : 5
+
+Choose your search type:
+1. Arrays: Sequential Search without recursion
+2. Arrays: Sequential Search with recursion
+3. Ordered Arrays: Binary Search without recursion
+4. Ordered Arrays: Binary Search with recursion
+5. Linked List: Search without recursion
+6. Linked List: Search with recursion
+Enter 0 to exit.
+2
+
+Your choice: 2
+
+Element found at 5
+
+Choose your search type:
+1. Arrays: Sequential Search without recursion
+2. Arrays: Sequential Search with recursion
+3. Ordered Arrays: Binary Search without recursion
+4. Ordered Arrays: Binary Search with recursion
+5. Linked List: Search without recursion
+6. Linked List: Search with recursion
+Enter 0 to exit.
+3
+
+Your choice: 3
+Element found at position 5
+
+Choose your search type:
+1. Arrays: Sequential Search without recursion
+2. Arrays: Sequential Search with recursion
+3. Ordered Arrays: Binary Search without recursion
+4. Ordered Arrays: Binary Search with recursion
+5. Linked List: Search without recursion
+6. Linked List: Search with recursion
+Enter 0 to exit.
+4
+
+Your choice: 4
+
+Element found at 5
+
+Choose your search type:
+1. Arrays: Sequential Search without recursion
+2. Arrays: Sequential Search with recursion
+3. Ordered Arrays: Binary Search without recursion
+4. Ordered Arrays: Binary Search with recursion
+5. Linked List: Search without recursion
+6. Linked List: Search with recursion
+Enter 0 to exit.
+5
+
+Your choice: 5
+
+Element found at position 5
+
+Choose your search type:
+1. Arrays: Sequential Search without recursion
+2. Arrays: Sequential Search with recursion
+3. Ordered Arrays: Binary Search without recursion
+4. Ordered Arrays: Binary Search with recursion
+5. Linked List: Search without recursion
+6. Linked List: Search with recursion
+Enter 0 to exit.
+6
+
+Your choice: 6
+
+Element Found at : 5
+Choose your search type:
+1. Arrays: Sequential Search without recursion
+2. Arrays: Sequential Search with recursion
+3. Ordered Arrays: Binary Search without recursion
+4. Ordered Arrays: Binary Search with recursion
+5. Linked List: Search without recursion
+6. Linked List: Search with recursion
+Enter 0 to exit.
+0
+
+Your choice: 0

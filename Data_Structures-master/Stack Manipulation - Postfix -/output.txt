@@ -1,0 +1,27 @@
+Output
+
+Infix expression 2 + 4 - 1
+Postfix Expression: 24+1-
+The resultant of the equation is
+
+5
+Infix expression (5+5)*2
+Postfix Expression: 55+2*
+The resultant of the equation is
+
+20
+Infix expression (2+4)*(2-7)
+Postfix Expression: 24+27-*
+The resultant of the equation is
+
+-30
+Infix expression 9+((3+3)*(8-9)-1)/(5-1)
+Postfix Expression: 933+89-*1-+51-/
+The resultant of the equation is
+
+2
+Infix expression 1+4*(3+2)-7/4*1+9
+Postfix Expression: 14+32+*7-4/1*9+
+The resultant of the equation is
+
+9

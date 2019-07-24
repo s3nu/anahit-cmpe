@@ -1,0 +1,146 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Sun Dec 10 11:01:34 2017
+# Process ID: 5296
+# Current directory: C:/Users/Anahit Sarao/Desktop/SOC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8288 C:\Users\Anahit Sarao\Desktop\SOC\SOC.xpr
+# Log file: C:/Users/Anahit Sarao/Desktop/SOC/vivado.log
+# Journal file: C:/Users/Anahit Sarao/Desktop/SOC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Anahit Sarao/Desktop/SOC/SOC.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.3/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 759.848 ; gain = 68.203
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: GPIO_top
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 917.816 ; gain = 105.547
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'GPIO_top' [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/GPIO.v:78]
+INFO: [Synth 8-638] synthesizing module 'GPIO_decoder' [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/GPIO.v:3]
+INFO: [Synth 8-226] default block is never used [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/GPIO.v:14]
+INFO: [Synth 8-256] done synthesizing module 'GPIO_decoder' (1#1) [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/GPIO.v:3]
+INFO: [Synth 8-638] synthesizing module 'GPIO_reg' [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/GPIO.v:63]
+	Parameter w bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'GPIO_reg' (2#1) [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/GPIO.v:63]
+INFO: [Synth 8-638] synthesizing module 'GPIO_MUX' [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/GPIO.v:41]
+INFO: [Synth 8-226] default block is never used [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/GPIO.v:52]
+INFO: [Synth 8-256] done synthesizing module 'GPIO_MUX' (3#1) [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/GPIO.v:41]
+INFO: [Synth 8-256] done synthesizing module 'GPIO_top' (4#1) [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/sources_1/new/GPIO.v:78]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 963.957 ; gain = 151.688
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 963.957 ; gain = 151.688
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:6]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports clk]'. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:6]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'switches[0]'. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[1]'. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[2]'. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[3]'. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'switches[4]'. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'dispsel'. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LEDOUT[0]'. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LEDOUT[1]'. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LEDOUT[2]'. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LEDOUT[3]'. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LEDOUT[4]'. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LEDOUT[5]'. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LEDOUT[6]'. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LEDOUT[7]'. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LEDSEL[0]'. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LEDSEL[1]'. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LEDSEL[2]'. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LEDSEL[3]'. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LEDSEL[4]'. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LEDSEL[5]'. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LEDSEL[6]'. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LEDSEL[7]'. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'reset'. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/Anahit Sarao/Desktop/SOC/SOC.srcs/constrs_1/new/SOC_FPGA.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:25 ; elapsed = 00:00:22 . Memory (MB): peak = 1307.848 ; gain = 495.578
+14 Infos, 25 Warnings, 25 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:22 . Memory (MB): peak = 1307.848 ; gain = 495.578
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 10 11:23:57 2017...
