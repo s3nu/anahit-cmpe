@@ -1,8 +1,0 @@
-Anahit Sarao
-008435583
-december 7th,2014
-
-output for lab 10(hw)
-
-you aint ready: palindrome==false
-Program ended with exit code: 0
