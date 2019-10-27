@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC3726091A019AC900BCD7B3 /* labexam2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3726081A019AC900BCD7B3 /* labexam2.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ACFCAD7B1A0044D5000B7E07 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AC3726081A019AC900BCD7B3 /* labexam2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = labexam2.cpp; sourceTree = "<group>"; };
+		AC37260A1A019B3200BCD7B3 /* personData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = personData.txt; path = labex2/personData.txt; sourceTree = SOURCE_ROOT; };
+		AC9B33241A02DF6F00208F36 /* exam2_5583.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = exam2_5583.txt; sourceTree = "<group>"; };
+		ACFCAD7D1A0044D6000B7E07 /* labex2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = labex2; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACFCAD7A1A0044D5000B7E07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACFCAD741A0044D5000B7E07 = {
+			isa = PBXGroup;
+			children = (
+				AC9B33241A02DF6F00208F36 /* exam2_5583.txt */,
+				AC37260A1A019B3200BCD7B3 /* personData.txt */,
+				ACFCAD7F1A0044D6000B7E07 /* labex2 */,
+				ACFCAD7E1A0044D6000B7E07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACFCAD7E1A0044D6000B7E07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACFCAD7D1A0044D6000B7E07 /* labex2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACFCAD7F1A0044D6000B7E07 /* labex2 */ = {
+			isa = PBXGroup;
+			children = (
+				AC3726081A019AC900BCD7B3 /* labexam2.cpp */,
+			);
+			path = labex2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACFCAD7C1A0044D5000B7E07 /* labex2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACFCAD841A0044D6000B7E07 /* Build configuration list for PBXNativeTarget "labex2" */;
+			buildPhases = (
+				ACFCAD791A0044D5000B7E07 /* Sources */,
+				ACFCAD7A1A0044D5000B7E07 /* Frameworks */,
+				ACFCAD7B1A0044D5000B7E07 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = labex2;
+			productName = labex2;
+			productReference = ACFCAD7D1A0044D6000B7E07 /* labex2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACFCAD751A0044D5000B7E07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = senu;
+				TargetAttributes = {
+					ACFCAD7C1A0044D5000B7E07 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = ACFCAD781A0044D5000B7E07 /* Build configuration list for PBXProject "labex2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ACFCAD741A0044D5000B7E07;
+			productRefGroup = ACFCAD7E1A0044D6000B7E07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACFCAD7C1A0044D5000B7E07 /* labex2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACFCAD791A0044D5000B7E07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3726091A019AC900BCD7B3 /* labexam2.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ACFCAD821A0044D6000B7E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ACFCAD831A0044D6000B7E07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ACFCAD851A0044D6000B7E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_VERSION = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACFCAD861A0044D6000B7E07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_VERSION = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACFCAD781A0044D5000B7E07 /* Build configuration list for PBXProject "labex2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFCAD821A0044D6000B7E07 /* Debug */,
+				ACFCAD831A0044D6000B7E07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACFCAD841A0044D6000B7E07 /* Build configuration list for PBXNativeTarget "labex2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFCAD851A0044D6000B7E07 /* Debug */,
+				ACFCAD861A0044D6000B7E07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACFCAD751A0044D5000B7E07 /* Project object */;
+}
