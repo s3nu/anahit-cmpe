@@ -1,0 +1,163 @@
+
+Anahit at Anahit-MBP in ~/Documents/cmpe152/assignment-2/Chapter3cpp on master [!$]
+$ make
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o Java.o Java.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/Globals.o wci/Globals.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/backend/Backend.o wci/backend/Backend.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/backend/BackendFactory.o wci/backend/BackendFactory.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/backend/compiler/CodeGenerator.o wci/backend/compiler/CodeGenerator.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/backend/interpreter/Executor.o wci/backend/interpreter/Executor.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/frontend/FrontendFactory.o wci/frontend/FrontendFactory.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/frontend/Parser.o wci/frontend/Parser.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/frontend/Scanner.o wci/frontend/Scanner.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/frontend/Source.o wci/frontend/Source.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/frontend/Token.o wci/frontend/Token.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/frontend/pascal/PascalError.o wci/frontend/pascal/PascalError.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/frontend/pascal/PascalErrorHandler.o wci/frontend/pascal/PascalErrorHandler.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/frontend/pascal/PascalParserTD.o wci/frontend/pascal/PascalParserTD.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/frontend/pascal/PascalScanner.o wci/frontend/pascal/PascalScanner.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/frontend/pascal/PascalToken.o wci/frontend/pascal/PascalToken.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/frontend/pascal/tokens/PascalErrorToken.o wci/frontend/pascal/tokens/PascalErrorToken.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/frontend/pascal/tokens/PascalNumberToken.o wci/frontend/pascal/tokens/PascalNumberToken.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/frontend/pascal/tokens/PascalSpecialSymbolToken.o wci/frontend/pascal/tokens/PascalSpecialSymbolToken.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/frontend/pascal/tokens/PascalStringToken.o wci/frontend/pascal/tokens/PascalStringToken.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/frontend/pascal/tokens/PascalWordToken.o wci/frontend/pascal/tokens/PascalWordToken.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/frontend/java/JavaError.o wci/frontend/java/JavaError.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/frontend/java/JavaErrorHandler.o wci/frontend/java/JavaErrorHandler.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/frontend/java/JavaParserTD.o wci/frontend/java/JavaParserTD.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/frontend/java/JavaScanner.o wci/frontend/java/JavaScanner.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/frontend/java/JavaToken.o wci/frontend/java/JavaToken.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/frontend/java/tokens/JavaErrorToken.o wci/frontend/java/tokens/JavaErrorToken.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/frontend/java/tokens/JavaNumberToken.o wci/frontend/java/tokens/JavaNumberToken.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/frontend/java/tokens/JavaSpecialSymbolToken.o wci/frontend/java/tokens/JavaSpecialSymbolToken.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/frontend/java/tokens/JavaStringToken.o wci/frontend/java/tokens/JavaStringToken.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/frontend/java/tokens/JavaWordToken.o wci/frontend/java/tokens/JavaWordToken.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/frontend/java/tokens/JavaCharacterToken.o wci/frontend/java/tokens/JavaCharacterToken.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/message/Message.o wci/message/Message.cpp
+g++ -std=c++0x -O0 -g3 -Wall -I/usr/local/include/boost -c -o wci/message/MessageHandler.o wci/message/MessageHandler.cpp
+g++ -o Chapter3cpp Java.o wci/Globals.o wci/backend/Backend.o wci/backend/BackendFactory.o wci/backend/compiler/CodeGenerator.o wci/backend/interpreter/Executor.o wci/frontend/FrontendFactory.o wci/frontend/Parser.o wci/frontend/Scanner.o wci/frontend/Source.o wci/frontend/Token.o wci/frontend/pascal/PascalError.o wci/frontend/pascal/PascalErrorHandler.o wci/frontend/pascal/PascalParserTD.o wci/frontend/pascal/PascalScanner.o wci/frontend/pascal/PascalToken.o wci/frontend/pascal/tokens/PascalErrorToken.o wci/frontend/pascal/tokens/PascalNumberToken.o wci/frontend/pascal/tokens/PascalSpecialSymbolToken.o wci/frontend/pascal/tokens/PascalStringToken.o wci/frontend/pascal/tokens/PascalWordToken.o wci/frontend/java/JavaError.o wci/frontend/java/JavaErrorHandler.o wci/frontend/java/JavaParserTD.o wci/frontend/java/JavaScanner.o wci/frontend/java/JavaToken.o wci/frontend/java/tokens/JavaErrorToken.o wci/frontend/java/tokens/JavaNumberToken.o wci/frontend/java/tokens/JavaSpecialSymbolToken.o wci/frontend/java/tokens/JavaStringToken.o wci/frontend/java/tokens/JavaWordToken.o wci/frontend/java/tokens/JavaCharacterToken.o wci/message/Message.o wci/message/MessageHandler.o
+
+Anahit at Anahit-MBP in ~/Documents/cmpe152/assignment-2/Chapter3cpp on master [!$]
+$ make compile src=javatest.in
+./Chapter3cpp compile javatest.in
+001 /* This is a comment. */
+002 // So is this.
+003
+004 /* Here's a comment
+005    that spans several
+006    source lines. */
+007
+008 Two/*comments in*//***a row***/ here.
+>>> IDENTIFIER      line=008, pos= 0, text="Two"
+>>> IDENTIFIER      line=008, pos=32, text="here"
+>>> DOT             line=008, pos=36, text="."
+009 /* This is /* not a nested comment. */
+010 // Nor is /* this */ one.
+011
+012 { Not a comment. }
+>>> LEFT_BRACE      line=012, pos= 0, text="{"
+>>> IDENTIFIER      line=012, pos= 2, text="Not"
+>>> IDENTIFIER      line=012, pos= 6, text="a"
+>>> IDENTIFIER      line=012, pos= 8, text="comment"
+>>> DOT             line=012, pos=15, text="."
+>>> RIGHT_BRACE     line=012, pos=17, text="}"
+013
+014 // Word tokens
+015 Hello world
+>>> IDENTIFIER      line=015, pos= 0, text="Hello"
+>>> IDENTIFIER      line=015, pos= 6, text="world"
+016 Abstract abstract ABSTRACT aBsTrAcT
+>>> IDENTIFIER      line=016, pos= 0, text="Abstract"
+>>> ABSTRACT        line=016, pos= 9, text="abstract"
+>>> IDENTIFIER      line=016, pos=18, text="ABSTRACT"
+>>> IDENTIFIER      line=016, pos=27, text="aBsTrAcT"
+017 What?
+>>> IDENTIFIER      line=017, pos= 0, text="What"
+>>> QUESTION_MARK   line=017, pos= 4, text="?"
+018
+019 // Character tokens
+020 'x' 'A' '\'' 'a' '\n' '\t' '\\'
+>>> CHAR            line=020, pos= 0, text="'x'"
+>>>                 value='x'
+>>> CHAR            line=020, pos= 4, text="'A'"
+>>>                 value='A'
+>>> CHAR            line=020, pos= 8, text="'\''"
+>>>                 value='''
+>>> CHAR            line=020, pos=13, text="'a'"
+>>>                 value='a'
+>>> CHAR            line=020, pos=17, text="'\n'"
+>>>                 value='
+'
+>>> CHAR            line=020, pos=22, text="'\t'"
+>>>                 value='	'
+>>> CHAR            line=020, pos=27, text="'\\'"
+>>>                 value='\'
+021
+022 // String tokens
+023 "Hello, world."
+>>> STRING          line=023, pos= 0, text=""Hello, world.""
+>>>                 value="Hello, world."
+024 "Hello,\tworld!"
+>>> STRING          line=024, pos= 0, text=""Hello,\tworld!""
+>>>                 value="Hello,	world!"
+025 "Hello,\n\"world!\""
+>>> STRING          line=025, pos= 0, text=""Hello,\n"world!"""
+>>>                 value="Hello,
+"world!""
+026 "It's Friday!"
+>>> STRING          line=026, pos= 0, text=""It's Friday!""
+>>>                 value="It's Friday!"
+027 ""  "\""
+>>> STRING          line=027, pos= 0, text=""""
+>>>                 value=""
+>>> STRING          line=027, pos= 4, text="""""
+>>>                 value="""
+028
+029 // Special symbol tokens
+030 + - * / := . , ; : = <> < <= >= > ( ) [ ] { } } ^ ..
+>>> PLUS            line=030, pos= 0, text="+"
+>>> MINUS           line=030, pos= 2, text="-"
+>>> STAR            line=030, pos= 4, text="*"
+>>> SLASH           line=030, pos= 6, text="/"
+>>> COLON           line=030, pos= 8, text=":"
+>>> EQUALS          line=030, pos= 9, text="="
+>>> DOT             line=030, pos=11, text="."
+>>> COMMA           line=030, pos=13, text=","
+>>> SEMICOLON       line=030, pos=15, text=";"
+>>> COLON           line=030, pos=17, text=":"
+>>> EQUALS          line=030, pos=19, text="="
+>>> LESS_THAN       line=030, pos=21, text="<"
+>>> GREATER_THAN    line=030, pos=22, text=">"
+>>> LESS_THAN       line=030, pos=24, text="<"
+>>> LESS_EQUALS     line=030, pos=26, text="<="
+>>> GREATER_EQUALS  line=030, pos=29, text=">="
+>>> GREATER_THAN    line=030, pos=32, text=">"
+>>> LEFT_PAREN      line=030, pos=34, text="("
+>>> RIGHT_PAREN     line=030, pos=36, text=")"
+>>> LEFT_BRACKET    line=030, pos=38, text="["
+>>> RIGHT_BRACKET   line=030, pos=40, text="]"
+>>> LEFT_BRACE      line=030, pos=42, text="{"
+>>> RIGHT_BRACE     line=030, pos=44, text="}"
+>>> RIGHT_BRACE     line=030, pos=46, text="}"
+>>> HAT             line=030, pos=48, text="^"
+>>> DOT             line=030, pos=50, text="."
+>>> DOT             line=030, pos=51, text="."
+031 <<=  >>=
+>>> LSHIFT_EQUALS   line=031, pos= 0, text="<<="
+>>> RSHIFT_EQUALS   line=031, pos= 5, text=">>="
+032 :=<>=<==>>===
+>>> COLON           line=032, pos= 0, text=":"
+>>> EQUALS          line=032, pos= 1, text="="
+>>> LESS_THAN       line=032, pos= 2, text="<"
+>>> GREATER_EQUALS  line=032, pos= 3, text=">="
+>>> LESS_EQUALS     line=032, pos= 5, text="<="
+>>> EQUALS          line=032, pos= 7, text="="
+>>> RSHIFT_EQUALS   line=032, pos= 8, text=">>="
+>>> EQUAL_EQUALS    line=032, pos=11, text="=="
+
+                  32 source lines.
+                   0 syntax errors.
+                0.03 seconds total parsing time.
+
+                   0 instructions generated.
+                0.00 seconds total code generation time.

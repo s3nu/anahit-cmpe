@@ -1,0 +1,37 @@
+{
+  LogicWorks Report Form for LogicWorks Project Checker Parts List
+  Copyright 2005 by Capilano Computing Systems
+}
+$NOTES
+This report produces a list of all the devices used in the current  
+circuit.
+
+Attributes Needed:
+
+Attribute	Where	Description
+
+Value	Devices	The value for this device, used for discrete devices  
+				(capacitors, resistors, etc.).
+$END
+{
+---------------------------------------------------------------------
+}
+$DEFINEBLOCK(PkgTable)
+ 	_
+$END
+$COMPATIBLE(3a39232)
+$CREATEREPORT($DESIGNNAME.Parts.txt) $PROMPT $CREATOR(ttxt)
+$COMBDEVSON
+$MAXITEMSPERLINE(8)
+$ASSIGNNAMES $DEVICES $REASSIGN
+$CONTSTART( )
+$SORT $DEVICES $TYPENAME $LEXICAL &Value
+$HEADER
+Circuit: $DESIGNNAME
+Date: $DATE - $TIME
+
+Device Type$TABNum. Used$TABValue$TABReferences
+
+$ENDHEADER
+$ROWS(50)
+$DEVICES$CHARMAP(PkgTable,$TYPENAME)$TAB$COUNT$TAB$IF(&Value)&Value$ELSE##$END$TAB$DEVNAME

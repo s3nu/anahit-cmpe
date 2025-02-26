@@ -1,0 +1,42 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_arith.all;
+library LogicWorks;
+use LogicWorks.debug.all;
+
+entity arith_machine is
+	port(i1 : in std_logic_vector(7 downto 0);
+		sign : out std_logic;
+		plus : out std_logic_vector(7 downto 0));
+end arith_machine;
+
+
+
+architecture a1 of arith_machine is	
+
+begin
+
+	foo : process(i1)
+	
+		variable s : signed(7 downto 0);
+		variable u : unsigned(7 downto 0);
+		variable si : integer;
+		variable ui : integer;
+		variable ii : integer;
+
+	begin
+		s := conv_signed(i1, 8);
+		u := conv_unsigned(i1, 8);
+		si := conv_integer(s);
+		ui := conv_integer(u);
+		ii := conv_integer(i1);
+		--writeln("s = ", s, "  si = ", si, "  ui = ", ui, "  ii = ", ii);
+
+		if si < 0 then sign <= '1';
+		else sign <= '0';
+		end if;
+		
+		plus <= conv_unsigned(ii, 8);
+	end process;
+	
+end a1;

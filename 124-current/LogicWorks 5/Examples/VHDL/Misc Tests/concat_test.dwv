@@ -1,0 +1,59 @@
+library IEEE;
+library LogicWorks;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_arith.all;
+use LogicWorks.debug.all ;
+
+
+
+entity CONCATTER is 
+
+ port(
+		I		: in	std_logic;
+		II1		: in	std_logic_vector(0 to 7);
+		II2		: in	std_logic_vector(7 downto 0);
+		SELIN	: in	std_logic_vector(0 to 2);
+		OO1		: out	std_logic_vector(0 to 7);
+		OO2		: out	std_logic_vector(7 downto 0)
+	);
+
+end CONCATTER;
+
+
+architecture arch1 of CONCATTER is
+
+begin
+
+  cell : process (I, II1, II2, SELIN)
+	variable func4 : std_logic_vector (3 downto 0);
+	variable func8 : std_logic_vector (0 to 7);
+	variable sel : integer;
+  begin
+  	sel := conv_integer(SELIN);
+  	func8 := II2;
+   	case sel is
+   		when 0 => 	func4 := II1(0 to 1) & "01";
+ 					OO2 <= func8;
+  		when 1 => 	func4 := II1(0) & "010";
+  					OO2 <= '1' & '0' & '1' & '0' & '1' & '1' & '1' & I;
+  		when 2 => 	func4 := II1(0) & '1' & II1(1) & '0';
+  					OO2 <= '1' & '0' & I & '0' & "1100";
+   		when 3 => 	func4 := "010" & II1(0);
+  					OO2 <= '1' & '0' & func8(4 to 7) & '1' & '0';
+   		when 4 => 	func4 := II1(0) & II1(1) & II1(2) & II1(3);
+  					OO2 <= '1' & '0' & II2(7 downto 4) & "11";
+   		when 5 => 	func4 := II1(0) & "010";
+  					OO2 <= '1' & II2(7 downto 2) & '0';
+   		when 6 => 	func4 := II1(0) & '1' & II1(1) & I;
+  					OO2 <= II1;
+   		when 7 => 	func4 := "010" & II1(0);
+  					OO2 <= II1(0 to 1) & '1' & "01010";
+   	end case;
+   	
+ 	OO1 <= func4 & II2(3 downto 1) & I;
+
+  end process cell;
+
+
+
+end arch1;

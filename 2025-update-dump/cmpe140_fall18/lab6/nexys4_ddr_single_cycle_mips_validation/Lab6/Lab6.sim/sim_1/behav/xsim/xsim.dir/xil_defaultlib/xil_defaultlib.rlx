@@ -1,0 +1,20 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/Users/Colin/Desktop/single_cycle_mips_source_initial/control_unit/auxdec.v,1539105348,verilog,,C:/Users/Colin/Desktop/single_cycle_mips_source_initial/control_unit/controlunit.v,,auxdec,,,,,,,,
+C:/Users/Colin/Desktop/single_cycle_mips_source_initial/control_unit/controlunit.v,1539105348,verilog,,C:/Users/Colin/Desktop/single_cycle_mips_source_initial/datapath/datapath.v,,controlunit,,,,,,,,
+C:/Users/Colin/Desktop/single_cycle_mips_source_initial/control_unit/maindec.v,1539105349,verilog,,C:/Users/Colin/Desktop/single_cycle_mips_source_initial/mips/mips.v,,maindec,,,,,,,,
+C:/Users/Colin/Desktop/single_cycle_mips_source_initial/datapath/adder.v,1539105349,verilog,,C:/Users/Colin/Desktop/single_cycle_mips_source_initial/datapath/alu.v,,adder,,,,,,,,
+C:/Users/Colin/Desktop/single_cycle_mips_source_initial/datapath/alu.v,1539105349,verilog,,C:/Users/Colin/Desktop/single_cycle_mips_source_initial/control_unit/auxdec.v,,alu,,,,,,,,
+C:/Users/Colin/Desktop/single_cycle_mips_source_initial/datapath/datapath.v,1539105349,verilog,,C:/Users/Colin/Desktop/single_cycle_mips_source_initial/memory/dmem.v,,datapath,,,,,,,,
+C:/Users/Colin/Desktop/single_cycle_mips_source_initial/datapath/dreg.v,1539105349,verilog,,C:/Users/Colin/Desktop/single_cycle_mips_source_initial/memory/imem.v,,dreg,,,,,,,,
+C:/Users/Colin/Desktop/single_cycle_mips_source_initial/datapath/mux2.v,1539105349,verilog,,C:/Users/Colin/Desktop/single_cycle_mips_source_initial/datapath/regfile.v,,mux2,,,,,,,,
+C:/Users/Colin/Desktop/single_cycle_mips_source_initial/datapath/regfile.v,1539105349,verilog,,C:/Users/Colin/Desktop/single_cycle_mips_source_initial/datapath/signext.v,,regfile,,,,,,,,
+C:/Users/Colin/Desktop/single_cycle_mips_source_initial/datapath/signext.v,1539105350,verilog,,C:/Users/Colin/Desktop/single_cycle_mips_source_initial/testbench/tb_mips_top.v,,signext,,,,,,,,
+C:/Users/Colin/Desktop/single_cycle_mips_source_initial/memory/dmem.v,1539105350,verilog,,C:/Users/Colin/Desktop/single_cycle_mips_source_initial/datapath/dreg.v,,dmem,,,,,,,,
+C:/Users/Colin/Desktop/single_cycle_mips_source_initial/memory/imem.v,1539122062,verilog,,C:/Users/Colin/Desktop/single_cycle_mips_source_initial/control_unit/maindec.v,,imem,,,,,,,,
+C:/Users/Colin/Desktop/single_cycle_mips_source_initial/mips/mips.v,1539105350,verilog,,C:/Users/Colin/Desktop/single_cycle_mips_source_initial/mips/mips_top.v,,mips,,,,,,,,
+C:/Users/Colin/Desktop/single_cycle_mips_source_initial/mips/mips_top.v,1539105350,verilog,,C:/Users/Colin/Desktop/single_cycle_mips_source_initial/datapath/mux2.v,,mips_top,,,,,,,,
+C:/Users/Colin/Desktop/single_cycle_mips_source_initial/testbench/tb_mips_top.v,1539105350,verilog,,,,tb_mips_top,,,,,,,,
+C:/Users/Colin/Documents/140/nexys4_ddr_single_cycle_mips_validation/Lab6/Lab6.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,

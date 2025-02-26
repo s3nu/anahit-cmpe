@@ -1,0 +1,7 @@
+This README file is for the C++ version of the Pascal compiler, Chapter 3.
+ How to run program:
+
+ make clean
+ make
+ make compile src=javatest.in
+

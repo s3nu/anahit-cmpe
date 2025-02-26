@@ -1,0 +1,118 @@
+/*
+
+Xilinx Vivado v2017.4 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 5960
+License: Customer
+
+Current time: 	Fri Oct 19 22:58:57 PDT 2018
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 3 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Xilinx/Vivado/2017.4/tps/win64/jre
+JVM executable location: 	D:/Xilinx/Vivado/2017.4/tps/win64/jre/bin/java.exe
+
+User name: 	Colin
+User home directory: C:/Users/Colin
+User working directory: C:/Users/Colin/Documents/140/nexys4_ddr_single_cycle_mips_validation/Lab6
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2017.4
+RDI_DATADIR: D:/Xilinx/Vivado/2017.4/data
+RDI_BINDIR: D:/Xilinx/Vivado/2017.4/bin
+
+Vivado preferences file location: C:/Users/Colin/AppData/Roaming/Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: C:/Users/Colin/AppData/Roaming/Xilinx/Vivado/2017.4/
+Vivado layouts directory: C:/Users/Colin/AppData/Roaming/Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Colin/Documents/140/nexys4_ddr_single_cycle_mips_validation/Lab6/vivado.log
+Vivado journal file location: 	C:/Users/Colin/Documents/140/nexys4_ddr_single_cycle_mips_validation/Lab6/vivado.jou
+Engine tmp dir: 	C:/Users/Colin/Documents/140/nexys4_ddr_single_cycle_mips_validation/Lab6/.Xil/Vivado-5960-DESKTOP-2VOHK5I
+
+GUI allocated memory:	173 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 498 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 58 MB (+58196kb) [00:00:24]
+// [Engine Memory]: 463 MB (+333777kb) [00:00:24]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bs (cj):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Colin\Documents\140\nexys4_ddr_single_cycle_mips_validation\Lab6\Lab6.xpr. Version: Vivado v2017.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Colin/Documents/140/nexys4_ddr_single_cycle_mips_validation/Lab6/Lab6.xpr 
+// [Engine Memory]: 498 MB (+12738kb) [00:00:27]
+// HMemoryUtils.trashcanNow. Engine heap size: 498 MB. GUI used memory: 32 MB. Current time: 10/19/18 10:58:59 PM PDT
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Colin/Documents/140/nexys4_ddr_single_cycle_mips_validation/Lab6/Lab6.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 62 MB (+1123kb) [00:00:57]
+// [Engine Memory]: 536 MB (+13435kb) [00:00:57]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 548 MB. GUI used memory: 38 MB. Current time: 10/19/18 10:59:31 PM PDT
+// Tcl Message: open_project: Time (s): cpu = 00:00:35 ; elapsed = 00:00:35 . Memory (MB): peak = 725.809 ; gain = 20.371 
+// Project name: Lab6; location: C:/Users/Colin/Documents/140/nexys4_ddr_single_cycle_mips_validation/Lab6; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 80 MB (+15450kb) [00:01:10]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 26 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mips_fpga (mips_fpga.v)]", 1); // B (D, cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 563 MB. GUI used memory: 39 MB. Current time: 10/19/18 11:00:04 PM PDT
+// PAPropertyPanels.initPanels (mips_fpga.v) elapsed time: 0.6s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mips_fpga (mips_fpga.v)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mips_fpga (mips_fpga.v)]", 1, true); // B (D, cj) - Node
+// [Engine Memory]: 563 MB (+565kb) [00:01:38]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mips_fpga (mips_fpga.v)]", 1, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+selectCodeEditor("mips_fpga.v", 103, 112); // cd (w, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mips_fpga (mips_fpga.v)]", 1); // B (D, cj)
+// Elapsed time: 66 seconds
+selectCodeEditor("mips_fpga.v", 438, 72); // cd (w, cj)
+selectCodeEditor("mips_fpga.v", 2, 12); // cd (w, cj)
+selectCodeEditor("mips_fpga.v", 67, 303, true, false, false, false, false); // cd (w, cj) - Shift Key
+typeControlKey((HResource) null, "mips_fpga.v", 'c'); // cd (w, cj)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Elapsed time: 824 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// Elapsed time: 89 seconds
+selectCodeEditor("mips_fpga.v", 159, 97); // cd (w, cj)
+selectButton(PAResourceItoN.MainToolbarMgr_OPEN, (String) null); // ax (f, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj)
+selectMenu(PAResourceItoN.MainToolbarMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z (cj)
+// Elapsed time: 25 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj)

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Feb 22 17:12:56 2017
+# Process ID: 1780
+# Current directory: C:/Users/Anahit Sarao/Desktop/cmpe125labs/lab3/lab3.runs/impl_1
+# Command line: vivado.exe -log decoder_case.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source decoder_case.tcl -notrace
+# Log file: C:/Users/Anahit Sarao/Desktop/cmpe125labs/lab3/lab3.runs/impl_1/decoder_case.vdi
+# Journal file: C:/Users/Anahit Sarao/Desktop/cmpe125labs/lab3/lab3.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source decoder_case.tcl -notrace

@@ -1,0 +1,21 @@
+########################
+# Variable declaration #
+########################
+# $a0 = n
+# $a1 = f
+
+#################
+# Begin Program #
+#################
+var_init: 	addi $a0, $0, 5		# assign 5 to $a0
+		sw $a0, 0x00
+		addi $s0, $0, 1		# assign 1 to $a1
+		addi $t0, $0, 1		# assign 1 to $t0
+loop_begin:	beq $a0, $t0, end	# branch to end if $a0 == s01
+		mult $a0, $s0		# $a1 = $a1 * $a0 
+		mflo $s0
+		addi $a0, $a0, -1
+		j loop_begin
+end:		sw $s0, 0x10
+		
+		

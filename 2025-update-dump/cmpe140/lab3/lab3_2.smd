@@ -1,0 +1,11 @@
+main: 		addiu $4, $0, 5		#n = 5
+			sw	$4, 0($0)		#n into 0x00
+			addiu $16, $0, 1	#f = 1
+whileloop:		slti	$8, $4, 1
+			beq	$8, $0, end
+			multu $4, $16		#f * n
+			mflo	$16			#f = f * n
+			addiu $9, $0, 1
+			subu	$4, $4, $9		#n = n - 1
+			j	whileloop
+end:			sw	$16, 16($0)		#store n! into 0x10

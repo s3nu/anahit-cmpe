@@ -1,0 +1,236 @@
+chap9
+double *p1,*p2;
+int *ip1,*ip2,v1,v2;
+ip=&v1;
+v1=*ip//dereference operator
+*ip=50;
+ip=100/can do but not advised;
+&=address
+
+ex...
+v1=0;
+p1=&v1;
+cout<<v1<<endl;//42
+cout<<p2<<endl;//42
+
+ex...
+ip1=&v1
+ip2=ip1
+*ip2=99;
+cout<<v1<<endl;//99
+
+ex...
+*ip1=95
+*ip2=*ip1;
+vs
+ip1-ip2;
+new operator...
+ip1=new int;//yes
+v1=new int;//no
+
+variable types...
+dynamic variable [heap/freestore]
+automatic variable[(local variable)[stack]]
+global variable [data/bss]
+mytype *m1,*m2;
+m1=new mytype;//default constructor
+m2=new mytype(10,20);
+
+must delete after usage to return to freestore
+delete operator...
+delete ip1;
+int &ip1
+*ip1=new int [100];
+delete[] ip1;
+dangling pointer
+*ip2=ip1;
+ip1=new int;
+delete ip1;
+ip2...//dangling pointer-can cause problems/crash
+
+typedef...
+typedef int *intptr;
+intptr= p1;//in other words int*p1;
+**p1//multidimaential dynamic;
+
+dynamic array...
+int *p,*p;
+int arr[10];
+a=new int[15];
+p=arr;//arr points to first element arr->&arr[0]
+arr=p;//illegal
+p+1//point to second element..points to memory address//&arr[1]
+arr++;//illegal
+arr--;//illegal
+
+int size;
+char *ca;
+ca=new char[size];
+cin>>size
+char char[size];//allowed from heap;
+
+chap 10
+
+structure->public
+class->private
+hiearachical structure--
+structure having other structures
+structures as memebers
+
+encapsulation
+variables+functions in an object
+members variable to be private
+accessors(read the variables)
+mutators(modify the variables)
+constructor
+	default constructor
+	parametrized constructor
+	
+ex...
+
+class myclass
+{
+public:
+	myclass();
+	myclass(int);
+private:
+	int val;
+};
+my class mo1;
+myclass mo2(10);
+
+innitialization section
+myclass::myclass():val10
+{
+}
+
+class class2:public myclass
+{
+public:
+	class();
+private:	
+}
+class2::class2():myclass(10)//call the constructor of the bass class in the init. section
+{
+}
+
+chap11// friends and overloaded functions
+-private members varaibles can only be accessed by the class it self and friend functions;
+-functioncan be a friend to a class;
+class dayofyear
+{
+public:
+	friend bool equal(dayoftheyear,dayofyear)
+private:
+	int month;
+	int day;
+}
+bool equal(dayofyear,dayofyear){
+}
+
+fuinction with constant parameters;
+constant member functions;
+void foo(const int a1, int a2) {
+a1=10;//illegal
+bar(a1)//illegal
+}
+void bar(int b){//have to put const to make legal
+
+}
+
+class myclass
+{public:
+	int getdate()const;//make sure getdate() does not change any member variable;
+	int get time();
+};
+myclass::getdate()const{
+}
+
+overloaded operator...
+::,*(dereference),?,.//cannot be overloaded
+-number of operands cannot be changed when you overload an operator;
+-operators are implemented as functions;
+	"operator="
+	operator=<<
+	operator=>>
+
+class myclass
+{
+	public:
+		int val;
+		char[10];
+		};
+myclass mc[10];
+int v;
+int ch;
+v=mc[0].val;
+ch=mc[5].c[2];
+
+class myclass2
+{
+public:
+	int arr[10];
+};
+myclass2 mc;
+int v2;
+v2.mc.arr[0];
+
+dynamic memeber varaibles...
+
+class myclass
+{
+public:
+	myclass();
+	~myclass();
+private:
+	int *ip;
+};
+
+myclass::myclass(){
+ip=new int;
+}
+
+myclass::~myclass(){
+delete ip;
+}
+
+copy constructor...
+my class mc1;
+.
+.
+.
+myclass mc2(mc1);
+
+/*big three
+copy constructor
+overloaded assignment operator
+destrcutor
+->dynamic memebr varaibles 
+*/big three
+
+chap 12
+
+header file...
+include guard
+#ifndef FILE_H
+#define FILE_H
+.
+.
+.
+.
+#endif FILE_H
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
