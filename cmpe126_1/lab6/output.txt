@@ -1,0 +1,16 @@
+Infix Expression:A + B - C
+Postfix Expression:
+AB+C-
+Infix Expression:(A + B ) * C
+Postfix Expression:
+AB+C*
+Infix Expression:(A + B) * (C - D)
+Postfix Expression:
+AB+CD-*
+Infix Expression:A + ((B + C) * (E - F) - G) / (H - I)
+Postfix Expression:
+ABC+EF-*G-HI-/+
+Infix Expression:A + B * (C + D ) - E / F * G + H
+Postfix Expression:
+ABCD+*+EF/G*-H+
+Program ended with exit code: 0
