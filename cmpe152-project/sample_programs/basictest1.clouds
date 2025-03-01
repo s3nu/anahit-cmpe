@@ -1,0 +1,25 @@
+Clouds basictest;
+
+environment basicenv
+{
+	int xp = 5;
+    cube cubeobj = [height = 3, width = 3, length = 3];
+    xp = cubeobj.dx + cubeobj.dy;
+    /*
+    int yp = 4;
+    IF xp == 3 THEN
+    {
+        xp = xp + 5;
+    }
+    ELSE
+    {
+        yp = 0;
+    };
+    REPEAT xp = xp + 5; UNTIL xp > 10;
+    */
+}
+
+simulation
+{
+    xp = 5;
+}

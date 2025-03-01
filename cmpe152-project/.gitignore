@@ -1,0 +1,6 @@
+/build
+Clouds
+*.vscode
+*.o
+.DS_Store
+*.antlr

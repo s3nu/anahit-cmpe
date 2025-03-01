@@ -1,0 +1,84 @@
+Clouds test1
+
+
+/*
+POSSIBLE FEATURES
+keywords:
+    environment 
+    //stores a section of only objects and detections
+    //USE CASE: load multiple environments at once
+
+    load
+    //to load envirnoments, if multiple envirnoments are allowed
+
+    external, any
+    // used to set up detections with objects outside delcared environment
+    // any is used to denote all objects not in environment
+
+    USE TABS FOR SCOPE
+    //cleaner code
+
+    gravity
+    //to make simulation more realistic
+*/
+
+
+
+/*
+    keywords
+
+    center //always center of 3D envrionment
+    putnenv object at point//put object into envrionment
+    wait time
+    move object to point in time
+    move object to point at speed
+    move object in point at speed //move forever in direction at speed
+    stop object
+    teleport object to point
+    collision
+    finish //immediately stops simulation
+    WHEN //continuous polling
+    IF //done at runtime
+*/
+
+function f(cube c, sphere s)
+{
+    if(exSph == exSph)
+        exCu=c
+}
+
+
+envirnoment //initialize objects
+{
+    point exP{x=1,y=2,z=3}
+    sphere exSph{radius=1}
+    cube exCu{length=1,width=2,height=3}
+    cylinder exCyl{radius=1,height=2}
+    tetra extet{[0,0,0],[0,1,0],[0,0,1],[1,0,0]}
+
+    
+    f(exCu, exSph)
+
+    collision exCol1(exCu, exSph)
+
+    WHEN(exCol1) 
+        stop exCu
+        print(exCu)
+}
+
+simulation //done once in order
+{
+    putnenv exCu at center
+    putnenv exSph at center+[20,0,0]
+
+
+    exCu = exCu*3
+    exCu *= 3
+
+    exCu /= 3
+
+    exCu ~R 50
+
+    move exCu in exSph at 5
+    wait(5s)
+}

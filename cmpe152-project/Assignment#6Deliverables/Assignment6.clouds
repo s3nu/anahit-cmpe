@@ -1,0 +1,49 @@
+Clouds assignment;
+
+
+environment environmentObject           
+{
+    point pointObjectOne = [ x = 2, y = 2, z = 2 ];
+    point pointObjectTwo = pointObjectOne;
+    pointObjectTwo.x += 1;
+    point pointobjectThree = pointObjectOne;
+    pointObjectThree.y += 1;
+    point pointobjectFour = pointObjectOne;
+    pointObjectFour.z += 1;
+
+    spherepoint = [ x = 20, y = 0, z = 0 ];
+    
+
+    sphere sphereobject = [radius = 2];
+    cube cubeobject = [height=1, width=1, length=2];
+
+    int timetomovecube = 5;
+    int movecubeime = 20;
+    int degreestorotate = 10;
+
+    putnenv cubeobject center;
+    putnenv sphereobject spherepoint;
+
+    tetra tetraobject = [p= pointObjectOne, p = pointObjectTwo, p = pointObjectThree, p = pointObjectFour];
+
+    tetraobject = tetraobject ~Y degreestorotate;
+
+    collision colisionobject between sphereobject cubeobject;
+
+    WHEN(colisionobject) THEN sphereobject.velocity = 2*sphereobject.velocity;
+
+    move cubeobject to [ x = 2, y = 0, z = 0] in timetomovecube at movecubetime;
+
+}
+
+simulation
+{
+    move cubeobject to [ x = 1, y = 0, z = 0 ] in timetomovecube;
+    IF(cubeobject.speed > 20) THEN cubeobject.speed = 10;
+    wait timetomovecube;
+
+    move sphereobject to [ x=19, y = 0, z = 0] in timetomovecube;
+    wait timetomovecube/2;
+    pause;
+    print(sphereobject.center);
+}

@@ -1,0 +1,17 @@
+col one
+col two
+col one
+col two
+col one
+col two
+Size of Environment: x = 100, y = 100, z = 100
+Center of Environment: x = 50, y = 50, z = 50
+
+Current Object Status:
+cubeobject center is at: x=21, y=40, z=0 and velocity is: dx=10, dy=20, dz=0
+sphereobject center is at: x=20, y=0, z=0 and velocity is: dx=5, dy=0, dz=0
+cubeobjectTwo center is at: x=10, y=0, z=29 and velocity is: dx=0, dy=0, dz=2
+Collisions being handled:
+        Number of Collisions = 3
+
+                0.12 seconds total execution time.

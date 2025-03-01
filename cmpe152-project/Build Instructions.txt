@@ -1,0 +1,22 @@
+Prerequisites:
+antlr4 libraries are in /usr/local/lib
+antlr4 header files are in /usr/local/include
+
+If antlr4 files needed to be generated, use Clouds.g4 in src
+
+
+To build compiler using cmake on command line(after cpp files are generated):
+
+# run inside FinalCompilerDeliverables
+mkdir build
+cd build
+cmake ..
+make -j
+cd ..
+
+To run compiler if executable is in FinalCompilerDeliverables:
+./Clouds sample_programs/Assignment7.clouds
+java -jar jasmin.jar collisionengine/assignmentseven.j
+javac collisionengine/*.java
+java -cp .:PascalRTL.jar collisionengine/assignmentseven
+

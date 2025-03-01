@@ -1,0 +1,21 @@
+Clouds assignmentseven;
+
+/*
+    this 
+    is
+    a
+    block
+    comment
+*/
+
+environment environmentObject           
+{
+    cube cubeobject = [height=1, width=1, length=2];
+
+    putnenv cubeobject;
+}
+
+simulation
+{
+    pause;
+}

@@ -1,0 +1,71 @@
+Clouds assignmentseven;
+
+/*
+    this 
+    is
+    a
+    block
+    comment
+*/
+
+//TODO
+/*
+1.  add loading in of parameters or switch to pass by reference(somehow)
+2.  make functions for every when
+3.  make switch case to handle collisions(in jasmin)
+4.  implement collision detection system
+
+*/
+
+
+int functionTwo (int j)
+{
+    return 2*j;
+}
+
+
+
+environment environmentObject           
+{
+    int timetomovecube = functionTwo(5);
+    
+    point pointObjectOne = [ x = 0, y = 0, z = 0 ];
+    point pointObjectTwo = [ x = 10, y = 0, z = 0 ];
+    point pointObjectThree = [ x = 10, y = 0, z = 25 ];
+
+    cube cubeobject = [height=1, width=1, length=2];
+    sphere sphereobject = [radius = 2];
+    cube cubeobjectTwo = [height=3, width=3, length=4];
+
+    putnenv cubeobject pointObjectOne;
+    putnenv sphereobject pointObjectTwo;
+    putnenv cubeobjectTwo pointObjectThree;
+
+    WHEN(cubeobject, sphereobject) THEN collisionOne;
+    WHEN(cubeobject, cubeobjectTwo) THEN collisionTwo;
+    WHEN(sphereobject, cubeobjectTwo) THEN collisionThree;
+}
+
+collisionOne(){
+    print("col one");
+    cubeobject.dy = 20;
+    sphereobject.dx = 5;
+}
+
+collisionTwo(){
+    print("col two");
+    cubeobject.dx = 10;
+    cubeobjectTwo.dz = 2;
+}
+
+collisionThree(){
+    print("col three");
+    sphereobject.dx = 8;
+    cubeobjectTwo.dz = 3;
+}
+
+simulation
+{
+    move cubeobject to pointObjectTwo in timetomovecube;
+    wait 3;
+}
