@@ -1,0 +1,76 @@
+./Chapter10cpp compile -ix ComplexAssignments.txt
+001 VAR
+002     x, y, z : complex;
+003 
+004 BEGIN 
+005     x.re := 15;
+006     x.im := 37;
+007     
+008     y.re := -12.34;
+009     y.im := 3.1415926;
+010     
+011     z := x;
+012 END.
+
+                  12 source lines.
+                   0 syntax errors.
+                0.00 seconds total parsing time.
+
+===== CROSS-REFERENCE TABLE =====
+
+*** PROGRAM dummyprogramname ***
+
+Identifier       Line numbers    Type specification
+----------       ------------    ------------------
+x                002 005 006 011
+                                 Defined as: variable
+                                 Scope nesting level: 1
+                                 Type form = record, Type id = complex
+y                002 008 009
+                                 Defined as: variable
+                                 Scope nesting level: 1
+                                 Type form = record, Type id = complex
+z                002 011
+                                 Defined as: variable
+                                 Scope nesting level: 1
+                                 Type form = record, Type id = complex
+
+===== INTERMEDIATE CODE =====
+
+*** PROGRAM dummyprogramname ***
+
+<COMPOUND line="4">
+    <ASSIGN line="5" type_id="real">
+        <VARIABLE id="x" level="1" type_id="real">
+            <FIELD id="re" level="1" type_id="real" />
+        </VARIABLE>
+        <INTEGER_CONSTANT value="15" type_id="integer" />
+    </ASSIGN>
+    <ASSIGN line="6" type_id="real">
+        <VARIABLE id="x" level="1" type_id="real">
+            <FIELD id="im" level="1" type_id="real" />
+        </VARIABLE>
+        <INTEGER_CONSTANT value="37" type_id="integer" />
+    </ASSIGN>
+    <ASSIGN line="8" type_id="real">
+        <VARIABLE id="y" level="1" type_id="real">
+            <FIELD id="re" level="1" type_id="real" />
+        </VARIABLE>
+        <NEGATE type_id="real">
+            <REAL_CONSTANT value="12.340000" type_id="real" />
+        </NEGATE>
+    </ASSIGN>
+    <ASSIGN line="9" type_id="real">
+        <VARIABLE id="y" level="1" type_id="real">
+            <FIELD id="im" level="1" type_id="real" />
+        </VARIABLE>
+        <REAL_CONSTANT value="3.141593" type_id="real" />
+    </ASSIGN>
+    <ASSIGN line="11" type_id="complex">
+        <VARIABLE id="z" level="1" type_id="complex" />
+        <VARIABLE id="x" level="1" type_id="complex" />
+    </ASSIGN>
+</COMPOUND>
+
+                   0 instructions generated.
+                0.00 seconds total code generation time.
