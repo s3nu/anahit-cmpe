@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string> :Dsitance formula :√((x2-x1)^2 + (y2-y1)^2 +(z2-z1)^2) : :Equation of sphere :center C(h,k,I), radius r : :(x-h)^2+(y-k)^2+(z-I)^2=r^2
+ : :if origin is 0 then : :x^2+y^2+z^2=r^2	
+  
+TO FIND DISTANCE FROM CENTER TO A CERTAIN AXSIS
+
+USE DISTANCE FORMULA--ONLY PLUG IN POINT FOR AXISIS THAT
+NEEDS TO BE FOUND--OTHER POINTS ARE 0--
+
+
+to find origin plug in center into orginal equation
+plug in c(h,k,i) as x,y,z
+
+USING POINT GIVING PLUG INTO ORIGINAL EQUATION--
+if the equation 0=0 then on the sphere
+if the equaion is 7=0 not on sphere
+
+TO FIND FARTEST POINT FROM SPHERE PLUG IN C(0,0,0)
+THEN ADD RADIUS TO RESULT
+
+DISTANCE FROM A SPHERE TO A PLAN : :D=|ax1+by1+cz1+d|/√(a^2+b^2+c^2)
+ABC ARE FROM EQUATION OF SPHERE
+XYZ IS CENTER OF SPHERE 
+
+UNIT VECTOR of V
+
+v=v/|v| : :Given 2 points the vector represented by: : :a=&lt;x2-x1,y2-y1,z2-z1&gt; : :Lenght of 2d and 3d vector : :|v|=√(a1^2+a2^2) : :|v|=√(a1^2+a2^2+a3^2) : :x=i :y=j :z=j : :Dot PRoduct :a=&lt;a1,a2,a3&gt; :b=&lt;b1,b2,b3&gt; :a.b=a1*b1+a2*b2+a3*b3 : :Angle between vectors :a.b=|a|*|Sb| cos(θ) : :Angle between Non-Zero vectors : :cos(θ)=a.b/|a|*|b| : Are orthagoanal iF a.b=0-also means the vectors are perpendicular 
+vector axb is orthoganal to both a and b; : :Scalar projection of b to a: :b=a*b/|a| : :Vector projection of b to a: :b=(a*b/|a|^2)*a : :Cross PRoduct :a=&lt;a1,a2,a3&gt; :b=&lt;b1,b2,b3&gt; : :axb=&lt;a2*b3-a3*b2,a3*b1-a1*b3,a1*b2-a2*b1&gt; : :Determinate for 2 by 2: :a b :c d : :ad-bc : : :Angle for cross product: :(0&lt;θ&lt;pi) : :|axb|=|a|*|b| sin(θ) : :Two nonzer vectors a and b are parrallel if :axb=0
+  otherwise they are always perpendicular : :The lenght of cross product zxb is equal to area of parralelogram : :Volume of parallelepiped by vectors a,b and c is the maginitude: : :v=|a*(bxc)| : :Vector equation : :r=r0+tv : :Scalar equations- parametric equations :x=x0+at :y=y0+bt :z=z0+ct : :symetric equation of L : :x-x0/a=y-y0/b=z-z0/c : :Line segment from r0 to r1 by vector equation :r(t)=(1-t)*r0+r*t1  : :0&lt;t&lt;1 : :Vector eqaution of a plane: :&lt;a,b,c&gt;*&lt;x-x0,y-y0,z-z0&gt; :
+ SCALAR EQUATION OF A PLANE THROUGH A POINT P(X0,Y0,Z0) :a(x-x0)+b(y-y0)+c(z-z0)=0 : :equation of a plane: :ax+by+cz+d=0
+ : :Check for skew line--must not intersect--change line 2 to T to S and solve for S and T. : If different they are not skew, if same they are skew. : : : : : :</string>
+		</dict>
+	</array>
+	<key>device name</key>
+	<string>ch12</string>
+	<key>device type</key>
+	<string>TI-92 Plus</string>
+	<key>object type</key>
+	<string>Text</string>
+</dict>
+</plist>

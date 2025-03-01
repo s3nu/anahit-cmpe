@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string> :Space curve parametric equations : :r(t)=&lt;f(t),g(t),h(t)&gt; :f(t)=first equation :g(t)=second equation :h(t)=third equation : :if trying to find points on space curve  :make equations equal to points given and solve for T. :IF T from all equations equal same value then the points lies on curve. : :r(t)=&lt;5+t^2,ln(t),5-2t&gt; :Points (6,0,3) :6=5+t^2 :0=ln(t) :3=5-2t : :dervitive of a vector function : :lim h goes to 0--r(t+h)-r(t)/h : :Lenght of space curve AND USED FOR ARC LENGHT : :L= ∫a to b--√((f'(t)^2)+(g'(t)^2)+(h'(t)^2)))
+ TAKE DERVITIVES IN RESPECT TO T : :f=derivitive in terms of x :g=in terms of y :h=in terms of z : :Curvature : :k=|dT/ds|
+  k(t)=|T'(t)|/|r'(t)| : :t=tangent vector :T(t)=r'(t)/|r'(t)| :MAGNITUDE ON BOTTOM : :Curvature vector function : :k(t)=|r'(t)xr''(t)|/|r'(t)^3| :    : :ACCELERATION/ VELOCITY STUFF
+
+PARAMETRIC EQUATIONS OF TRAGETORY
+  x=(v0cos(alpha)t 
+  y=v0sin(alpha) *(t-1/2*g*t^2)
+
+TANGENTIAL COMPOENENT OF ACCELERATION
+a=v'T+kv^2H
+
+WHEN FINDING SPEED-PLUG IN T INTO VELOCITY EQUAITONS-
+THEN TAKE LENGHT FORMULA OF THE VECTOr
+ :|v(t)|=|r'(t)|=ds/dt :a(t)=v'(t)=r''(t) : :a=v'(t) : :F=ma :F=-mgJ--j is vector :a=-gJ : :Parametic Equation  : :x=(v0 cos(alpha))t : :y=(v0 sin(alpha)t-(1/2)g*t^2) : :POSITION EQUATION :VELOCITY :ACCELRATION : :IF U YOU HAVE ACCELERATION TAKE INTEGRAL OF ACCELRATION TO GET VELOCITY :IF YOU WANT POSITION TO ACCELERATION-DERVITIES :OTHER WAY- INTEGRAL :WHEN GOING FROM ACCELERATION TO VELOCITY ADD V0 : :SPEED IN OTHER WORDS IS VELOCITY WITH OUT DIRECTION :VELOCITY IS A VECTOR WITH A VALUE AND DIRECTION :SPEED IS JUST A VALUE : :WHEN SOLVING FOR TIME SOLVE FOR T. MAKE EQUAITONS EQUAL TO POINTS GIVEN. : :</string>
+		</dict>
+	</array>
+	<key>device name</key>
+	<string>ch13</string>
+	<key>device type</key>
+	<string>TI-89</string>
+	<key>object type</key>
+	<string>Text</string>
+</dict>
+</plist>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string> :limit of F(x,y) as (x,y) approaches (a,b) : :lim-&gt; f(x,y)=L : :If F(x,y)-&gt;L1 as (x,y)-&gt;(a,b) along a path C1 and F(x,y)-&gt;L2 :as (x,y)-&gt;(a,b) along a path c2, where L1 does not equal L2, then the :limit does no exsist. : :Continous at (a,b) if : :limit (a,y)-&gt;(a,b) F(x,y)=f(a,b) :f is continous on D if f is continoug at every point (a,b) in D : :PARTIAL DERVITIVE : :fx(a,b)=g'(a) where g(x)=f(x,b) : :fx(a,b)=limit (h-&gt;0) f(a+h,b)-f(a,b)/h : : :fy(a,b)=limit (h-&gt;0) f(a+h,b)-f(a,b)/h : :Second Partial DErvitives :Fxx :Fxy :Fyx :Fyy : :Clairuites Theorum : :fxy(a,b)=fyz(a,b) : :Tangent Plan Passing Through the Points :P(x0,y0,z0) : :A(x-x0)+B(y-y0)+C(z-z0)=0 : :BETTER FORM : :z-z0=a(x-x0)+b(y-y0) : :EQUATION OF TANGENT PLAN TO THE SURFACE :z=f(x,y) : at point P(x0,y0,z0) : :z-z0=fx(x0,y0)*(x-x0)+fy(x0,y0)*(y-y0)
+
+REVISED TANGENT PLANE EQUATION TO SURFACE:
+
+:S=fx(x0,y0,z0)*(x-x0)+fy(x0,y0,z0)*(y-y0)+fz(x-,y0,z0)*(z-z0)
+
+0=fx(x0,y0,z0)*(x-x0)+fy(x0,y0,z0)*(y-y0)+fz(x-,y0,z0)*(z-z0) : :LINEAR FUNCTION WHOS GRAPH IS IN THE TANGENT PLANE : :L(x,y)=f(a,b)+fx(a,b)*(x-a)+fy(a,b)(y-b) : :SAME EQUATION AS ABOVE FOR LINEARIZATION : :IF z=f(a,y) then f is differentiable at (a,b) if delta(z) can be: : :delta(z)=fx(a,b)*delta(x)+fy(a,b)*delta(y)+E1*delta(x)+e2*delta(y) : :were E1 and E2-&gt;0 as (delta(x),delta(y))-&gt;(0,0) : :TOTAL DIFFERENTIAL : :dz=fx(x,y)dx+fy(x,y)dy=dz/dz(dx)+dz/dy(dy) : :dx=delta(x)=x-a :dy=delta(y)=y-b : :dz=fx(a,b)(x-a)+fy(a,b)(y-b) : :LINEAR APPROZ FOR DIFFERNTIAL : :f(x,y)=f(a,b)+dz : :LINEAR APRROZ FOR 3 VARIABLES : :f(x,y,z)=f(a,b,c)+fx(a,b,c)*(x-a)+fy(a,b,c)(y-b)+f(x,y,z)(z-c) : :DIFFERNTIAL FOR 3 VARIABLES : :dw=de/dx()dx+dw/dy(dy)+dw/dz(dz)
+
+CHAIN RULE 1
+
+dz/dt=(&amp;z/&amp;x)*(dx/dt)+(&amp;z/&amp;y)*(dy/dt)
+
+&amp;==delta==partial
+
+CHAIN RULE 2
+IN TERM OF S
+&amp;z/&amp;s=(&amp;z/&amp;x)*(&amp;x/&amp;s)+(&amp;z/&amp;y)*(&amp;y/&amp;s)
+
+IN TERM OF T
+&amp;z/&amp;t=(&amp;z/&amp;x)*(&amp;x/&amp;t)+(&amp;z/&amp;y)*(&amp;y/&amp;t)
+
+IMPLICIT DIFF--
+
+2 VARAIBLES IMPLICIT
+dy/dx== -(&amp;F/&amp;x)/(&amp;F/&amp;y)
+
+3 VARIABLE IMPLICIT
+DO TWICE FOR X AND Y
+&amp;Z/&amp;x== -(&amp;F/&amp;x)/(&amp;F/&amp;z)
+
+&amp;Z/&amp;y== -(&amp;F/&amp;y)/(&amp;F/&amp;z)
+
+
+GRADIENT
+~=GRADIENT//UPSIDE DOWN TRIANGLE
+~f(x,y)=&lt;fx(x,y),fy(x,y)&gt;
+
+~f=&lt;fx(x,y,z),fy(x,y,z),fz(x,y,z)&gt;
+
+DERICTIONAL DERVIVITIVE 
+
+D_f(x,y)=~f(x,y).u
+D_f(x,y,z)=~f(x,y,z).u
+u=v/|v|//unit vector
+
+
+SECOND DERIVATIVE TEST
+
+-To find critical point make all first order partial derivatives equal to 0
+
+if f(a,b) is critical point
+
+D=D(a,b)=fxx(a,b)*fyy(a,b)-[fxy(a,b)]^2
+
+a) IF D&gt;0 and fxx(a,b)&gt;0 then f(a,b) is a local minimums
+b) IF D&gt;0 and fxx(a,b)&lt;0 then f(a,b) is a local maximum
+c)IF D&lt;0, then f(a,b) is a saddle point
+d)IF D=0, then f(a,b) is an indeterminate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ : : :</string>
+		</dict>
+	</array>
+	<key>device name</key>
+	<string>ch14</string>
+	<key>device type</key>
+	<string>TI-92 Plus</string>
+	<key>object type</key>
+	<string>Text</string>
+</dict>
+</plist>

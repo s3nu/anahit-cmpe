@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string> :reiman sum :x=(b-a)/m :y=(d-c)/n :___________ :double integral  :∫∫ f(x,y) DA :R=[a,b]*[c,b]=  --x then y : :volume= ∫∫= f(xy) DA :___________ :double integral over rectangle : :∫b to a to d ∫c to d  f(xy) dxdy : :IF CONTINOUS ON THE RECTANGLE :USE INTEGRAL ON TOP-- : :A≤X≤B, C≤Y≤D :__________ : :TYPE 1-- : :IF GRAPH IS BETWEEN TWO GRAPHS OF FUNCTION OF X:: :Y=F(X) OR Y= X^2+1 : :∫a to b∫g1(x) to g2(x)  F(xy) dy dx : :TYPE 2-- : :IF GRAPH IS WITH TWO GRAPHS OF FUCNTIONS OF Y: :x=f(y) or x=y^2+1 : :∫c to d ∫h2(y) to h1(y) F(xy) dx dy :___________ :POLAR CUZZZZ--LAMINIA :r^2=x^2+y^2 : :∫alpha to beta∫a to b F(rcos(θ), rsin(θ)) r dr dθ
+x=r*cos(θ) :y=r*sin(θ) : :r goes from a to b :θ goes from 0 to 2π for circle
+
+	DENSITY--MASS STUFF
+	P(X,Y)=LIM (delta(m)/delta(a))
+	
+	___________ :TRIPLE INTEGRAL-- :∫r to s ∫c to d ∫a to b F(x,y,z) dx dy dz :B=[a,b]*[c,d]*[r,s] : :TYPE 1 : : ∫a to b ∫g(x) to g(x)∫u(xy) to u(xy)f(x,y,z) dz dy dx : : :TYPE 2 : :∫c to b ∫h(y) to h(y)∫u(xy) to u(xy)f(x,y,z) dz dx dy : : :TYPE 3 OPTION 1 : :∫∫[∫u(y,z) to u(y,z)f(x,y,z) dx] DA : : :TYPE 3 OPTION 2 : :∫∫[∫u(x,z) to u(x,z)f(x,y,z) dy] DA :___________ :CYLINDERICAL CORDINATES
+ :from cylinder to rectangular :r^2=x^2+y^2 :x=r*cos(θ) :y=r*sin(θ) :z=z :rectagular to cylinder : :r^2=x^2+y^2 :tan(θ)=y/x :z=z :∫alpha to beta∫h(θ) to h(θ)∫ u(rcosθ,rsinθ) to u(rcosθ,rsinθ)  :F(rcosθ,z) r dz dr dθ
+
+volume of cylinder--
+DV=r dz dr dθ : :___________ :SPHERERICAL CORRDINATES
+ :x=psinø cosθ :y=psinø sin θ :z=pcosø :p^2=x^2+y^2+z^2 : :∫c to d∫alpha to beta∫ a to b  :F(p sinø cosθ, p sinø cosθ,p cosø) p^2 sinø dp dθ dø : :_________ : :FOR EXAMPLE  :VERTECIES ARE (0,0),(1,0),(2,1) : :FOR X IT IS===0 TO 2 :FOR Y IT IS===y TO 2y :
+
+WHEN SOLVING FOR TYPE ONE BOUNDED BY a Y= function :y=mx+b
+b=y intercept where x value starts
+m= slope
+
+
+WHEN SOLVING FOR TYPE TWO BOUNDED BY a x= function :y=mx+b
+b=y intercept where x value starts
+m= slope
+then solve forx
+
+ :FOR CIRCLE : :RADUIS IS X VALUE :EX IF RADUIS IS 2 :x goes from -2 to 2 : :THEN PLUG INTO F(XY) EQUATION TO FIND Y IN TERMS OF X : :___________ :WHEN SWITCHING TYPE 1 AND TYPE 2 : :MAKE THE INTEGRAL WITH VARIABLES EQUAL TO OTHER VARIABLE AND SOLVE THEN PLUG IN : :ex :∫0 TO 1 FOR DX :∫SQRT(Y) TO 1 FOR DY : :SO :X=1 :X=SQRT(Y) :Y=1 :Y=0 :GIVES :Y=X^2 :Y=0 :X=1 :X=0 :_________ : : : :</string>
+		</dict>
+	</array>
+	<key>device name</key>
+	<string>ch15</string>
+	<key>device type</key>
+	<string>TI-92 Plus</string>
+	<key>object type</key>
+	<string>Text</string>
+</dict>
+</plist>

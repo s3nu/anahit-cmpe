@@ -1,0 +1,268 @@
+For ALL 
+(a b
+ c d )
+
+trace-------NEW SECTION----------------
+Then tr(A) = a + e + i.//3x3
+Then tr(A) = a + d.//2x2
+
+independent/dependent-------------NEW SECTION----------------
+
+Since the determinant is non-zero, the vectors (1, 1) and (-3, 2) are linearly independent
+
+
+where lambda can be chosen arbitrarily.--Since these are nontrivial results, the vectors are linearly dependent.
+
+
+Add/subtract/multiply-------------NEW SECTION----------------
+
+Matrices of the same size can be added or subtracted element by element. 
+But the rule for matrix multiplication is that two matrices can be multiplied only when the number of columns in the first equals the number of rows in the second.
+
+EigenVector/Value-------------NEW SECTION----------------
+
+Once the (exact) value of an eigenvalue is known, the corresponding eigenvectors can be found by finding non-zero solutions of the eigenvalue equation, that becomes a system of linear equations with known coefficients.
+
+inverse---------------NEW SECTION----------------
+
+The invertible matrix theorem:
+
+A is invertible, i.e. A has an inverse, is nonsingular, or is nondegenerate.
+A is row-equivalent to the n-by-n identity matrix I_n.
+A is column-equivalent to the n-by-n identity matrix I_n.
+A has n pivot positions.
+det A ? 0. In general, a square matrix over a commutative ring is invertible if and only if its determinant is a unit in that ring.
+A has full rank; that is, rank A = n.
+The equation Ax = 0 has only the trivial solution x = 0
+Null A = {0}
+The equation Ax = b has exactly one solution for each b in K^n.
+The columns of A are linearly independent.
+The columns of A span K^n
+Col A = K^n
+The columns of A form a basis of K^n.
+The linear transformation mapping x to Ax is a bijection from K^n to K^n.
+There is an n by n matrix B such that AB = I_n = BA.
+The transpose AT is an invertible matrix (hence rows of A are linearly independent, span Kn, and form a basis of K^n).
+The number 0 is not an eigenvalue of A.
+The matrix A can be expressed as a finite product of elementary matrices.
+The matrix A has a left inverse (i.e. there exists a B such that BA = I) or a right inverse (i.e. there exists a C such that AC = I), in which case both left and right inverses exist and B = C = A^-1.
+If the determinant is non-zero, the matrix is invertible
+
+2 by 2
+start
+(a b
+ c d )
+
+
+1/(ad-bc)[d -b]
+	 [-c a]
+done
+
+3 by 3
+start
+[a b c]
+[d e f]
+[g h i]
+
+
+1/det(A)[A D G]
+	[B E H]
+	[C F I]
+
+\begin{matrix}
+A = (ei-fh)  & D = -(bi-ch) & G = (bf-ce)  \\
+B = -(di-fg) & E = (ai-cg)  & H = -(af-cd) \\
+C = (dh-eg)  & F = -(ah-bg) & I = (ae-bd)  \\
+\end{matrix}
+
+det({A}) = a(ei-fh)-b(id-fg)+c(dh-eg).
+
+Det--
+3x3-det
+If the determinant is non-zero, the matrix is invertible
+(+-+)
+(-+-)
+(+-+)
+cross out rows and colum;
+
+2x2 det
+
+1/(ad-bc)
+
+solution of a linear system---------------NEW SECTION----------------
+
+The system has infinitely many solutions.
+The system has a single unique solution.
+The system has no solution.
+
+A linear system is consistent if it has a solution, and inconsistent otherwise.--0 = 1
+
+Typically, some of the variables are designated as free (or independent, or as parameters), meaning that they are allowed to take any value, while the remaining variables are dependent on the values of the free variables.
+
+if the equation system is expressed in the matrix form A{x}={b}, the entire solution set can also be expressed in matrix form. If the matrix A is square (has m rows and n=m columns) and has full rank (all m rows are independent), then the system has a unique solution given by
+
+{x}=A^{-1}{b}
+
+Row reduction---------------NEW SECTION----------------
+
+Type 1: Swap the positions of two rows.
+Type 2: Multiply a row by a nonzero scalar.
+Type 3: Add to one row a scalar multiple of another.
+
+A matrix is in reduced row echelon form (also called row canonical form) if it satisfies the following conditions:
+
+It is in row echelon form.
+Every leading coefficient is 1 and is the only nonzero entry in its column.
+
+Homogeneous systems---------------NEW SECTION----------------
+
+A system of linear equations is homogeneous if all of the constant terms are zero
+where A is an m × n matrix, x is a column vector with n entries, and 0 is the zero vector with m entries.
+Ax=0
+
+Every homogeneous system has at least one solution, known as the zero solution (or trivial solution), which is obtained by assigning the value of zero to each of the variables. If the system has a non-singular matrix (det(A) ? 0) then it is also the only solution
+
+If the system has a singular matrix then there is a solution set with an infinite number of solutions. This solution set has the following additional properties:
+
+If u and v are two vectors representing solutions to a homogeneous system, then the vector sum u + v is also a solution to the system.
+If u is a vector representing a solution to a homogeneous system, and r is any scalar, then ru is also a solution to the system.
+
+In particular, the solution set to a homogeneous system is the same as the null space of the corresponding matrix A
+
+There is a close relationship between the solutions to a linear system and the solutions to the corresponding homogeneous system:
+
+Ax=b and Ax=0
+
+{p+v: v is any solution to Ax=0}
+
+this says that the solution set for Ax = b is a translation of the solution set for Ax = 0
+this says that the solution set for Ax = b is a translation of the solution set for Ax = 0
+
+Given y''-4y'+5y=0. The characteristic equation is z^2-4z+5=0 which has roots 2±i. 
+Thus the solution basis {y_1,y_2} is {e^{(2+i)x},e^{(2-i)x}}. 
+Now y is a solution if and only if y=c_1y_1+c_2y_2
+
+
+Solving deconstructed matrix ordinary differential equations---------------NEW SECTION----------------
+
+Finding the eigenvalues
+Finding the eigenvectors
+Finding the needed functions
+
+
+Euler's identity---------------NEW SECTION----------------
+E^(i(pi))+1=0
+
+Magnus expansion--
+Given the n × n coefficient matrix A(t), one wishes to solve the initial value problem associated with the linear ordinary differential equation:
+
+Y'(t)=A(t)*Y(t),--Y(t)=Y
+
+Matrix exponential---------------NEW SECTION----------------
+
+Let X and Y be n×n complex matrices and let a and b be arbitrary complex numbers. We denote the n×n identity matrix by I and the zero matrix by 0. The matrix exponential satisfies the following properties:
+
+e0 = I
+e^(aXebX) = e^(a + b)X
+e^(X)e^(-X) = I
+If XY = YX then e^Xe^Y = e^Ye^X = e^(X + Y).
+If Y is invertible then e^(YXY)^-1 =Y^(eXY)^-1.
+exp(X^T) = (exp X)^T, where XT denotes the transpose of e^X. It follows that if X is symmetric then eX is also symmetric, and that if X is skew-symmetric then eX is orthogonal.
+exp(X*) = (exp X)*, where X* denotes the conjugate transpose of X. It follows that if X is Hermitian then eX is also Hermitian, and that if X is skew-Hermitian then eX is unitary.
+
+
+{d}/{dt} of y(t) = Ay(t), y(0) = y_0,
+
+ 
+where A is a constant matrix, is given by--( linear ordinary differential equations. )
+
+ y(t) = e^{At}*y_0. 
+
+
+The matrix exponential can also be used to solve the inhomogeneous equation
+
+{d}{dt} of y(t) = Ay(t) + z(t), y(0) = y_0. 
+
+The determinant of the matrix exponential:
+
+det(e^A)=e^(tr(A))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
